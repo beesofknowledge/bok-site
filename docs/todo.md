@@ -31,4 +31,5 @@ next: false
 - [ ] add recent changes to the front page
 - [ ] add cross references with items to quests and vice versa
 - [ ] move the outline from the aside to the main content on the faqs page
+- [ ] tweak search button theme and window
 
