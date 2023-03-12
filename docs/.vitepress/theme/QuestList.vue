@@ -3,7 +3,7 @@
   export default {
     data() {
       return {
-        quests: data
+        data: data
       }
     }
   }
@@ -13,8 +13,8 @@
 
   <h1>Quests</h1>
 
-  <div v-for="(quest, index) in quests" :key="index">
-    <ItemCard :title="quest.data.title" :href="quest.file" />
+  <div v-for="(item, index) in data" :key="index">
+    <ItemCard :title="item.data.title" :href="item.file" />
   </div>
 
   <!-- <pre>{{ quests }}</pre> -->

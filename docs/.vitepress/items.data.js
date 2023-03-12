@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import parseFrontmatter from 'gray-matter'
 
 export default {
-  watch: ['../quests/*.md'],
+  watch: ['../items/*.md'],
   load(watchedFiles) {
     return watchedFiles.map(file => {
       const content = fs.readFileSync(file, 'utf-8')

@@ -1,9 +1,9 @@
 <script>
-  import items from '../data/items.json';
+  import { data } from '../items.data.js'
   export default {
     data() {
       return {
-        items: items
+        data: data
       }
     }
   }
@@ -11,11 +11,13 @@
 
 <template>
 
-  <div v-for="(item, index) in items" :key="index">
-    <ItemCard :title="item.title" :href="item.path" />
+  <h1>Items</h1>
+
+  <div v-for="(item, index) in data" :key="index">
+    <ItemCard :title="item.data.title" :href="item.file" />
   </div>
 
-  <!-- <pre>{{ items }}</pre> -->
+  <!-- <pre>{{ data }}</pre> -->
 
 </template>
 

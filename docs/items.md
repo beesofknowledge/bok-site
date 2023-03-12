@@ -5,9 +5,6 @@ prev: false
 next: false
 lastUpdated: false
 ---
-# {{ $frontmatter.title }}
 
 <ItemList />
-
-
 
