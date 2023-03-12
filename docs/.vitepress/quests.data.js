@@ -9,7 +9,7 @@ export default {
       const { data, excerpt } = parseFrontmatter(content)
       return {
         // file,
-        file: file.replace(/home\/data\/development\/bok-site\/docs\//, '').replace(/\.md$/, ''),
+        file: file.replace(/^(.*)(quests\/.*)$/, '$2').replace(/\.md$/, ''),
         data,
         excerpt
       }
