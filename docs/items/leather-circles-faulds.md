@@ -2,8 +2,8 @@
 prev: false
 next: false
 
-title: Leather Faulds of the Circle
-image: leather-faulds-of-the-circle.png
+title: Leather Circle's Faulds
+image: leather-circles-faulds.png
 attributes:
   Equipment Type: Faulds
   Required Level: 20
