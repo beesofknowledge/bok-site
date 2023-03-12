@@ -12,9 +12,9 @@ export default {
 
   <p>
     <a :href="href">{{ title }}</a><br />
-    Required Level: {{ attributes["Required Level"] }}
+    Reward Level: {{ attributes["Reward Level"] }}
   </p>
   <hr />
 
-  <pre>{{ item }}</pre>
+  <!-- <pre>{{ item }}</pre> -->
 </template>

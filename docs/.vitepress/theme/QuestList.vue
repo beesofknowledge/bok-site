@@ -12,12 +12,13 @@
 <template>
 
   <h1>Quests</h1>
+  <hr />
 
   <div v-for="(item, index) in data" :key="index">
-    <ItemCard :title="item.data.title" :href="item.file" />
+    <QuestCard :title="item.data.title" :href="item.file" :attributes="item.data.attributes" />
   </div>
 
-  <!-- <pre>{{ quests }}</pre> -->
+  <!-- <pre>{{ data }}</pre> -->
 
 </template>
 
