@@ -6,14 +6,13 @@ title: Runty's Revenge
 attributes:
   Quest NPC: Runty
   Starting Zone: Dryfoot
+  Reward Level: 20
 rewards:
   - traitors-boots.png
   - traitors-tunic.png
 ---
 
-<MyQuestComponent
-  :item="$frontmatter"
-/>
+<MyQuestComponent :item="$frontmatter" />
 
 Notes:
 
