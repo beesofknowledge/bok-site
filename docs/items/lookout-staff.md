@@ -9,8 +9,5 @@ attributes:
   Hit: 10
 ---
 
-
-
 <MyItemComponent :item="$frontmatter" />
-
 
