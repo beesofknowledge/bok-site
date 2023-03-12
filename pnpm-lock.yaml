@@ -2,14 +2,14 @@ lockfileVersion: 5.4
 
 specifiers:
   gray-matter: ^4.0.3
-  vitepress: 1.0.0-alpha.49
+  vitepress: 1.0.0-alpha.52
   vitepress-plugin-simple-search: ^1.3.4
   vue: ^3.2.47
 
 devDependencies:
   gray-matter: 4.0.3
-  vitepress: 1.0.0-alpha.49
-  vitepress-plugin-simple-search: 1.3.4_fdor62hozdijozp3ymkhpxbnhi
+  vitepress: 1.0.0-alpha.52
+  vitepress-plugin-simple-search: 1.3.4_d6i6gr7uuzbxrnul7cecu5f4tq
   vue: 3.2.47
 
 packages:
@@ -773,8 +773,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
-  /rollup/3.18.0:
-    resolution: {integrity: sha512-J8C6VfEBjkvYPESMQYxKHxNOh4A5a3FlP+0BETGo34HEcE4eTlgCrO2+eWzlu2a/sHs2QUkZco+wscH7jhhgWg==}
+  /rollup/3.19.1:
+    resolution: {integrity: sha512-lAbrdN7neYCg/8WaoWn/ckzCtz+jr70GFfYdlf50OF7387HTg+wiuiqJRFYawwSPpqfqDNYqK7smY/ks2iAudg==}
     engines: {node: '>=14.18.0', npm: '>=8.0.0'}
     hasBin: true
     optionalDependencies:
@@ -865,12 +865,12 @@ packages:
       esbuild: 0.16.17
       postcss: 8.4.21
       resolve: 1.22.1
-      rollup: 3.18.0
+      rollup: 3.19.1
     optionalDependencies:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress-plugin-simple-search/1.3.4_fdor62hozdijozp3ymkhpxbnhi:
+  /vitepress-plugin-simple-search/1.3.4_d6i6gr7uuzbxrnul7cecu5f4tq:
     resolution: {integrity: sha512-V4wflcjfXTkt5IVIZVcIWxE8pL9SkUmAf2txHVqtZ+TXHM5GWrwfBSJAewQO1g0dzGoftTFKlspsKXtvtWF3ag==}
     engines: {node: ^14.13.1 || ^16.7.0 || >=18}
     peerDependencies:
@@ -884,12 +884,12 @@ packages:
       fs-extra: 10.1.0
       glob: 8.1.0
       gray-matter: 4.0.3
-      vitepress: 1.0.0-alpha.49
+      vitepress: 1.0.0-alpha.52
       vue: 3.2.47
     dev: true
 
-  /vitepress/1.0.0-alpha.49:
-    resolution: {integrity: sha512-3nUZJow4qL8NHRWYatqqVj45AJDxWst/TuOj+IbQRhxesEswa+Fpwayj9/FxzRzBl665fuiG5y+QeVhOeUm0OA==}
+  /vitepress/1.0.0-alpha.52:
+    resolution: {integrity: sha512-DAaO5/yGXCVHXXwVJO/T1wS03curMgOhYnh1LVDTZAf0s1qr282id5j45IYEWthWcUZRD6ST9EAIZNsXHo4O7g==}
     hasBin: true
     dependencies:
       '@docsearch/css': 3.3.3
