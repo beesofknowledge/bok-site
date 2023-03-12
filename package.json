@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node scripts/collect-items.mjs && vitepress dev docs",
-    "build": "node scripts/collect-items.mjs && vitepress build docs",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
     "preview": "vitepress preview docs"
   },
   "keywords": [],
