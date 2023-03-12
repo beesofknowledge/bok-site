@@ -7,6 +7,9 @@ export default {
 </script>
 
 <template>
+
+  <h1>{{ item.title }}</h1>
+
   <p>
     <template v-for="(value, name) in item.attributes">
       <div v-if="value">

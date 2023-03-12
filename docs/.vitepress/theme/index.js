@@ -4,6 +4,7 @@ import MyItemComponent from './MyItemComponent.vue'
 import MyQuestComponent from './MyQuestComponent.vue'
 import ItemCard from './ItemCard.vue'
 import ItemList from './ItemList.vue'
+import QuestList from './QuestList.vue'
 
 export default {
   ...DefaultTheme,
@@ -18,6 +19,7 @@ export default {
       .component('MyQuestComponent', MyQuestComponent)
       .component('ItemCard', ItemCard)
       .component('ItemList', ItemList)
+      .component('QuestList', QuestList)
   }
 }
 

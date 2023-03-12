@@ -12,9 +12,10 @@ rewards:
   - green-silk-gloves.png
 ---
 
-
-# {{ $frontmatter.title }}
-
 <MyQuestComponent
   :item="$frontmatter"
 />
+
+Notes:
+
+This quest starts with Ulric in Ravenrock and then continues in Dryfoot and Dryfoot Stronghold.
