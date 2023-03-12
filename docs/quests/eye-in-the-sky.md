@@ -7,9 +7,8 @@ attributes:
   Quest NPC: Ulric
   Starting Zone: Northreach
 rewards:
-  - green-silk-gloves.png
-  - green-silk-gloves.png
-  - green-silk-gloves.png
+  - earring-of-ello.png
+  - necklace-of-adr.png
 ---
 
 <MyQuestComponent
