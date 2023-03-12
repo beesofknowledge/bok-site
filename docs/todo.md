@@ -15,13 +15,13 @@ next: false
 - [x] create script to file to scan folder for items
 - [x] create script to file to scan folder for quests
 - [x] add basic search
-- [ ] add quests
+- [x] add quests
 - [x] add items
 - [x] modify the quest component to include the title
 - [ ] remove prev/next from layout
 - [ ] decide how to use the top menu
-- [ ] add favicon
-- [ ] add recent changes to the front page
+- [x] add favicon
+- [ ] add content to the front page
 - [ ] add cross references with items to quests and vice versa
 - [ ] move the outline from the aside to the main content on the faqs page
 - [ ] tweak search button theme and window
