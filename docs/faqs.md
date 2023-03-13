@@ -4,7 +4,8 @@ next: false
 
 title: FAQs
 ---
-# {{ $frontmatter.title }}
+
+# FAQs
 
 ## Can I increase the size of my bag or gathering bag?
 

@@ -4,6 +4,6 @@ editLink: true
 prev: false
 next: false
 ---
-# {{ $frontmatter.title }}
 
+# Embers Adrift
 
