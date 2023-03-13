@@ -7,31 +7,19 @@ export default {
   titleTemplate: false,
   cleanUrls: true,
   description: 'An information side for Embers Adrift',
-  head: [
-    //
-  ],
-  // ignoreDeadLinks: false,
+  head: [],
   lastUpdated: true,
   markdown: {
     lineNumbers: false
   },
-  // outDir: './.vitepress/dist',
-  // cacheDir: './.vitepress/cache',
-  // srcDir: './src',
 
   themeConfig: {
-    prev: false,
-    next: false,
-    tempDir: '/var/tmp/vitepress',
     nav: [
-      // { text: 'FAQs', link: '/pages/faqs' },
       {
           text: 'Database',
           items: [
               { text: 'Quests', link: '/quests' },
               { text: 'Items', link: '/items' },
-              // { text: 'Npcs', link: '/npcs' },
-              // { text: 'Creatures', link: '/creatures' },
           ]
       },
     ],
@@ -40,14 +28,12 @@ export default {
         text: 'Gameplay',
         collapsed: false,
         items: [
-          // { text: 'Getting Started', link: '/getting-started' },
-          // { text: 'Tips', link: '/tips' },
           { text: 'FAQs', link: '/faqs' },
           {
             text: 'Guides',
             collapsed: false,
             items: [
-              { text: 'Eryola\'s Ultimate Duelist Guide', link: '/guides/eryolas-ultimate-duelist-guide' },
+              { text: "Eryola's Ultimate Duelist Guide", link: '/guides/eryolas-ultimate-duelist-guide' },
             ],
           },
         ],
@@ -58,7 +44,6 @@ export default {
         items: [
           {
             text: 'Zones',
-            // link: '/zones',
             collapsed: false,
             items: [
               { text: 'Newhaven Valley', link: '/zones/newhaven-valley' },
@@ -72,7 +57,6 @@ export default {
           },
           {
             text: 'Dungeons',
-            // link: '/dungeons',
             collapsed: false,
             items: [
               { text: 'Newhaven Valley Central Veins', link: '/dungeons/newhaven-valley-central-veins' },
@@ -130,13 +114,11 @@ export default {
         items: [
           { text: 'Quests', link: '/quests' },
           { text: 'Items', link: '/items' },
-          // { text: 'NPCs', link: '/npcs' },
-          // { text: 'Creatures', link: '/creatures' },
         ]
       },
       {
         text: 'About',
-        collapsed: true,
+        collapsed: false,
         items: [
           { text: 'This Site', link: '/this-site' },
           { text: 'Embers Adrift', link: '/embers-adrift' },
@@ -144,7 +126,6 @@ export default {
         ]
       },
     ],
-    // logo: '/assets/logo.png',
     editLink: {
       pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/:path',
       text: 'Edit this page on GitHub',
@@ -153,15 +134,4 @@ export default {
     outline: 'deep',
 
   },
-
-    // root: string
-    // srcDir: string
-    // site: SiteData<ThemeConfig>
-    // configPath: string | undefined
-    // themeDir: string
-    // outDir: string
-    // tempDir: string
-    // alias: AliasOptions
-    // pages: string[]
-
 }
