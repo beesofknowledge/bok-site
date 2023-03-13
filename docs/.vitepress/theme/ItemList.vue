@@ -18,7 +18,7 @@
     <ItemCard :title="item.data.title" :href="item.file" :attributes="item.data.attributes" />
   </div>
 
-  <pre>{{ data }}</pre>
+  <!-- <pre>{{ data }}</pre> -->
 
 </template>
 

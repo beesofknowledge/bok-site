@@ -7,7 +7,6 @@ import ItemList from './ItemList.vue'
 import QuestCard from './QuestCard.vue'
 import QuestList from './QuestList.vue'
 
-
 export default {
   ...DefaultTheme,
   enhanceApp(ctx) {

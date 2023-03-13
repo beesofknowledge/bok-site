@@ -16,5 +16,4 @@ export default {
   </p>
   <hr />
 
-  <!-- <pre>{{ item }}</pre> -->
 </template>
