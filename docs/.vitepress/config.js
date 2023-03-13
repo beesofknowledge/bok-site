@@ -29,7 +29,7 @@ export default {
     sidebar: [
       {
         text: 'Gameplay',
-        collapsed: false,
+        // collapsed: false,
         items: [
           { text: 'FAQs', link: '/faqs' },
           {
@@ -43,11 +43,11 @@ export default {
       },
       {
         text: 'Maps',
-        collapsed: false,
+        // collapsed: false,
         items: [
           {
             text: 'Zones',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: 'Newhaven Valley', link: '/zones/newhaven-valley' },
               { text: 'Dryfoot', link: '/zones/dryfoot' },
@@ -60,7 +60,7 @@ export default {
           },
           {
             text: 'Dungeons',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: 'Newhaven Valley Central Veins', link: '/dungeons/newhaven-valley-central-veins' },
               { text: 'Northreach Central Veins', link: '/dungeons/northreach-central-veins' },
@@ -113,7 +113,7 @@ export default {
       },
       {
         text: 'Database',
-        collapsed: false,
+        // collapsed: false,
         items: [
           { text: 'Quests', link: '/quests' },
           { text: 'Items', link: '/items' },
@@ -121,7 +121,7 @@ export default {
       },
       {
         text: 'About',
-        collapsed: false,
+        // collapsed: false,
         items: [
           { text: 'This Site', link: '/this-site' },
           { text: 'Embers Adrift', link: '/embers-adrift' },
