@@ -65,5 +65,28 @@ You can repair your armor, weapons, and tools by visiting an outpost and using a
 - DIS - you or the creature rolled two dice and took the lowest.
 - AOT - attack over time.
 
+## How long are daytime and nightime?
+
+Roughly an hour each.
+
+## What are augments?
+
+Augments are crafted consumables that add a temporary stat bonus. They are applied to your equipment. Be aware that using an augment on an item binds the item to your character and you will not be able to transfer that piece of equipment in the future.
+
+## How do I get up on this scaffold?
+
+Ladders can be right clicked to go up and down scaffolds and sometimes down into holes.
+
+## How do I move the abilities on my bar or remove them from the bar?
+
+Hold down the shift key and then use your left mouse button to click and drag the ability either to another spot, or off the bar to remove it.
+
+## Why is the Strike skill so bad?
+
+Strike was added to give you something to click for the first few levels. It is barely better than an autoattack and costs stamina. You won't ever use it after you get a couple abilities.
+
+## How do I link an item in chat?
+
+Press return to start the chat line, then hold shift and left click the icon of the item.
 
 

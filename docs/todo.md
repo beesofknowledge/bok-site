@@ -14,7 +14,7 @@ next: false
 - [x] redirect www to non-www with path
 - [x] create script to file to scan folder for items
 - [x] create script to file to scan folder for quests
-- [x] add basic search
+- [x] add search
 - [x] add quests
 - [x] add items
 - [x] modify the quest component to include the title
@@ -26,4 +26,5 @@ next: false
 - [ ] move the outline from the aside to the main content on the faqs page
 - [ ] tweak search button theme and window
 - [ ] add filtering to item and quest pages
+- [ ] optimize search
 

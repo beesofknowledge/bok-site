@@ -15,6 +15,6 @@ rewards:
 
 <MyQuestComponent :item="$frontmatter" />
 
-Notes:
+#### Notes
 
 This quest starts with Ulric in Ravenrock and then continues in Dryfoot and Dryfoot Stronghold.
