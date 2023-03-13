@@ -14,15 +14,15 @@ export default {
   },
 
   themeConfig: {
-    nav: [
-      {
-          text: 'Database',
-          items: [
-              { text: 'Quests', link: '/quests' },
-              { text: 'Items', link: '/items' },
-          ]
-      },
-    ],
+    // nav: [
+    //   {
+    //       text: 'Database',
+    //       items: [
+    //           { text: 'Quests', link: '/quests' },
+    //           { text: 'Items', link: '/items' },
+    //       ]
+    //   },
+    // ],
     sidebar: [
       {
         text: 'Gameplay',
