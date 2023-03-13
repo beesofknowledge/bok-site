@@ -1,4 +1,6 @@
 import DefaultTheme from 'vitepress/theme'
+import './custom.css'
+
 import MyImageComponent from './MyImageComponent.vue'
 import MyItemComponent from './MyItemComponent.vue'
 import MyQuestComponent from './MyQuestComponent.vue'

@@ -10,7 +10,10 @@ export default {
   head: [],
   lastUpdated: true,
   markdown: {
-    lineNumbers: false
+    // lineNumbers: false,
+    anchor:{
+      // permalink: false,
+    }
   },
 
   themeConfig: {
