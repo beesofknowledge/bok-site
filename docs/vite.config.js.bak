@@ -9,12 +9,7 @@ export default defineConfig({
     SimpleSearch(
       {
         partialsToIgnore: [
-          "classes",
-          "professions",
-          "creatures",
-          "npcs",
           "index.md",
-          "tips.md",
         ],
         regexForContentStripping: re
       }
