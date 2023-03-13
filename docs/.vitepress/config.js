@@ -45,7 +45,7 @@ export default {
           { text: 'FAQs', link: '/faqs' },
           {
             text: 'Guides',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: 'Eryola\'s Ultimate Duelist Guide', link: '/guides/eryolas-ultimate-duelist-guide' },
             ],
@@ -59,7 +59,7 @@ export default {
           {
             text: 'Zones',
             // link: '/zones',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: 'Newhaven Valley', link: '/zones/newhaven-valley' },
               { text: 'Dryfoot', link: '/zones/dryfoot' },
@@ -73,7 +73,7 @@ export default {
           {
             text: 'Dungeons',
             // link: '/dungeons',
-            collapsed: true,
+            collapsed: false,
             items: [
               { text: 'Newhaven Valley Central Veins', link: '/dungeons/newhaven-valley-central-veins' },
               { text: 'Northreach Central Veins', link: '/dungeons/northreach-central-veins' },
