@@ -3,4 +3,14 @@
   display: none;
 }
 
+.flex-logo {
+  display: none;
+}
 
+.DocSearch-Input {
+  margin: 12px 12px 12px 8px;
+}
+
+.DocSearch-MagnifierLabel {
+  margin: 20px 12px 20px 20px;
+}
