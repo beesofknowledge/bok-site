@@ -1,6 +1,6 @@
 
 export default {
-  appearance: true,
+  appearance: 'dark',
   base: '/',
   lang: 'en-US',
   title: 'Bees of Knowledge',
