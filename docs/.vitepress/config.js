@@ -17,15 +17,7 @@ export default {
   },
 
   themeConfig: {
-    // nav: [
-    //   {
-    //       text: 'Database',
-    //       items: [
-    //           { text: 'Quests', link: '/quests' },
-    //           { text: 'Items', link: '/items' },
-    //       ]
-    //   },
-    // ],
+    nav: [],
     sidebar: [
       {
         text: 'Gameplay',
