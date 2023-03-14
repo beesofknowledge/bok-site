@@ -34,7 +34,7 @@ export default {
           { text: 'FAQs', link: '/faqs' },
           {
             text: 'Guides',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: "Eryola's Ultimate Duelist Guide", link: '/guides/eryolas-ultimate-duelist-guide' },
             ],
