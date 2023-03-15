@@ -24,7 +24,7 @@ export default {
   <h4>Rewards</h4>
     <template v-for="(value) in item.rewards">
       <div v-if="value">
-        <MyImageComponent :image="value"/>
+        <MyImageComponent :image="'items/' + value"/>
       </div>
     </template>
 
