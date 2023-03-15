@@ -19,12 +19,9 @@ next: false
 - [x] add items
 - [x] modify the quest component to include the title
 - [ ] remove prev/next from layout
-- [ ] decide how to use the top menu
 - [x] add favicon
 - [ ] add content to the front page
 - [ ] add cross references with items to quests and vice versa
-- [ ] move the outline from the aside to the main content on the faqs page
-- [ ] tweak search button theme and window
 - [ ] add filtering to item and quest pages
 - [ ] optimize search
 

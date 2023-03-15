@@ -115,9 +115,10 @@ export default {
         text: 'About',
         // collapsed: false,
         items: [
-          { text: 'This Site', link: '/this-site' },
-          { text: 'Embers Adrift', link: '/embers-adrift' },
-          { text: 'Todo', link: '/todo' },
+          { text: 'Contributing', link: '/about/contributing' },
+          { text: 'This Site', link: '/about/this-site' },
+          { text: 'Embers Adrift', link: '/about/embers-adrift' },
+          { text: 'Todo', link: '/about/todo' },
         ]
       },
     ],
