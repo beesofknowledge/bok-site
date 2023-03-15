@@ -12,10 +12,11 @@ rewards:
   - traitors-tunic.png
 ---
 
-<MyQuestComponent :item="$frontmatter" />
-
-Notes:
+<MyQuestComponent :item="$frontmatter">
 
 Runty is on the south edge of Dryfoot between the eastern entrance to Dryfoot Stronghold and a Marauder camp.
 
 The quest also increases your Ember Stone capacity by 50.
+
+</MyQuestComponent>
+

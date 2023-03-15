@@ -12,7 +12,7 @@ export default {
 
   <p>
     <template v-for="(value, name) in item.attributes">
-      <div v-if="value">
+      <div v-if="value" class="bok-text-2">
         {{ name }}: {{ value }}
       </div>
     </template>
@@ -22,5 +22,7 @@ export default {
     <MyImageComponent :image="item.image" :alt="item.title" />
   </p>
 
-  <!-- <pre>{{ item }}</pre> -->
+
+    <!-- <pre>{{ item }}</pre> -->
+
 </template>

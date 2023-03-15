@@ -12,19 +12,22 @@ export default {
 
   <p>
     <template v-for="(value, name) in item.attributes">
-      <div v-if="value">
+      <div v-if="value" class="bok-text-2">
         {{ name }}: {{ value }}
       </div>
     </template>
   </p>
 
-  <p>Rewards:</p>
+  <h4>Notes</h4>
+    <slot></slot>
 
-  <template v-for="(value) in item.rewards">
-    <div v-if="value">
-      <MyImageComponent :image="value"/>
-    </div>
-  </template>
+  <h4>Rewards</h4>
+    <template v-for="(value) in item.rewards">
+      <div v-if="value">
+        <MyImageComponent :image="value"/>
+      </div>
+    </template>
 
   <!-- <pre>{{ item }}</pre> -->
+
 </template>

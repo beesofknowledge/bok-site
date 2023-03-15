@@ -13,8 +13,8 @@ rewards:
   - ring-of-morro.png
 ---
 
-<MyQuestComponent :item="$frontmatter" />
-
-#### Notes
+<MyQuestComponent :item="$frontmatter">
 
 This quest starts with Ulric in Ravenrock and then continues in Dryfoot and Dryfoot Stronghold.
+
+</MyQuestComponent>

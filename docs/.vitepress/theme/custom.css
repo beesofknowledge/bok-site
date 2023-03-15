@@ -14,3 +14,11 @@
 .DocSearch-MagnifierLabel {
   margin: 20px 12px 20px 20px;
 }
+
+html .bok-text-2 {
+  color: var(--vp-c-text-light-2);
+}
+
+html.dark .bok-text-2 {
+  color: var(--vp-c-text-dark-2);
+}

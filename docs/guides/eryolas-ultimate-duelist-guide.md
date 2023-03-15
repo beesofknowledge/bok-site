@@ -8,7 +8,9 @@ title: Eryola's Ultimate Duelist Guide
 
 # {{ $frontmatter.title }}
 
-used with permission: [Eryola's Ultimate Duelist Guide](https://forums.embersadrift.com/index.php?threads/ultimate-duelist-guide.3790/)
+<p class="bok-text-2">
+  used with permission: <a href="https://forums.embersadrift.com/index.php?threads/ultimate-duelist-guide.3790/">Eryola's Ultimate Duelist Guide</a>
+</p>
 
 Hi all! Eryola, lvl45 duelist here. I thought I might write a guide for the class to help people understand the duelist better and be more efficient at playing it. Hope it helps some of you guys, maybe even if you are not a duelist ;) If any questions remain... don't hesitate to ask here.
 

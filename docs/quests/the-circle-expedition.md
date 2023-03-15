@@ -24,8 +24,11 @@ rewards:
   - long-sword-of-the-circle.png
 ---
 
-<MyQuestComponent :item="$frontmatter" />
-
-Notes:
+<MyQuestComponent :item="$frontmatter">
 
 This quest starts with Tabetha in Sheercrook near the monolith in Dryfoot.
+
+</MyQuestComponent>
+
+
+

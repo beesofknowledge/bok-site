@@ -13,8 +13,11 @@ rewards:
   - rangers-tracking-boots.png
 ---
 
-<MyQuestComponent :item="$frontmatter" />
-
-#### Notes
+<MyQuestComponent :item="$frontmatter">
 
 This quest starts with ranger Anders on the hill in Northreach.
+
+</MyQuestComponent>
+
+
+
