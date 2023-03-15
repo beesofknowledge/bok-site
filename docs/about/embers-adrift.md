@@ -1,8 +1,9 @@
 ---
-title: Embers Adrift
-editLink: true
 prev: false
 next: false
+editLink: false
+
+title: Embers Adrift
 ---
 
 # Embers Adrift

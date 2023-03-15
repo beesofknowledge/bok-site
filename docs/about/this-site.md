@@ -1,8 +1,9 @@
 ---
-title: This Site
-editLink: true
 prev: false
 next: false
+editLink: false
+
+title: This Site
 ---
 # This Site
 

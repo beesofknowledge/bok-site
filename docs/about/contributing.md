@@ -1,9 +1,10 @@
 ---
 prev: false
 next: false
+editLink: false
 
 title: Contributing
-___
+---
 
 # Contributing
 
