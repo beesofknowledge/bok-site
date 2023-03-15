@@ -115,11 +115,10 @@ export default {
         text: 'About',
         // collapsed: false,
         items: [
-          { text: 'Contributing', link: '/about/contributing' },
-          { text: 'This Site', link: '/about/this-site' },
           { text: 'Embers Adrift', link: '/about/embers-adrift' },
-          { text: 'Todo', link: '/about/todo' },
-        ]
+          { text: 'This Site', link: '/about/this-site' },
+          { text: 'Contributing', link: '/about/contributing' },
+         ]
       },
     ],
     editLink: {

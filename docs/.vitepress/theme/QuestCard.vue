@@ -12,8 +12,18 @@ export default {
 
   <p>
     <a :href="href">{{ title }}</a><br />
-    Reward Level: {{ attributes["Reward Level"] }}
+    <div class="bok-text-2">Reward Level: {{ attributes["Reward Level"] }}</div>
   </p>
   <hr />
 
 </template>
+
+<style>
+  html .bok-text-2 {
+    color: var(--vp-c-text-light-2);
+  }
+
+  html.dark .bok-text-2 {
+    color: var(--vp-c-text-dark-2);
+  }
+</style>
