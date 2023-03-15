@@ -7,6 +7,6 @@ title: Newhaven Valley Central Veins
 
 # {{ $frontmatter.title }}
 
-<MyImageComponent image="newhaven-valley-central-veins.png" :alt="$frontmatter.title + ' Map'" />
+<MyImageComponent image="maps/newhaven-valley-central-veins.png" :alt="$frontmatter.title + ' Map'" />
 
 

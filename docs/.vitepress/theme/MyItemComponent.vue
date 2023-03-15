@@ -19,7 +19,7 @@ export default {
   </p>
 
   <p>
-    <MyImageComponent :image="item.image" :alt="item.title" />
+    <MyImageComponent :image="'items/' + item.image" :alt="item.title" />
   </p>
 
 

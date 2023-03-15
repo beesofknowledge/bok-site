@@ -7,4 +7,4 @@ title: Acquifer Karst
 
 # {{ $frontmatter.title }}
 
-<MyImageComponent image="acquifer-karst.png" :alt="$frontmatter.title + ' Map'" />
+<MyImageComponent image="maps/acquifer-karst.png" :alt="$frontmatter.title + ' Map'" />

@@ -6,4 +6,4 @@ next: false
 ---
 # {{ $frontmatter.title }}
 
-<MyImageComponent image="redshore.png" :alt="$frontmatter.title + ' Map'" />
+<MyImageComponent image="maps/redshore.png" :alt="$frontmatter.title + ' Map'" />

@@ -7,6 +7,6 @@ title: Dryfoot Stronghold
 
 # {{ $frontmatter.title }}
 
-<!-- <MyImageComponent image="dryfoot-stronghold.png" :alt="$frontmatter.title + ' Map'" /> -->
+<!-- <MyImageComponent image="maps/dryfoot-stronghold.png" :alt="$frontmatter.title + ' Map'" /> -->
 
 
