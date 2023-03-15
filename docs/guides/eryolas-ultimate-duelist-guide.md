@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+editLink: false
 
 title: Eryola's Ultimate Duelist Guide
 ---
