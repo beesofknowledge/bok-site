@@ -13,7 +13,7 @@ export default {
   <p>
     <a :href="href">{{ title }}</a><br />
     <div class="bok-text-2">
-      Equipment Type: {{ attributes["Equipment Type"] }}
+      Equipment Type: {{ attributes["Equipment Type"] }}<br />
       Required Level: {{ attributes["Required Level"] }}
     </div>
   </p>
