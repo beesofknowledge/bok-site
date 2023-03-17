@@ -26,5 +26,8 @@
         "vite"
       ]
     }
+  },
+  "dependencies": {
+    "vitepress-plugin-simple-search": "^1.3.4"
   }
 }

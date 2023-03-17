@@ -22,3 +22,7 @@ html .bok-text-2 {
 html.dark .bok-text-2 {
   color: var(--vp-c-text-dark-2);
 }
+
+.search-text {
+  letter-spacing: 0;
+}

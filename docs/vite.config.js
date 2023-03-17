@@ -1,16 +1,20 @@
-//vite.config.ts
-import { SearchPlugin } from "vitepress-plugin-search";
+// docs/vite.config.js
+import { SimpleSearch } from "vitepress-plugin-simple-search";
 import { defineConfig } from "vite";
 
-//default options
-// var options = {
-//   ...flexSearchIndexOptions,
-//   previewLength: 62,
-//   buttonLabel: "Search",
-//   placeholder: "Search docs",
-// };
+const re = new RegExp("{{.*}}|#|<.*>", "gim");
 
 export default defineConfig({
-  // plugins: [SearchPlugin(options)],
-  plugins: [SearchPlugin()],
+  plugins: [
+    SimpleSearch(
+      {
+        partialsToIgnore: [
+          "index.md",
+          "about/todo.md",
+          "/classes",
+        ],
+        regexForContentStripping: re
+      }
+    )
+  ],
 });
