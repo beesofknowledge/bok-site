@@ -17,15 +17,15 @@ There is a shared bank in Newhaven City that you can use to transfer items betwe
 
 ## Can I switch my Class or Profession or Specialization?
 
-You can switch your Profession or Specialization, but you cannot change your Class without remaking your entire character.
+You can switch your Profession or Specialization or even your base Class.
 
-If you change your Profession, you have to start over at level 1.
+If you change your Profession or Class, you have to start over at level 1.
 
 If you change your Specialization, you will keep your Class level but your Specialization will reset down to level 6. There is an xp bonus to help you get your Specialization level back up to your Class level.
 
-If you change back again, you will be at level 6 again. You will lose any of your post-30 dropped skills if you abandon your Specialization.
+If you change back again, you will be at level 1 or 6 again. You will lose any of your post-30 dropped skills if you abandon your Specialization.
 
-To forget your Profession or Specialization, open the skills page, go to the correct tab, and right click the large icon in the top left corner. Then you can go to a trainer and get a new Specialization or Profession.
+To forget your Profession or Specialization or Class, open the skills page, go to the correct tab, and right click the large icon in the top left corner. Then you can go to a trainer and get a new Specialization or Profession or Class.
 
 ## Is there a compass in the game? How do I navigate?
 
