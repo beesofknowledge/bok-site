@@ -8,7 +8,7 @@ export default {
   cleanUrls: true,
   description: 'An information side for Embers Adrift',
   head: [],
-  lastUpdated: true,
+  lastUpdated: false,
   markdown: {
     // lineNumbers: false,
     anchor:{
