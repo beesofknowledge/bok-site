@@ -1,9 +1,9 @@
 ---
-title: Items
-editLink: false
 prev: false
 next: false
-lastUpdated: false
+editLink: false
+
+title: Items
 ---
 
 <ItemList />

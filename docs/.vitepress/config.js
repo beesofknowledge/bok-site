@@ -8,12 +8,8 @@ export default {
   cleanUrls: true,
   description: 'An information side for Embers Adrift',
   head: [],
-  lastUpdated: false,
   markdown: {
-    // lineNumbers: false,
-    anchor:{
-      // permalink: false,
-    }
+    anchor:{}
   },
 
   themeConfig: {
@@ -21,7 +17,6 @@ export default {
     sidebar: [
       {
         text: 'Gameplay',
-        // collapsed: false,
         items: [
           { text: 'FAQs', link: '/faqs' },
           // {
@@ -35,7 +30,6 @@ export default {
       },
       {
         text: 'Maps',
-        // collapsed: false,
         items: [
           {
             text: 'Zones',
@@ -105,7 +99,6 @@ export default {
       },
       {
         text: 'Database',
-        // collapsed: false,
         items: [
           { text: 'Quests', link: '/quests' },
           { text: 'Items', link: '/items' },
@@ -113,7 +106,6 @@ export default {
       },
       {
         text: 'About',
-        // collapsed: false,
         items: [
           { text: 'Embers Adrift', link: '/about/embers-adrift' },
           { text: 'This Site', link: '/about/this-site' },
@@ -125,8 +117,6 @@ export default {
       pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/:path',
       text: 'Edit this page on GitHub',
     },
-    lastUpdatedText: 'Updated Date',
     outline: 'deep',
-
   },
 }
