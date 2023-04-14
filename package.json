@@ -15,8 +15,8 @@
     "flexsearch": "^0.7.31",
     "gray-matter": "^4.0.3",
     "markdown-it": "^13.0.1",
-    "vitepress": "1.0.0-alpha.63",
-    "vitepress-plugin-search": "1.0.4-alpha.19",
+    "vitepress": "1.0.0-alpha.65",
+    "vitepress-plugin-search": "1.0.4-alpha.20",
     "vue": "^3.2.47"
   },
   "pnpm": {
