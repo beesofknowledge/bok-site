@@ -92,4 +92,6 @@ Strike was added to give you something to click for the first few levels. It is 
 
 Press return to start the chat line, then hold shift and left click the icon of the item.
 
+## Can I make chat text larger?
 
+Yes. There is a slider to scale chat font size on the Gameplay tab of the Options box.
