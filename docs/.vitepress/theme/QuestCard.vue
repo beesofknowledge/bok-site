@@ -1,22 +1,20 @@
-<script>
-export default {
-  props: {
-    title: String,
-    href: String,
-    attributes: Object,
-  }
-}
+<script setup>
+  const props = defineProps({
+    item: Object
+  })
 </script>
 
 <template>
-
   <p>
-    <a :href="href">{{ title }}</a><br />
+    <a :href="item.file">{{ item.data.title }}</a><br />
+
     <div class="bok-text-2">
-      Reward Level: {{ attributes["Reward Level"] }}
+      Reward Level: {{ item.data['Reward Level'] }}
     </div>
   </p>
-  <hr />
 
+  <!-- <pre>{{ item }}</pre> -->
+
+  <hr />
 </template>
 

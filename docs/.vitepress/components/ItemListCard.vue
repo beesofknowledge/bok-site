@@ -15,15 +15,16 @@
 </script>
 
 <template>
-
   <p>
-    <a :href="'items/' + slug" >{{ item.Name }}</a><br />
+    <a :href="'items/' + slug" >{{ item.Name }}</a>
+    <br />
+
     <div class="bok-text-2">
       Equipment Type: {{ item.Slot }}<br />
       Required Level: {{ item['Required Level'] }}
     </div>
   </p>
-  <hr />
 
+  <hr />
 </template>
 

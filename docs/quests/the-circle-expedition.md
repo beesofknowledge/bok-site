@@ -3,10 +3,9 @@ prev: false
 next: false
 
 title: The Circle Expedition
-attributes:
-  Quest NPC: Tabetha
-  Starting Zone: Dryfoot
-  Reward Level: 20
+Quest NPC: Tabetha
+Starting Zone: Dryfoot
+Reward Level: 20
 rewards:
   - breastplate-of-the-circle
   - plate-faulds-of-the-circle

@@ -3,10 +3,9 @@ prev: false
 next: false
 
 title: The Hunt
-attributes:
-  Quest NPC: Anders
-  Starting Zone: Northreach
-  Reward Level: 20
+Quest NPC: Anders
+Starting Zone: Northreach
+Reward Level: 20
 rewards:
   - expert-hunters-gloves
   - game-seekers-leggings

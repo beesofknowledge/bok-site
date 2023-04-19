@@ -3,10 +3,9 @@ prev: false
 next: false
 
 title: Runty's Revenge
-attributes:
-  Quest NPC: Runty
-  Starting Zone: Dryfoot
-  Reward Level: 20
+Quest NPC: Runty
+Starting Zone: Dryfoot
+Reward Level: 20
 rewards:
   - traitors-boots
   - traitors-tunic

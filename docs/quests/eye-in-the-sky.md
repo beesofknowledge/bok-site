@@ -3,10 +3,9 @@ prev: false
 next: false
 
 title: Eye in the Sky
-attributes:
-  Quest NPC: Ulric
-  Starting Zone: Northreach
-  Reward Level: 20
+Quest NPC: Ulric
+Starting Zone: Northreach
+Reward Level: 20
 rewards:
   - earring-of-ello
   - necklace-of-adr

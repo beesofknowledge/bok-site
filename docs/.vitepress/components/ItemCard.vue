@@ -1,18 +1,9 @@
 <script setup>
-  import { computed } from 'vue'
-  import slugify from 'slugify'
   import ImageLink from './ImageLink.vue'
 
   const props = defineProps({
     item: Object
   })
-
-  const slug = computed(() =>
-    slugify(props.item.Name, {
-        lower: true,
-        remove: /[*+~.()'"!:@]/g
-    })
-  )
 </script>
 
 <template>
@@ -24,7 +15,7 @@
   </p>
 
   <p>
-    <ImageLink :image="'items/' + slug" :alt="item.Name" />
+    <ImageLink path="items/" :name="item.Name" :alt="item.Name" />
   </p>
 
   <!-- <pre>{{ item }}</pre> -->
