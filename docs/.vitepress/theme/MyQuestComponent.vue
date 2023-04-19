@@ -1,13 +1,12 @@
-<script>
-export default {
-  props: {
-   item: Object,
-  }
-}
+<script setup>
+  import ImageLink from '../components/ImageLink.vue'
+
+  const props = defineProps({
+    item: Object
+  })
 </script>
 
 <template>
-
   <h1>{{ item.title }}</h1>
 
   <p>
@@ -24,10 +23,9 @@ export default {
   <h4>Rewards</h4>
     <template v-for="(value) in item.rewards">
       <div v-if="value">
-        <MyImageComponent :image="'items/' + value"/>
+        <ImageLink :image="'items/' + value"/>
       </div>
     </template>
 
   <!-- <pre>{{ item }}</pre> -->
-
 </template>

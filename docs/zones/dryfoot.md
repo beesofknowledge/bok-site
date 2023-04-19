@@ -1,9 +1,10 @@
 ---
-title: Dryfoot
-editLink: true
 prev: false
 next: false
+
+title: Dryfoot
 ---
 # {{ $frontmatter.title }}
 
-<MyImageComponent image="maps/dryfoot.png" :alt="$frontmatter.title + ' Map'" />
+<ImageLink path="maps/" :name="$frontmatter.title" :alt="$frontmatter.title + ' Map'" />
+

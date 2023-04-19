@@ -19,13 +19,6 @@ export default {
         text: 'Gameplay',
         items: [
           { text: 'FAQs', link: '/faqs' },
-          // {
-          //   text: 'Guides',
-          //   collapsed: true,
-          //   items: [
-          //     { text: "Eryola's Ultimate Duelist Guide", link: '/guides/eryolas-ultimate-duelist-guide' },
-          //   ],
-          // },
         ],
       },
       {

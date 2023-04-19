@@ -8,9 +8,9 @@ attributes:
   Starting Zone: Northreach
   Reward Level: 20
 rewards:
-  - expert-hunters-gloves.png
-  - game-seekers-leggings.png
-  - rangers-tracking-boots.png
+  - expert-hunters-gloves
+  - game-seekers-leggings
+  - rangers-tracking-boots
 ---
 
 <MyQuestComponent :item="$frontmatter">

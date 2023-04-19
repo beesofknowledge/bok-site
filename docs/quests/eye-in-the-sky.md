@@ -8,9 +8,9 @@ attributes:
   Starting Zone: Northreach
   Reward Level: 20
 rewards:
-  - earring-of-ello.png
-  - necklace-of-adr.png
-  - ring-of-morro.png
+  - earring-of-ello
+  - necklace-of-adr
+  - ring-of-morro
 ---
 
 <MyQuestComponent :item="$frontmatter">

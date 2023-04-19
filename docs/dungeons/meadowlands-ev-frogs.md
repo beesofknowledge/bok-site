@@ -4,7 +4,7 @@ next: false
 
 title: Meadowlands EV Frogs
 ---
-
 # {{ $frontmatter.title }}
 
-<MyImageComponent image="maps/meadowlands-ev-frogs.png" :alt="$frontmatter.title + ' Map'" />
+<ImageLink path="maps/" :name="$frontmatter.title" :alt="$frontmatter.title + ' Map'" />
+

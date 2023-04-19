@@ -8,8 +8,8 @@ attributes:
   Starting Zone: Dryfoot
   Reward Level: 20
 rewards:
-  - traitors-boots.png
-  - traitors-tunic.png
+  - traitors-boots
+  - traitors-tunic
 ---
 
 <MyQuestComponent :item="$frontmatter">
