@@ -79,17 +79,17 @@
       First Strike: 42
   - name: Sentinel
     skills:
-      Bolster Armor: 10
-      Counter Offensive: 42
-      Distracting Strike: 8
-      Diversion: 26
-      Fortifying Aura: 18
-      Prepare: 34
       Replenish: 6
-      Resuscitate: 38
-      Salvo: 22
-      Treatment: 30
+      Distracting Strike: 8
+      Bolster Armor: 10
       Weaken: 14
+      Fortifying Aura: 18
+      Salvo: 22
+      Diversion: 26
+      Treatment: 30
+      Prepare: 34
+      Resuscitate: 38
+      Counter Offensive: 42
   - name: Warden
     skills:
       Venom Strike: 6
