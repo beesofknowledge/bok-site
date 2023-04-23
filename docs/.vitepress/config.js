@@ -14,6 +14,14 @@ export default {
 
   themeConfig: {
     nav: [],
+    search: {
+      provider: 'local'
+    },
+    // editLink: {
+    //   pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/:path',
+    //   text: 'Edit this page on GitHub',
+    // },
+    outline: 'deep',
     sidebar: [
       {
         text: 'Gameplay',
@@ -57,22 +65,6 @@ export default {
             ],
           },
           // {
-          //   text: 'Classes',
-          //   link: '/classes',
-          //   collapsed: true,
-          //   items: [
-          //     { text: 'Juggernaut', link: '/classes/juggernaut' },
-          //     { text: 'Marshal', link: '/classes/marshal' },
-          //     { text: 'Knight', link: '/classes/knight' },
-          //     { text: 'Warlord', link: '/classes/warlord' },
-          //     { text: 'Duelist', link: '/classes/duelist' },
-          //     { text: 'Sentinel', link: '/classes/sentinel' },
-          //     { text: 'Brigand', link: '/classes/brigand' },
-          //     { text: 'Berserker', link: '/classes/berserker' },
-          //     { text: 'Warden', link: '/classes/warden' },
-          //   ]
-          // },
-          // {
           //   text: 'Professions',
           //   link: '/professions',
           //   collapsed: true,
@@ -95,7 +87,22 @@ export default {
         items: [
           { text: 'Quests', link: '/quests' },
           { text: 'Items', link: '/items' },
-        ]
+          {
+            text: 'Classes',
+            collapsed: true,
+            items: [
+              { text: 'Juggernaut', link: '/classes/juggernaut' },
+              { text: 'Marshal', link: '/classes/marshal' },
+              { text: 'Knight', link: '/classes/knight' },
+              { text: 'Warlord', link: '/classes/warlord' },
+              { text: 'Duelist', link: '/classes/duelist' },
+              { text: 'Sentinel', link: '/classes/sentinel' },
+              { text: 'Brigand', link: '/classes/brigand' },
+              { text: 'Berserker', link: '/classes/berserker' },
+              { text: 'Warden', link: '/classes/warden' },
+            ]
+          },
+]
       },
       {
         text: 'About',
@@ -106,10 +113,5 @@ export default {
          ]
       },
     ],
-    editLink: {
-      pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/:path',
-      text: 'Edit this page on GitHub',
-    },
-    outline: 'deep',
   },
 }

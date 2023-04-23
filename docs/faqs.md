@@ -31,6 +31,10 @@ To forget your Profession or Specialization or Class, open the skills page, go t
 
 There is no compass. There is a large blue planet in the sky named the Eye of Ibax, or Blupiter if you prefer. The Eye is always in the north, so you can use it to navigate. It is sometimes obscured by clouds or trees or mountains, so you will also want to learn landmarks to help get around.
 
+## How long are day and night in game?
+
+About an hour each.
+
 ## What happens when my health goes down to zero?
 
 If you take enough damage to have zero health you will become unconscious. You will remain unconscious for three minutes unless you are revived by another player or press the respawn button. Supporters and Wardens can use heals to revive you, but others must use smelling salts.
@@ -95,3 +99,7 @@ Press return to start the chat line, then hold shift and left click the icon of 
 ## Can I make chat text larger?
 
 Yes. There is a slider to scale chat font size on the Gameplay tab of the Options box.
+
+<!-- ## What do Advantage and Disadvantage mean? -->
+
+
