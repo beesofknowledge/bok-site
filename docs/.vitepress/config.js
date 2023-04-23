@@ -1,4 +1,3 @@
-
 export default {
   appearance: 'dark',
   base: '/',
@@ -27,6 +26,21 @@ export default {
         text: 'Gameplay',
         items: [
           { text: 'FAQs', link: '/faqs' },
+          {
+            text: 'Skills',
+            collapsed: true,
+            items: [
+              { text: 'Juggernaut', link: '/skills/juggernaut' },
+              { text: 'Marshal', link: '/skills/marshal' },
+              { text: 'Knight', link: '/skills/knight' },
+              { text: 'Warlord', link: '/skills/warlord' },
+              { text: 'Duelist', link: '/skills/duelist' },
+              { text: 'Sentinel', link: '/skills/sentinel' },
+              { text: 'Brigand', link: '/skills/brigand' },
+              { text: 'Berserker', link: '/skills/berserker' },
+              { text: 'Warden', link: '/skills/warden' },
+            ]
+          },
         ],
       },
       {
@@ -86,23 +100,8 @@ export default {
         text: 'Database',
         items: [
           { text: 'Quests', link: '/quests' },
-          { text: 'Items', link: '/items' },
-          {
-            text: 'Classes',
-            collapsed: true,
-            items: [
-              { text: 'Juggernaut', link: '/classes/juggernaut' },
-              { text: 'Marshal', link: '/classes/marshal' },
-              { text: 'Knight', link: '/classes/knight' },
-              { text: 'Warlord', link: '/classes/warlord' },
-              { text: 'Duelist', link: '/classes/duelist' },
-              { text: 'Sentinel', link: '/classes/sentinel' },
-              { text: 'Brigand', link: '/classes/brigand' },
-              { text: 'Berserker', link: '/classes/berserker' },
-              { text: 'Warden', link: '/classes/warden' },
-            ]
-          },
-]
+          { text: 'Items', link: '/items' }
+        ]
       },
       {
         text: 'About',
@@ -115,3 +114,5 @@ export default {
     ],
   },
 }
+
+
