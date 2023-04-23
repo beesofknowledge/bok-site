@@ -19,5 +19,5 @@ const { page } = useData()
 
 <!-- <pre>{{ $params.skills }}</pre> -->
 <!-- <pre>{{ $params.data }}</pre> -->
-<pre>{{ page }}</pre>
+<!-- <pre>{{ page }}</pre> -->
 
