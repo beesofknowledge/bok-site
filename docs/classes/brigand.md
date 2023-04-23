@@ -17,22 +17,15 @@ skills:
   Stagger: 42
 
 ---
-<script setup>
-  import { useData } from 'vitepress'
-  const { frontmatter } = useData()
-</script>
-
-
 # {{ $frontmatter.title }}
 
 <ImageLink path="classes/" :name="$frontmatter.title" :alt="$frontmatter.title" />
 
-<div v-for="(value, key) in frontmatter.skills">
+<div v-for="(value, key) in $frontmatter.skills">
 <h2>Level {{ value }}
 <ImageLink path="skills/" :name="$frontmatter.title + '-' + key" :alt="$frontmatter.key" />
 </h2>
 </div>
 
-<pre> {{ frontmatter }} </pre>
-<!-- <pre> {{ data }} </pre> -->
+<!-- <pre> {{ $frontmatter }} </pre> -->
 
