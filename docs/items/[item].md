@@ -1,7 +1,7 @@
 ---
 prev: false
 next: false
-editLink: false
+title: Items
 ---
 <script setup>
   import ItemCard from '../.vitepress/components/ItemCard.vue'

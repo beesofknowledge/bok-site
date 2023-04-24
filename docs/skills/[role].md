@@ -1,6 +1,7 @@
 ---
 prev: false
 next: false
+title: Skills
 ---
 
 <script setup>
