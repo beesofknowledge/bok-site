@@ -1,11 +1,7 @@
 ---
-prev: false
-next: false
-editLink: false
-
 title: This Site
 ---
-# This Site
+# {{ $frontmatter.title }}
 
 The site is built using [Vitepress](https://vitepress.vuejs.org/) software and runs on the [Cloudflare](https://www.cloudflare.com/) infrastructure using [Cloudflare Pages](https://pages.cloudflare.com/) and [Cloudflare r2](https://www.cloudflare.com/products/r2/) for images.
 

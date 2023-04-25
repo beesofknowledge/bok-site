@@ -1,7 +1,4 @@
 ---
-prev: false
-next: false
-
 title: The Circle Expedition
 Quest NPC: Tabetha
 Starting Zone: Dryfoot

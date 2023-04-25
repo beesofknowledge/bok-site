@@ -1,7 +1,5 @@
 ---
-prev: false
-next: false
-editLink: false
+title: Bees of Knowledge
 ---
 
 # Welcome to the Bees of Knowledge!

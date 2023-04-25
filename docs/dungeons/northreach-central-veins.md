@@ -1,7 +1,4 @@
 ---
-prev: false
-next: false
-
 title: Northreach Central Veins
 ---
 # {{ $frontmatter.title }}

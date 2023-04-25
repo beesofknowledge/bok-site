@@ -1,7 +1,4 @@
 ---
-prev: false
-next: false
-
 title: Eye in the Sky
 Quest NPC: Ulric
 Starting Zone: Northreach

@@ -1,7 +1,4 @@
 ---
-prev: false
-next: false
-
 title: Meadowlands EV Spiders
 ---
 # {{ $frontmatter.title }}

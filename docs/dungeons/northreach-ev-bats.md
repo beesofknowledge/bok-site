@@ -1,7 +1,4 @@
 ---
-prev: false
-next: false
-
 title: Northreach EV Bats
 ---
 # {{ $frontmatter.title }}

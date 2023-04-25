@@ -1,8 +1,5 @@
 ---
 title: Todo
-editLink: true
-prev: false
-next: false
 ---
 # {{ $frontmatter.title }}
 

@@ -1,7 +1,4 @@
 ---
-prev: false
-next: false
-
 title: Runty's Revenge
 Quest NPC: Runty
 Starting Zone: Dryfoot

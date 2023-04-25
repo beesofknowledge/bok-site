@@ -14,12 +14,14 @@ export default {
     if (!pageData.title && pageData.params.title) {
       pageData.title = pageData.params.title
     }
+    pageData.frontmatter.prev = false
+    pageData.frontmatter.next = false
   },
   themeConfig: {
     nav: [],
-    search: {
-      provider: 'local'
-    },
+    // search: {
+    //   provider: 'local'
+    // },
     // editLink: {
     //   pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/:path',
     //   text: 'Edit this page on GitHub',

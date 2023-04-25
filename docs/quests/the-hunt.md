@@ -1,7 +1,4 @@
 ---
-prev: false
-next: false
-
 title: The Hunt
 Quest NPC: Anders
 Starting Zone: Northreach

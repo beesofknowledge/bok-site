@@ -1,6 +1,4 @@
 ---
-prev: false
-next: false
 ---
 <script setup>
   import ItemCard from '../.vitepress/components/ItemCard.vue'
