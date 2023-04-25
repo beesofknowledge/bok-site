@@ -10,7 +10,11 @@ export default {
   markdown: {
     anchor:{}
   },
-
+  async transformPageData(pageData, { siteConfig }) {
+    if (!pageData.title && pageData.params.title) {
+      pageData.title = pageData.params.title
+    }
+  },
   themeConfig: {
     nav: [],
     search: {

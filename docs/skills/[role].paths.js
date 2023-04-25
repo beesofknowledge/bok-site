@@ -9,6 +9,7 @@ export default {
     return roles.map((role) => {
       return {
         params: {
+          title: role.name,
           name: role.name,
           role: slugify(role.name, {
             lower: true,

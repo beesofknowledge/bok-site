@@ -17,6 +17,7 @@ export default {
     return items.map((item) => {
       return {
         params: {
+          title: item.Name,
           item: slugify(item.Name, {
             lower: true,
             remove: /[*+~.()'"!:@]/g
