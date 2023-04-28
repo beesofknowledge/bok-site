@@ -17,7 +17,12 @@ export default {
     pageData.frontmatter.prev = false
     pageData.frontmatter.next = false
   },
+  srcExclude: [
+    '**/professions',
+    '**/TODO.md'
+  ],
   themeConfig: {
+    aside: false,
     nav: [],
     // search: {
     //   provider: 'local'
@@ -46,6 +51,13 @@ export default {
               { text: 'Berserker', link: '/skills/berserker' },
               { text: 'Warden', link: '/skills/warden' },
             ]
+          },
+          {
+            text: 'Guides',
+            collapsed: true,
+              items: [
+              { text: 'Level 30 Crafted Rings', link: 'guides/level-30-crafted-rings' },
+              ],
           },
         ],
       },
