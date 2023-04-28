@@ -1,5 +1,6 @@
 ---
 title: FAQs
+aside: true
 ---
 
 # FAQs

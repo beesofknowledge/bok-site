@@ -15,10 +15,10 @@ title: Todo
 - [x] add quests
 - [x] add items
 - [x] modify the quest component to include the title
-- [ ] remove prev/next from layout
+- [x] remove prev/next from layout
 - [x] add favicon
-- [ ] add content to the front page
-- [ ] add cross references with items to quests and vice versa
-- [ ] add filtering to item and quest pages
-- [ ] optimize search
+- [ ] add recent items to the front page
+- [x] add filtering and name search to item and quest pages
+- [ ] wait for site search to support dynamic routes
+- [ ] convert quests to yaml data file
 
