@@ -1,0 +1,52 @@
+---
+  - name: Eye in the Sky
+    starting zone: Northreach
+    quest npc: Ulric
+    reward level: 20
+    rewards:
+      - Earring of Ello
+      - Necklace of Adr
+      - Ring of Morro
+    notes: |
+      This quest starts with Ulric in Ravenrock and then continues in Dryfoot and Dryfoot Stronghold.
+  - name: Runty's Revenge
+    starting zone: Dryfoot
+    quest npc: Runty
+    reward level: 20
+    rewards:
+      - Traitor's Boots
+      - Traitor's Tunic
+    notes: |
+      Runty is on the south edge of Dryfoot between the eastern entrance to Dryfoot Stronghold and a Marauder camp.
+      The quest also increases your Ember Stone capacity by 50.
+  - name: The Circle Expedition
+    starting zone: Dryfoot
+    quest npc: Tabetha
+    reward level: 20
+    rewards:
+      - Breastplace of the Circle
+      - Plate Faulds of the Circle
+      - Plate Greaves of the Circle
+      - Place Bracers of the Circle
+      - Circle's Fine Leather Cuirass
+      - Leather Circle's Faulds
+      - Leather Greaves of the Circle
+      - Leather Vambrace of the Circle
+      - Battle Banner of the Circle
+      - Buckler of the Circle
+      - Knuckles of the Circle
+      - Spear of the Circle
+      - Quarterstaff of the Circle
+      - Long Sword of the Circle
+    notes: |
+      This quest starts with Tabetha in Sheercrook near the monolith in Dryfoot.
+  - name: The Hunt
+    starting zone: Northreach
+    quest npc: Anders
+    reward level: 20
+    rewards:
+      - Expert Hunter's Gloves
+      - Game Seeker's Leggings
+      - Ranger's Tracking Boots
+    notes: |
+      This quest starts with ranger Anders on the hill in Northreach.
