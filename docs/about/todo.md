@@ -17,8 +17,9 @@ title: Todo
 - [x] modify the quest component to include the title
 - [x] remove prev/next from layout
 - [x] add favicon
-- [ ] add recent items to the front page
-- [x] add filtering and name search to item and quest pages
+- [x] convert quests to yaml data file
+- [ ] add recent items and total items to the front page
+- [ ] add filtering and name search to item and quest pages
 - [ ] wait for site search to support dynamic routes
-- [ ] convert quests to yaml data file
+
 
