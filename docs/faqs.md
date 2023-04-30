@@ -13,6 +13,10 @@ Nope. You can increase the size of your personal bank and your shared bank.
 
 There is a shared bank in Newhaven City that you can use to transfer items between characters. You can pay to increase its size.
 
+## How many players can fit in one group?
+
+Six.
+
 ## Can I switch my Class or Profession or Specialization?
 
 You can switch your Profession or Specialization or even your base Class.
@@ -100,4 +104,6 @@ Yes. There is a slider to scale chat font size on the Gameplay tab of the Option
 
 <!-- ## What do Advantage and Disadvantage mean? -->
 
+## Does this game have raids?
 
+No. There is only six person group content, and it will probably stay that way.

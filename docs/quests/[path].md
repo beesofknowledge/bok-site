@@ -24,7 +24,7 @@
       </div>
     </template>
 
-<pre>{{ $params }}</pre>
+<!-- <pre>{{ $params }}</pre> -->
 <!-- <pre>{{ page }}</pre> -->
 
 <style>
