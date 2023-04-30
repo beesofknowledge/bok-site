@@ -3,10 +3,10 @@ title: Level 30 Crafted Rings
 ---
 
 # {{ $frontmatter.title }}
-w
-The rings used in this chart are made with level 30 Solid Flux, level 30 gold and tin, level 25 silver, level 20 copper and zink, and level 35 iron. The items made using lower level materials may have lower total points, but might have more points in preferred stats.
 
-| Materials      | Hit | Pen | Rip | Ranged | 1H  | 2H  | Heal | Flank | Haste |
+The rings used in this chart are made with level 30 Solid Flux, level 30 gold and tin, level 25 silver, level 20 copper and zink, and level 35 iron.
+
+| Materials | Hit | Pen | Rip | Ranged | 1H  | 2H  | Heal | Flank | Haste |
 | --| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | malachite/gold |9|2|1|1||2||6|1
 | malachite/tin |7|2|1|1||5|3|3|
