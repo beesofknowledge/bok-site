@@ -9,16 +9,6 @@
       - Ring of Morro
     notes: |
       This quest starts with Ulric in Ravenrock and then continues in Dryfoot and Dryfoot Stronghold.
-  - name: Runty's Revenge
-    starting zone: Dryfoot
-    quest npc: Runty
-    reward level: 20
-    rewards:
-      - Traitor's Boots
-      - Traitor's Tunic
-    notes: |
-      Runty is on the south edge of Dryfoot between the eastern entrance to Dryfoot Stronghold and a Marauder camp.
-      The quest also increases your Ember Stone capacity by 50.
   - name: The Circle Expedition
     starting zone: Dryfoot
     quest npc: Tabetha
@@ -50,3 +40,13 @@
       - Ranger's Tracking Boots
     notes: |
       This quest starts with ranger Anders on the hill in Northreach.
+  - name: Runty's Revenge
+    starting zone: Dryfoot
+    quest npc: Runty
+    reward level: 20
+    rewards:
+      - Traitor's Boots
+      - Traitor's Tunic
+    notes: |
+      Runty is on the south edge of Dryfoot between the eastern entrance to Dryfoot Stronghold and a Marauder camp.
+      The quest also increases your Ember Stone capacity by 50.
