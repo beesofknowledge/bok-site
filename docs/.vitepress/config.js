@@ -19,7 +19,7 @@ export default {
   },
   srcExclude: [
     '**/professions',
-    '**/TODO.md'
+    '**/classes',
   ],
   themeConfig: {
     aside: false,
