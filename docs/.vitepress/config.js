@@ -20,6 +20,7 @@ export default {
   srcExclude: [
     '**/professions',
     '**/classes',
+    '**/drafts',
   ],
   themeConfig: {
     aside: false,
