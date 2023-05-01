@@ -17,6 +17,5 @@
   <ImageLink path="items/" :name="item.name" :alt="item.name" />
 
   <!-- <pre>{{ item }}</pre> -->
-  <!-- <pre>{{ slug }}</pre> -->
-
 </template>
+

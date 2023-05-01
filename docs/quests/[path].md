@@ -1,6 +1,7 @@
 ---
 ---
 <script setup>
+  import ImageLink from '../.vitepress/components/ImageLink.vue'
 //import { useData } from 'vitepress'
 
 //const { page } = useData()
