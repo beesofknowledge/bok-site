@@ -7,7 +7,7 @@
   })
 
   const slug = computed(() =>
-    slugify(props.item.Name, {
+    slugify(props.item.name, {
         lower: true,
         remove: /[*+~.()'"!:@]/g
     })
@@ -16,14 +16,16 @@
 
 <template>
   <p>
-    <a :href="'items/' + slug" >{{ item.Name }}</a>
+    <a :href="'items/' + slug" >{{ item.name }}</a>
     <br />
 
     <div class="bok-text-2">
-      Equipment Type: {{ item.Slot }}<br />
-      Required Level: {{ item['Required Level'] }}
+      Equipment Type: {{ item.slot }}<br />
+      Required Level: {{ item.level }}
     </div>
   </p>
+
+  <!-- <pre>{{ item }}</pre> -->
 
   <hr />
 </template>

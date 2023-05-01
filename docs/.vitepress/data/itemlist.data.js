@@ -1,12 +1,11 @@
 import fs from 'node:fs'
-import { parse } from 'csv-parse/sync'
+import { parse } from 'yaml'
+
+const file = 'docs/.vitepress/data/items.yaml'
 
 export default {
-  watch: ['docs/.vitepress/data/items.csv'],
+  watch: [file],
   load(watchedFiles) {
-    return parse(fs.readFileSync('docs/.vitepress/data/items.csv', 'utf-8'), {
-      columns: true,
-      skip_empty_lines: true
-    })
+    return parse(fs.readFileSync(file, 'utf-8'))
   }
 }

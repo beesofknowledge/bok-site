@@ -1,28 +1,24 @@
 import fs from 'node:fs'
-import { parse } from 'csv-parse/sync'
+import { parse } from 'yaml'
 import slugify from 'slugify'
+
+const file = 'docs/.vitepress/data/items.yaml'
 
 export default {
   paths() {
-    const items = parse(fs.readFileSync('docs/.vitepress/data/items.csv', 'utf-8'), {
-      columns: true,
-      skip_empty_lines: true,
-      // Convert string to number
-      cast: (value, context) => {
-        if (context.column === 'Required Level') return Number(value);
-        return String(value);
-      },
-    })
+    const data = parse(fs.readFileSync(file, 'utf-8'))
 
-    return items.map((item) => {
+    return data.map((datum) => {
+      const slug = slugify(datum.name, {
+        lower: true,
+        remove: /[*+~.()'"!:@]/g
+      })
+
       return {
         params: {
-          title: item.Name,
-          item: slugify(item.Name, {
-            lower: true,
-            remove: /[*+~.()'"!:@]/g
-          }),
-          data: item
+          title: datum.name,
+          item: slug,
+          data: datum
         }
       }
     })

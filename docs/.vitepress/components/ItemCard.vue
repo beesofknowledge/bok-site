@@ -7,15 +7,15 @@
 </script>
 
 <template>
-  <h1>{{ item.Name }}</h1>
+  <h1>{{ item.name }}</h1>
 
   <p class="bok-text-2">
-    Equipment Type: {{ item.Slot }}<br />
-    Required Level: {{ item['Required Level'] }}
+    Equipment Type: {{ item.slot }}<br />
+    Required Level: {{ item.level }}
   </p>
 
   <p>
-    <ImageLink path="items/" :name="item.Name" :alt="item.Name" />
+    <ImageLink path="items/" :name="item.name" :alt="item.name" />
   </p>
 
   <!-- <pre>{{ item }}</pre> -->
