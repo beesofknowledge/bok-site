@@ -19,5 +19,6 @@
 <template>
   <p>
     <img :src="'https://img.beesofknowledge.com/' + path + slug + '.png'" :alt="alt">
+    <!-- <img :src="path + slug + '.png'" :alt="alt"> -->
   </p>
 </template>

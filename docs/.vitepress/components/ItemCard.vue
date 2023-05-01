@@ -14,9 +14,7 @@
     Required Level: {{ item.level }}
   </p>
 
-  <p>
-    <ImageLink path="items/" :name="item.name" :alt="item.name" />
-  </p>
+  <ImageLink path="items/" :name="item.name" :alt="item.name" />
 
   <!-- <pre>{{ item }}</pre> -->
   <!-- <pre>{{ slug }}</pre> -->

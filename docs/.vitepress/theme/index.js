@@ -1,7 +1,7 @@
 import DefaultTheme from 'vitepress/theme'
 import './custom.css'
 
-import ImageLink from '../components/ImageLink.vue'
+//import ImageLink from '../components/ImageLink.vue'
 // import MyItemComponent from './MyItemComponent.vue'
 // import MyQuestComponent from './MyQuestComponent.vue'
 // import ItemCard from './ItemCard.vue'
@@ -17,7 +17,7 @@ export default {
 
     // register your custom global components
     ctx.app
-      .component('ImageLink', ImageLink)
+//      .component('ImageLink', ImageLink)
       // .component('MyItemComponent', MyItemComponent)
       // .component('MyQuestComponent', MyQuestComponent)
       // .component('ItemCard', ItemCard)
