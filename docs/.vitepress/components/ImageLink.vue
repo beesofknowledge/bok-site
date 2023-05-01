@@ -10,15 +10,29 @@
 
   const slug = computed(() =>
     slugify(props.name, {
-        lower: true,
-        remove: /[*+~.()'"!:@]/g
+      lower: true,
+      remove: /[*+~.()'"!:@]/g
     })
   )
+
+  const slugged = slugify(props.name, {
+    lower: true,
+    remove: /[*+~.()'"!:@]/g
+  })
+
+  const image = '/img/' + props.path + slugged + '.png'
+  const imageUrl = new URL(`../../img/items/${slugged}.png`, import.meta.url).pathname
+
+  //const src = await import(`../../img/items/${slugged}.png`)
+
 </script>
 
 <template>
   <p>
-    <img :src="'https://img.beesofknowledge.com/' + path + slug + '.png'" :alt="alt">
+    image: {{ image }}<br />
+    imageUrl: {{ imageUrl }}<br />
+    <img :src="`${imageUrl}`" >
+    <!-- <img :src="`${image}`" :alt="alt"> -->
     <!-- <img :src="path + slug + '.png'" :alt="alt"> -->
   </p>
 </template>
