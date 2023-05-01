@@ -22,5 +22,6 @@ title: Todo
 - [ ] add filtering and name search to item and quest pages
 - [ ] wait for site search to support dynamic routes
 - [ ] add sitemap.xml
+- [ ] move images from untracked subdomain to tracked domain
 
 
