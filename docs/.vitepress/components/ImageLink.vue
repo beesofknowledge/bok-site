@@ -1,8 +1,6 @@
 <script setup>
-  import { computed } from 'vue'
   import slugify from 'slugify'
-
-  const allImages = import.meta.glob('../../img/**/*.png', { as: 'url', eager: true })
+  import allImages from '../data/allimages.js'
 
   const props = defineProps({
     path: String,
@@ -10,19 +8,13 @@
     alt: String,
   })
 
-//  const slug = computed(() =>
-//    slugify(props.name, {
-//      lower: true,
-//      remove: /[*+~.()'"!:@]/g
-//    })
-//  )
-
-  const slugged = slugify(props.name, {
+  const slug = slugify(props.name, {
     lower: true,
     remove: /[*+~.()'"!:@]/g
   })
 
-  const image = '../../img/' + props.path + slugged + '.png'
+  const image = '../../img/' + props.path + slug + '.png'
+
   const imageUrl = allImages[image]
 </script>
 
