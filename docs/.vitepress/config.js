@@ -58,6 +58,7 @@ export default {
             collapsed: true,
               items: [
               { text: 'Level 30 Crafted Rings', link: 'guides/level-30-crafted-rings' },
+              { text: 'Crafted Augments', link: 'guides/augments' },
               ],
           },
         ],
