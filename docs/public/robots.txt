@@ -1,2 +1,4 @@
 user-agent: *
 disallow: /
+disallow: /cdn-cgi/
+
