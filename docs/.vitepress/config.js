@@ -25,9 +25,9 @@ export default {
   themeConfig: {
     aside: false,
     nav: [],
-    search: {
-      provider: 'local'
-    },
+    // search: {
+    //   provider: 'local'
+    // },
     // editLink: {
     //   pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/:path',
     //   text: 'Edit this page on GitHub',
