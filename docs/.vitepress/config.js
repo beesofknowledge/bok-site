@@ -22,6 +22,12 @@ export default {
     '**/classes',
     '**/drafts',
   ],
+  vite: {
+    ssr: {
+      // Add npm packages containing invalid code here
+      noExternal: ['vue-dataset']
+    }
+  },
   themeConfig: {
     aside: false,
     nav: [],
