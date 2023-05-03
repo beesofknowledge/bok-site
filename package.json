@@ -23,5 +23,8 @@
         "vite"
       ]
     }
+  },
+  "dependencies": {
+    "vue-dataset": "^3.5.3"
   }
 }
