@@ -2,6 +2,7 @@
 title: Items
 ---
 <script setup>
+  import slugify from 'slugify'
   import { 
     Dataset,
     DatasetItem,
@@ -11,18 +12,26 @@ title: Items
     DatasetShow
   } from 'vue-dataset'
   import { data } from '.vitepress/data/itemlist.data.js'
+  
+  const slugged = data.map(item => ({
+    ...item,
+    slug: slugify(item.name, {
+        lower: true,
+        remove: /[*+~.()'"!:@]/g
+    })
+  }))
 </script>
 
 <h1>{{ $frontmatter.title }}</h1>
 <hr />
 
-<dataset v-slot="{ ds }" :ds-data="data">
+<dataset v-slot="{ ds }" :ds-data="slugged">
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
       <dataset-search ds-search-placeholder="Search..." />
     </div>
     <div class="dataset-show">
-      <dataset-show  ds-show-entries="25" />
+      <dataset-show :ds-show-entries=12 :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]" />
     </div>
     <div class="dataset-pager">
       <dataset-pager />
@@ -33,14 +42,17 @@ title: Items
 
   <dataset-item>
     <template v-slot="{ row, rowIndex }">
-     <p>
-        <a href="" >{{ row.name }}</a>
-        <br />
-        <div class="bok-text-2">
-          Equipment Type: {{ row.slot }}<br />
-          Required Level: {{ row.level }}
+      <div class="item-rows">
+        <div class="item-row vp-code-group">
+          <div>
+            <a :href="'/items/' + row.slug" >{{ row.name }}</a>
+          </div>
+          <div class="bok-text-2">
+            Equipment Type: {{ row.slot }}<br />
+            Required Level: {{ row.level }}
+          </div>
         </div>
-      </p>
+      </div>
     </template>
     <template v-slot:noDataFound>
       <p>No results found</p>
@@ -50,14 +62,18 @@ title: Items
 </dataset>
 
 <style>
-/*
-  .search-controls {
-    background: red;
-    
-    & .dataset-show {
-      background: yellow;
-    }
-  
+
+  .item-rows {
+    display: inline-grid;
+    grid-auto-flow: column;
+  }
+
+  .item-row {
+    background-color: var(--vp-c-bg-soft);
+    padding: 16px;
+    margin: 16px 16px 0 0;
+    border-radius: 8px;
+    width: 18rem;
   }
 
   .search-controls {
@@ -149,6 +165,6 @@ title: Items
   .dataset-show .form-control {
     margin: 0 6px 0 6px;
   }
-*/ 
+ 
 </style>
 

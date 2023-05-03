@@ -5,7 +5,7 @@ title: Todo
 
 - [x] vue component for images
 - [x] create item vue component
-- [x] create item template
+- [x] create item templateds-show-entries-lovs
 - [x] create quest template
 - [x] create quest vue component
 - [x] redirect www to non-www with path
@@ -18,10 +18,12 @@ title: Todo
 - [x] remove prev/next from layout
 - [x] add favicon
 - [x] convert quests to yaml data file
+- [x] move images from untracked subdomain to tracked domain
 - [ ] add recent items and total items to the front page
-- [ ] add filtering and name search to item and quest pages
+- [x] add filtering and name search to item page
 - [ ] wait for site search to support dynamic routes
 - [ ] add sitemap.xml
-- [ ] move images from untracked subdomain to tracked domain
-
-
+- [ ] clean up bootstrap pagination css
+- [ ] add slug in data.js files?
+- [ ] add slot and level filters to items page and sort by
+- [ ] sort items in data.js and remove the quotes
