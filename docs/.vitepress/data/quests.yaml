@@ -50,3 +50,26 @@
     notes: |
       Runty is on the south edge of Dryfoot between the eastern entrance to Dryfoot Stronghold and a Marauder camp.
       The quest also increases your Ember Stone capacity by 50.
+  - name: Shoring Up Redshore
+    starting zone: Redshore
+    quest npc:
+    reward level: 30
+    rewards:
+      - Twill's Lost Standard
+      - Petrified Bone Gauntlets
+      - Redshore Reaver
+      - Redshore Stag Helm
+      - Petrified Bark Shield
+    notes: |
+      This quest starts at the camp in Redshore next to the Dryfoot zone.
+  - name: Under the Branches of History
+    starting zone: Redshore
+    quest npc:
+    reward level: 25
+    rewards:
+      - Relic Hunter's Chitin Faulds
+      - Relic Hunter's Leather Leggings
+      - Relic Hunter's Scale Faulds
+    notes: |
+      This quest starts with a tablet dropped by exiles in Redshore.
+  
