@@ -27,3 +27,4 @@ title: Todo
 - [ ] add slug in data.js files?
 - [ ] add slot and level filters to items page and sort by
 - [ ] sort items in data.js and remove the quotes
+- [ ] find duplicate items
