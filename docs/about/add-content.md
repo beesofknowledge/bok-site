@@ -1,5 +1,5 @@
 ---
-title: Contributing
+title: Add Content
 ---
 # {{ $frontmatter.title }}
 

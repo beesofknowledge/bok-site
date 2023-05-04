@@ -32,8 +32,10 @@ export default {
   },
   themeConfig: {
     aside: false,
-    nav: [],
     outline: 'deep',
+    nav: [
+      { text: 'Add Content', link: '/about/add-content' },
+    ],
     sidebar: sidebarConfig,
     // search: {
     //   provider: 'local'

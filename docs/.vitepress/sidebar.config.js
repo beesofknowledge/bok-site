@@ -95,7 +95,6 @@ const sidebar = [
     items: [
       { text: 'Embers Adrift', link: '/about/embers-adrift' },
       { text: 'This Site', link: '/about/this-site' },
-      { text: 'Contributing', link: '/about/contributing' },
      ]
   },
 ]
