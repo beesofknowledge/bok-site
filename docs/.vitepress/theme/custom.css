@@ -26,3 +26,7 @@ html.dark .bok-text-2 {
 .search-text {
   letter-spacing: 0;
 }
+
+.content-container {
+  margin: 0 !important;
+}
