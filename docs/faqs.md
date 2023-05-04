@@ -37,6 +37,10 @@ There is no compass. There is a large blue planet in the sky named the Eye of Ib
 
 About an hour each.
 
+## Why is it so dark at night?
+
+Try the exposure slider on the graphics page in options. It may or may not help.
+
 ## What happens when my health goes down to zero?
 
 If you take enough damage to have zero health you will become unconscious. You will remain unconscious for three minutes unless you are revived by another player or press the respawn button. Supporters and Wardens can use heals to revive you, but others must use smelling salts.
@@ -102,7 +106,9 @@ Press return to start the chat line, then hold shift and left click the icon of 
 
 Yes. There is a slider to scale chat font size on the Gameplay tab of the Options box.
 
-<!-- ## What do Advantage and Disadvantage mean? -->
+## What do Advantage and Disadvantage mean?
+
+In tabletop dice games, advantage means that you roll two dice and take the higher roll, and disadvantage means you roll two dice and take the lower roll. In Embers Adrift the mechanism is the same, but without the dice.
 
 ## Does this game have raids?
 
