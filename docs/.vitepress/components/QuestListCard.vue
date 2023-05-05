@@ -20,7 +20,7 @@
     <br />
 
     <div class="bok-text-2">
-      Reward Level: {{ quest['reward level'] }}
+      Reward Level: {{ quest.level }}
     </div>
   </p>
 

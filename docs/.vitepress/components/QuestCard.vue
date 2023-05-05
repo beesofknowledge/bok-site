@@ -9,7 +9,7 @@
     <a :href="item.file">{{ item.data.title }}</a><br />
 
     <div class="bok-text-2">
-      Reward Level: {{ item.data['Reward Level'] }}
+      Reward Level: {{ item.data.level }}
     </div>
   </p>
 

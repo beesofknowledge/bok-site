@@ -16,9 +16,9 @@ export default {
           }),
           title: datum.name,
           name: datum.name,
-          zone: datum['starting zone'],
-          npc: datum['quest npc'],
-          level: datum['reward level'],
+          zone: datum.zone,
+          npc: datum.npc,
+          level: datum.level,
           rewards: datum.rewards,
         },
         content: datum.notes

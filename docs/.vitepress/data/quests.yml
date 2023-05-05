@@ -1,8 +1,8 @@
 ---
 - name: Eye in the Sky
-  starting zone: Northreach
-  quest npc: Ulric
-  reward level: 20
+  zone: Northreach
+  npc: Ulric
+  level: 20
   rewards:
     - Earring of Ello
     - Necklace of Adr
@@ -10,9 +10,9 @@
   notes: |
     This quest starts with Ulric in Ravenrock and then continues in Dryfoot and Dryfoot Stronghold.
 - name: The Circle Expedition
-  starting zone: Dryfoot
-  quest npc: Tabetha
-  reward level: 20
+  zone: Dryfoot
+  npc: Tabetha
+  level: 20
   rewards:
     - Battle Banner of the Circle
     - Breastplate of the Circle
@@ -31,9 +31,9 @@
   notes: |
     This quest starts with Tabetha in Sheercrook near the monolith in Dryfoot.
 - name: The Hunt
-  starting zone: Northreach
-  quest npc: Anders
-  reward level: 20
+  zone: Northreach
+  npc: Anders
+  level: 20
   rewards:
     - Expert Hunter's Gloves
     - Game Seeker's Leggings
@@ -41,9 +41,9 @@
   notes: |
     This quest starts with ranger Anders on the hill in Northreach.
 - name: Runty's Revenge
-  starting zone: Dryfoot
-  quest npc: Runty
-  reward level: 20
+  zone: Dryfoot
+  npc: Runty
+  level: 20
   rewards:
     - Traitor's Boots
     - Traitor's Tunic
@@ -51,9 +51,9 @@
     Runty is on the south edge of Dryfoot between the eastern entrance to Dryfoot Stronghold and a Marauder camp.
     The quest also increases your Ember Stone capacity by 50.
 - name: Shoring Up Redshore
-  starting zone: Redshore
-  quest npc: null
-  reward level: 30
+  zone: Redshore
+  npc: null
+  level: 30
   rewards:
     - Petrified Bark Shield
     - Petrified Bone Gauntlets
@@ -63,9 +63,9 @@
   notes: |
     This quest starts at the camp in Redshore next to the Dryfoot zone.
 - name: Under the Branches of History
-  starting zone: Redshore
-  quest npc: null
-  reward level: 25
+  zone: Redshore
+  npc: null
+  level: 25
   rewards:
     - Relic Hunter's Chitin Faulds
     - Relic Hunter's Leather Leggings
