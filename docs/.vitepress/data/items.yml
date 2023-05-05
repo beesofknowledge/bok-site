@@ -20,12 +20,6 @@
 - name: Bear Fur Faulds
   slot: Faulds
   level: 25
-- name: Bear Fur Faulds
-  slot: Faulds
-  level: 25
-- name: Bear Fur Vambrace
-  slot: Vambrace
-  level: 25
 - name: Bear Fur Vambrace
   slot: Vambrace
   level: 25
@@ -608,9 +602,6 @@
 - name: Wolf Fang Earring
   slot: Earring
   level: 10
-- name: Mother Bear Claws
-  slot: 1H
-  level: 5
 - name: Kaet's Bracer
   slot: Vambrace
   level: 1
@@ -648,9 +639,6 @@
   slot: Waist
   level: 25
 - name: Petrified Bone Gauntlets
-  slot: 1H
-  level: 30
-- name: Redshore Reaver
   slot: 1H
   level: 30
 - name: Redshore Stag Helm
@@ -701,9 +689,6 @@
 - name: Scale Mesh Mask
   slot: Head
   level: 25
-- name: Stark Greatsword
-  slot: 2H
-  level: 25
 - name: Grimstone Pauldron
   slot: Pauldron
   level: 30
@@ -725,9 +710,6 @@
 - name: Tracker Short Bow
   slot: Ranged
   level: 15
-- name: Motivator
-  slot: 2H
-  level: 20
 - name: Quickfingered Gloves
   slot: Hands
   level: 25
@@ -791,15 +773,9 @@
 - name: Manslayer Great Sword
   slot: 2H
   level: 25
-- name: Seething Necklace
-  slot: Necklace
-  level: 25
 - name: Partially Digested Necklace
   slot: Necklace
   level: 10
-- name: Sapping Belt
-  slot: Waist
-  level: 25
 - name: Poppy Pummeler
   slot: 1H
   level: 10
@@ -809,12 +785,6 @@
 - name: Lookout's Faulds
   slot: Faulds
   level: 25
-- name: Kerrigan's Pauldron
-  slot: Pauldron
-  level: 20
-- name: Desert Shell Earring
-  slot: Earring
-  level: 33
 - name: Salt Cured Leather Bracer
   slot: Vambrace
   level: 30
@@ -857,14 +827,8 @@
 - name: Stolen Emerald Necklace
   slot: Necklace
   level: 30
-- name: Wild Wolf Greaves
-  slot: Greaves
-  level: 40
 - name: Wild Wolf Cuirass
   slot: Cuirass
-  level: 40
-- name: Wild Wolf Leather Bracer
-  slot: Vambrace
   level: 40
 - name: Wild Wolf Leather Helm
   slot: Head
@@ -872,9 +836,6 @@
 - name: Fanatic's Banner
   slot: Offhand
   level: 36
-- name: Dry Wolfskin Tunic
-  slot: Chest
-  level: 20
 - name: Wolfsbane Greaves
   slot: Greaves
   level: 10
@@ -884,9 +845,6 @@
 - name: Polished Scale Cuirass
   slot: Cuirass
   level: 10
-- name: Shining Machete
-  slot: 1H
-  level: 25
 - name: Relic Hunter's Chitin Mask
   slot: Head
   level: 15

@@ -9,3 +9,4 @@ export default {
     return parse(fs.readFileSync(file, 'utf-8'))
   }
 }
+
