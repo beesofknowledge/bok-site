@@ -833,7 +833,7 @@
 - name: Scoundrel Gloves
   slot: Hands
   level: 25
-- name: Cliffwalkers Full Iron Helm
+- name: Cliffwalker's Full Iron Helm
   slot: Head
   level: 30
 - name: Glowing Orange Stud Earring
@@ -887,3 +887,64 @@
 - name: Shining Machete
   slot: 1H
   level: 25
+- name: Relic Hunter's Chitin Mask
+  slot: Head
+  level: 15
+- name: Relic Hunter's Leather Helm
+  slot: Head
+  level: 15
+- name: Relic Hunter's Padded Helm
+  slot: Head
+  level: 15
+- name: Sanity Hood
+  slot: Head
+  level: 28
+- name: Fool's Feathered Hat
+  slot: Head
+  level: 28
+- name: Lunatic's Lid
+  slot: Head
+  level: 28
+- name: Mad Cap
+  slot: Head
+  level: 28
+- name: Pie Rat Eye Patch
+  slot: Head
+  level: 1
+- name: Pie Rat Hook
+  slot: 1H
+  level: 1
+- name: Rat Tail Ring
+  slot: Ring
+  level: 1
+- name: Chewed Oven Mitts
+  slot: Hands
+  level: 1
+- name: Cliffwalker's Long Bow
+  slot: Ranged
+  level: 33
+- name: Cliffwalker's Mace
+  slot: 1H
+  level: 33
+- name: Cliffwalker's Heavy Crossbow
+  slot: Ranged
+  level: 33
+- name: Cliffwalker's Kite Shield
+  slot: Offhand
+  level: 33
+- name: Glinting Ring
+  slot: Ring
+  level: 32
+- name: Glinting Ring Necklace
+  slot: Necklace
+  level: 32
+- name: Runner's Cuff
+  slot: Vambrace
+  level: 1
+- name: Teacher's Gloves
+  slot: Hands
+  level: 36
+- name: Ambling Mitts
+  slot: Hands
+  level: 30
+  

@@ -64,10 +64,72 @@
     This quest starts at the camp in Redshore next to the Dryfoot zone.
 - name: Under the Branches of History
   zone: Redshore
-  npc: null
+  npc: Alomester
   level: 25
   rewards:
     - Relic Hunter's Chitin Faulds
     - Relic Hunter's Leather Leggings
     - Relic Hunter's Scale Faulds
-  notes: This quest starts with a tablet dropped by exiles in Redshore.
+  notes: |
+    This quest starts with a tablet dropped by exiles in Redshore.
+- name: Meadowlands Antiquities
+  zone: Meadowlands
+  npc: Alomester
+  level: 15
+  rewards:
+    - Relic Hunter's Chitin Mask
+    - Relic Hunter's Leather Helm
+    - Relic Hunter's Padded Helm
+  notes: |
+    This quest starts from a Strangely Marked Slab that drops from exiles in Meadowlands.
+- name: Stones and Bones
+  zone: Redshore
+  npc: Stranger
+  level: 28
+  rewards:
+    - Sanity Hood
+    - Mad Cap
+    - Lunatic's Lid
+    - Fool's Feathered Hat
+  notes: This quest starts with a dropped item from Snatchscales in Redshore.
+- name: Lost to the Sands of Time
+  zone: Dryfoot
+  npc: Alomester
+  level: 25
+  rewards:
+    - Relic Hunter's Scale Cuirass
+    - Relic Hunter's Leather Cuirass
+    - Relic Hunter's Chitin Cuirass
+  notes: |
+    This starts with a dropped item from exiles in Dryfoot Stronghold or Dryfoot.
+- name: The Pie Rat
+  zone: Newhaven Valley
+  npc: [In Newhaven City]
+  level: 1
+  rewards:
+    - Chewed Oven Mitts
+    - Pie Rat Eye Patch
+    - Pie Rat Hook
+    - Rat Tail Ring
+  notes: |
+    The quest starts with an item dropped by The Pie Rat in Newhaven Valley.
+- name: Threat of Grimstone
+  zone: Dryfoot
+  npc: [fire near GC]
+  level: 33
+  rewards:
+    - Cliffwalker's Long Bow
+    - Cliffwalker's Mace
+    - Cliffwalker's Heavy Crossbow
+    - Cliffwalker's Kite Shield
+  notes: |
+    The quest starts at the ember fire in Dryfoot that is near the Grimstone entrance.
+- name: A Renegade's Retribution
+  zone: Grimstone Canyon
+  npc: Grimstone Renegade
+  level: 32
+  rewards:
+    - Glinting Ring
+    - Glinting Ring Necklace
+  notes: |
+    The quest starts with the Grimstone Renegage not far from the Grimstone monolith.
