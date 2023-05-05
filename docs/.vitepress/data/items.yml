@@ -1,0 +1,889 @@
+---
+- name: '"Fishing" Pole'
+  slot: 2H
+  level: 25
+- name: Animal Training Gloves
+  slot: Hands
+  level: 20
+- name: Assassins Spaulder
+  slot: Pauldron
+  level: 20
+- name: Barbed Earring
+  slot: Earring
+  level: 20
+- name: Battle Banner of the Circle
+  slot: Offhand
+  level: 20
+- name: Bear Claw Necklace
+  slot: Necklace
+  level: 5
+- name: Bear Fur Faulds
+  slot: Faulds
+  level: 25
+- name: Bear Fur Faulds
+  slot: Faulds
+  level: 25
+- name: Bear Fur Vambrace
+  slot: Vambrace
+  level: 25
+- name: Bear Fur Vambrace
+  slot: Vambrace
+  level: 25
+- name: Bear Tooth Necklace
+  slot: Necklace
+  level: 20
+- name: Belt of the Wailer
+  slot: Waist
+  level: 30
+- name: Blackened Necklace
+  slot: Necklace
+  level: 25
+- name: Blade of the Slicer
+  slot: 1H
+  level: 40
+- name: Bloodstained Boots
+  slot: Feet
+  level: 20
+- name: Bloodstained Mantle
+  slot: Pauldron
+  level: 20
+- name: Bloodstained Tunic
+  slot: Chest
+  level: 20
+- name: Breastplate of the Circle
+  slot: Cuirass
+  level: 20
+- name: Brookhollow Belt
+  slot: Waist
+  level: 20
+- name: Brookhollow Heater
+  slot: Shield
+  level: 20
+- name: Brookhollow Maul
+  slot: 2H
+  level: 20
+- name: Brookhollow Necklace
+  slot: Necklace
+  level: 20
+- name: Brookhollow Ring
+  slot: Ring
+  level: 20
+- name: Brookhollow Scale Cuirass
+  slot: Cuirass
+  level: 20
+- name: Brookhollow Short Sword
+  slot: 1H
+  level: 20
+- name: Buckler of the Circle
+  slot: Shield
+  level: 20
+- name: Cat's Grace
+  slot: Waist
+  level: 36
+- name: Chief Thumper's Necklace
+  slot: Necklace
+  level: 36
+- name: Chithorn's Pauldron
+  slot: Pauldron
+  level: 20
+- name: Circle's Fine Leather Cuirass
+  slot: Cuirass
+  level: 20
+- name: Crag Kite Shield
+  slot: Shield
+  level: 46
+- name: Dagger of the Stabber
+  slot: 1H
+  level: 40
+- name: Darkforged Great Axe
+  slot: 2H
+  level: 30
+- name: Darkwater Crossbow
+  slot: Ranged
+  level: 25
+- name: Darkwater Necklace
+  slot: Necklace
+  level: 25
+- name: Decayed Banner
+  slot: Offhand
+  level: 20
+- name: Desert Clutches
+  slot: Hands
+  level: 15
+- name: Desert Shell Earring
+  slot: Earring
+  level: 33
+- name: Drifter's Golden Band
+  slot: Ring
+  level: 1
+- name: Drudge Chain
+  slot: Necklace
+  level: 30
+- name: Drudge Shackle
+  slot: Vambrace
+  level: 30
+- name: Dry Wolfskin Tunic
+  slot: Chest
+  level: 20
+- name: Drybone Shackle
+  slot: Vambrace
+  level: 20
+- name: Dryfoot Sandals
+  slot: Feet
+  level: 20
+- name: Dubious Potion
+  slot: Consumable
+  level: 25
+- name: Earring of Ello
+  slot: Earring
+  level: 20
+- name: Emerald Scale Belt
+  slot: Waist
+  level: 33
+- name: Eradicator
+  slot: 2H
+  level: 15
+- name: Exile Patrol Torch
+  slot: Light
+  level: 25
+- name: Exile Skinning Knife
+  slot: Tool
+  level: 25
+- name: Expert Hunter's Gloves
+  slot: Hands
+  level: 20
+- name: Faedra's Silk Gloves
+  slot: Hands
+  level: 10
+- name: Faintly Glowing Pouch
+  slot: Quest
+  level: 1
+- name: Fancy Stolen Earring
+  slot: Earring
+  level: 20
+- name: Fancy Stolen Ring
+  slot: Ring
+  level: 20
+- name: Fern Laced Trousers
+  slot: Legs
+  level: 33
+- name: Fervent Bloodrite Great Axe
+  slot: 2H
+  level: 40
+- name: Fervent Bloodrite Great Sword
+  slot: 2H
+  level: 40
+- name: Fervent Bloodrite Maul
+  slot: 2H
+  level: 40
+- name: Fiery Chitin Ring
+  slot: Ring
+  level: 20
+- name: Flexible Warm Gloves
+  slot: Hands
+  level: 40
+- name: Game Seeker's Leggings
+  slot: Legs
+  level: 20
+- name: Gatorscale Faulds
+  slot: Faulds
+  level: 15
+- name: Gatorscale Greaves
+  slot: Greaves
+  level: 15
+- name: Glen's Fine Cuirass
+  slot: Cuirass
+  level: 10
+- name: Gloves of Delirium
+  slot: Hands
+  level: 25
+- name: Gloves of Lunacy
+  slot: Hands
+  level: 25
+- name: Gloves of Madness
+  slot: Hands
+  level: 25
+- name: Gloves of Mania
+  slot: Hands
+  level: 25
+- name: Glowing Necklace
+  slot: Necklace
+  level: 25
+- name: Grandmasters Fishing Pole
+  slot: 2H
+  level: 25
+- name: Green Silk Gloves
+  slot: Hands
+  level: 1
+- name: Greenscale Sash
+  slot: Waist
+  level: 20
+- name: Grizzly Hatchet
+  slot: 1H
+  level: 10
+- name: Hatchet of the Carver
+  slot: 1H
+  level: 40
+- name: Helm of the Huntress
+  slot: Head
+  level: 25
+- name: Hemmed Trousers
+  slot: Legs
+  level: 15
+- name: Hofly Soft Chitin Mask
+  slot: Head
+  level: 10
+- name: Honed Shadowspring Short Bow
+  slot: Ranged
+  level: 30
+- name: Horned Gemstone Scepter
+  slot: Offhand
+  level: 20
+- name: Kane's Faulds
+  slot: Faulds
+  level: 10
+- name: Kerrigan's Pauldron
+  slot: Pauldron
+  level: 20
+- name: King's Vambrace
+  slot: Vambrace
+  level: 25
+- name: Knave's Blade
+  slot: 1H
+  level: 5
+- name: Knave's Helm
+  slot: Head
+  level: 5
+- name: Knuckles of the Circle
+  slot: 1H
+  level: 20
+- name: Leather Circle's Faulds
+  slot: Faulds
+  level: 20
+- name: Leather Greaves of the Circle
+  slot: Greaves
+  level: 20
+- name: Leather Vambrace of the Circle
+  slot: Vambrace
+  level: 20
+- name: Long Sword of the Circle
+  slot: 2H
+  level: 20
+- name: Lookout Helm
+  slot: Head
+  level: 25
+- name: Lookout Staff
+  slot: 2H
+  level: 10
+- name: Love Letter
+  slot: 1H
+  level: 15
+- name: Mantor's Reach
+  slot: 2H
+  level: 33
+- name: Mantor's Hatchet
+  slot: 1H
+  level: 30
+- name: Mistcrawler's Leggings
+  slot: Legs
+  level: 10
+- name: Mole Bear Cuirass
+  slot: Cuirass
+  level: 25
+- name: Mole Bear Helm
+  slot: Head
+  level: 25
+- name: Mole Bear Spaulder
+  slot: Pauldron
+  level: 25
+- name: Mother Bear Claws
+  slot: 1H
+  level: 5
+- name: Motivator
+  slot: 2H
+  level: 20
+- name: Necklace of Adr
+  slot: Necklace
+  level: 20
+- name: Nighthunter Mask
+  slot: Head
+  level: 10
+- name: Nomad Boots
+  slot: Feet
+  level: 20
+- name: Ooze Covered Gloves
+  slot: Hands
+  level: 25
+- name: Pachy Hide Kite Shield
+  slot: Shield
+  level: 20
+- name: Padded Quillspear Gloves
+  slot: Hands
+  level: 10
+- name: Patrolman's Gloves
+  slot: Hands
+  level: 25
+- name: Peach Pie
+  slot: Food
+  level: 1
+- name: Pendant of the Academy
+  slot: Necklace
+  level: 2
+- name: Plaguebringer's Helm
+  slot: Head
+  level: 20
+- name: Plate Bracers of the Circle
+  slot: Vambrace
+  level: 20
+- name: Plate Faulds of the Circle
+  slot: Faulds
+  level: 20
+- name: Plate Greaves of the Circle
+  slot: Greaves
+  level: 20
+- name: Poppy Smasher
+  slot: 1H
+  level: 20
+- name: Prized Helm
+  slot: Head
+  level: 25
+- name: Quarterstaff of the Circle
+  slot: 2H
+  level: 20
+- name: Quarterstaff of the Occult Leader
+  slot: 2H
+  level: 30
+- name: Queen's Red Gloves
+  slot: Hands
+  level: 10
+- name: Quickdraw Belt
+  slot: Waist
+  level: 20
+- name: Raider's Dire Claymore
+  slot: 2H
+  level: 20
+- name: Raider's Dire Axe
+  slot: 2H
+  level: 20
+- name: Ranger's Tracking Boots
+  slot: Feet
+  level: 20
+- name: Ranger's Old Chain Shirt
+  slot: Chest
+  level: 10
+- name: Rat Wraps
+  slot: Hands
+  level: 15
+- name: Rathide Bracer
+  slot: Vambrace
+  level: 20
+- name: Redshore Reaver
+  slot: 1H
+  level: 30
+- name: Redwood Chopper
+  slot: 2H
+  level: 25
+- name: Redwood Greaves
+  slot: Greaves
+  level: 36
+- name: Redwood Vambrace
+  slot: Vambrace
+  level: 36
+- name: Relic Hunter's Chitin Cuirass
+  slot: Cuirass
+  level: 20
+- name: Relic Hunter's Leather Cuirass
+  slot: Cuirass
+  level: 20
+- name: Relic Hunter's Scale Cuirass
+  slot: Cuirass
+  level: 20
+- name: Rigid Leggings
+  slot: Legs
+  level: 20
+- name: Ring of Morro
+  slot: Ring
+  level: 20
+- name: Ring of the Overseer
+  slot: Ring
+  level: 20
+- name: Rolling Pin
+  slot: 1H
+  level: 36
+- name: Sandstone Helm
+  slot: Head
+  level: 20
+- name: Sandstone Vambrace
+  slot: Vambrace
+  level: 20
+- name: Sapping Belt
+  slot: Waist
+  level: 25
+- name: Sawtooth Greatsword
+  slot: 2H
+  level: 20
+- name: Sawtooth Sword
+  slot: 1H
+  level: 20
+- name: Scorched Shirt
+  slot: Chest
+  level: 30
+- name: Seething Necklace
+  slot: Necklace
+  level: 25
+- name: Shaded Blade
+  slot: 1H
+  level: 46
+- name: Shale Gauntlets
+  slot: Hands
+  level: 20
+- name: Shield of Ector
+  slot: Shield
+  level: 1
+- name: Shining Machete
+  slot: 1H
+  level: 25
+- name: Shredder Mask
+  slot: Head
+  level: 15
+- name: Shrunken Skull Earring
+  slot: Earring
+  level: 20
+- name: Silkweave Necklace
+  slot: Necklace
+  level: 15
+- name: Silkweave Shirt
+  slot: Chest
+  level: 15
+- name: Slime Encrusted Ring
+  slot: Ring
+  level: 25
+- name: Smoldering Ring
+  slot: Ring
+  level: 30
+- name: Smuggler Lookout Torch
+  slot: Light
+  level: 2
+- name: Soft Chitin Trousers
+  slot: Legs
+  level: 20
+- name: Sovereign's Decree
+  slot: Ring
+  level: 40
+- name: Spear of the Circle
+  slot: 2H
+  level: 20
+- name: Spindled Banner
+  slot: Offhand
+  level: 36
+- name: Spindled Shirt
+  slot: Chest
+  level: 36
+- name: Stabber
+  slot: 1H
+  level: 20
+- name: Stalkers Chain Belt
+  slot: Waist
+  level: 10
+- name: Stark Greatsword
+  slot: 2H
+  level: 25
+- name: Sting
+  slot: Ranged
+  level: 10
+- name: Stolen Necklace
+  slot: Necklace
+  level: 10
+- name: Stonegrip Great Sword
+  slot: 2H
+  level: 30
+- name: Stonegrip Hammer
+  slot: 1H
+  level: 30
+- name: Stonegrip Maul
+  slot: 2H
+  level: 30
+- name: Stonegrip Short Bow
+  slot: Ranged
+  level: 30
+- name: Strider's Cuirass
+  slot: Cuirass
+  level: 10
+- name: Sunken Locket
+  slot: Necklace
+  level: 15
+- name: Swift Retreat Greaves
+  slot: Greaves
+  level: 36
+- name: Thicket Needler
+  slot: Ranged
+  level: 25
+- name: Thief's Gloves
+  slot: Hands
+  level: 1
+- name: Torched Hood
+  slot: Head
+  level: 10
+- name: Tracker Hide Belt
+  slot: Waist
+  level: 10
+- name: Tracker Hide Helm
+  slot: Head
+  level: 10
+- name: Traitor's Boots
+  slot: Feet
+  level: 20
+- name: Traitor's Mask
+  slot: Head
+  level: 20
+- name: Traitor's Tunic
+  slot: Chest
+  level: 20
+- name: Twill's Lost Standard
+  slot: Offhand
+  level: 30
+- name: Vibrant Wooden Crook
+  slot: 2H
+  level: 15
+- name: Wayward Belt
+  slot: Waist
+  level: 15
+- name: Wild Wolf Greaves
+  slot: Greaves
+  level: 40
+- name: Wild Wolf Leather Bracer
+  slot: Vambrace
+  level: 40
+- name: Wingblade
+  slot: 1H
+  level: 10
+- name: Witch's Amulet
+  slot: Necklace
+  level: 1
+- name: Wolfskin Treads
+  slot: Feet
+  level: 40
+- name: Woven Grass Crown
+  slot: Head
+  level: 33
+- name: Zofly Chitin Cuirass
+  slot: Cuirass
+  level: 10
+- name: Necklace of the Watery Deep
+  slot: Necklace
+  level: 25
+- name: Edge Forged Earring
+  slot: Earring
+  level: 15
+- name: Raider Hatchet
+  slot: 1H
+  level: 20
+- name: Ornate Smith's Hauberk
+  slot: Chest
+  level: 25
+- name: Spiderfang Necklace
+  slot: Necklace
+  level: 10
+- name: Ruffian Knife
+  slot: 1H
+  level: 20
+- name: Rat Smasher
+  slot: 1H
+  level: 5
+- name: Rat Gut Short Bow
+  slot: Ranged
+  level: 5
+- name: Kaet's Long Bow
+  slot: Ranged
+  level: 5
+- name: Frenzied Band
+  slot: Ring
+  level: 1
+- name: Raider Tunic
+  slot: Chest
+  level: 20
+- name: Heavy Crossbow of the Prophet
+  slot: Ranged
+  level: 25
+- name: Wolf Fang Earring
+  slot: Earring
+  level: 10
+- name: Mother Bear Claws
+  slot: 1H
+  level: 5
+- name: Kaet's Bracer
+  slot: Vambrace
+  level: 1
+- name: Fang
+  slot: 2H
+  level: 15
+- name: Blackstone Necklace
+  slot: Necklace
+  level: 20
+- name: Warrior Necklace
+  slot: Necklace
+  level: 33
+- name: Salt Cured Leather Spaulder
+  slot: Pauldron
+  level: 30
+- name: Angelica Battle Banner
+  slot: Offhand
+  level: 10
+- name: Redshore Torn Battle Banner
+  slot: Offhand
+  level: 30
+- name: Skullata Shield
+  slot: Shield
+  level: 25
+- name: Mask of the Awakened
+  slot: Head
+  level: 25
+- name: Stolen Onyx Ring
+  slot: Ring
+  level: 30
+- name: Raider's Dire Polearm
+  slot: 2H
+  level: 20
+- name: Belt of the Awakened
+  slot: Waist
+  level: 25
+- name: Petrified Bone Gauntlets
+  slot: 1H
+  level: 30
+- name: Redshore Reaver
+  slot: 1H
+  level: 30
+- name: Redshore Stag Helm
+  slot: Head
+  level: 30
+- name: Petrified Bark Shield
+  slot: Shield
+  level: 30
+- name: Cabal Manslayer Sword
+  slot: 1H
+  level: 30
+- name: Patrolman's Belt
+  slot: Waist
+  level: 25
+- name: Arid Bone Necklace
+  slot: Necklace
+  level: 33
+- name: Rockmender Hammer
+  slot: 1H
+  level: 36
+- name: Lost Miner's Pick
+  slot: Tool
+  level: 25
+- name: Salt Cured Leather Cuirass
+  slot: Cuirass
+  level: 30
+- name: Cabal Guardian Sword
+  slot: 1H
+  level: 30
+- name: Steady Buckler
+  slot: Shield
+  level: 36
+- name: Scale of the Mantor
+  slot: Shield
+  level: 33
+- name: Hauberk of Dissent
+  slot: Chest
+  level: 36
+- name: Greenscale Faulds
+  slot: Faulds
+  level: 33
+- name: Clay Mask
+  slot: Head
+  level: 25
+- name: Bareskin Tunic
+  slot: Chest
+  level: 25
+- name: Scale Mesh Mask
+  slot: Head
+  level: 25
+- name: Stark Greatsword
+  slot: 2H
+  level: 25
+- name: Grimstone Pauldron
+  slot: Pauldron
+  level: 30
+- name: Mole Bear Greaves
+  slot: Greaves
+  level: 25
+- name: Freehold Patrol Torch
+  slot: Light
+  level: 36
+- name: Freehold Steel Hauberk
+  slot: Chest
+  level: 36
+- name: Smooth Silk Belt
+  slot: Waist
+  level: 33
+- name: Drywood Buckler
+  slot: Shield
+  level: 30
+- name: Tracker Short Bow
+  slot: Ranged
+  level: 15
+- name: Motivator
+  slot: 2H
+  level: 20
+- name: Quickfingered Gloves
+  slot: Hands
+  level: 25
+- name: Jagged Tooth Earring
+  slot: Earring
+  level: 36
+- name: Proud Stag's Leggings
+  slot: Legs
+  level: 1
+- name: Soren's Faulds
+  slot: Faulds
+  level: 1
+- name: Blackened Iron Faulds
+  slot: Faulds
+  level: 15
+- name: Shredded Trousers
+  slot: Legs
+  level: 35
+- name: Bristled Leggings
+  slot: Legs
+  level: 10
+- name: Relic Hunter's Chitin Faulds
+  slot: Faulds
+  level: 25
+- name: Relic Hunter's Leather Leggings
+  slot: Faulds
+  level: 25
+- name: Relic Hunter's Scale Faulds
+  slot: Faulds
+  level: 25
+- name: Blackhead Dagger
+  slot: 1H
+  level: 10
+- name: Ring of Tumbling
+  slot: Ring
+  level: 1
+- name: Scruffy Leggings
+  slot: Legs
+  level: 1
+- name: Antique Tin Cuirass
+  slot: Cuirass
+  level: 10
+- name: Sawtooth Dagger
+  slot: 1H
+  level: 20
+- name: Greatsword of the Depths
+  slot: 2H
+  level: 15
+- name: Queen's White Gloves
+  slot: Hands
+  level: 10
+- name: Soaked Wood Shield
+  slot: Shield
+  level: 15
+- name: Vivid Battle Banner
+  slot: Offhand
+  level: 20
+- name: Chaos Hatchet
+  slot: 1H
+  level: 25
+- name: Manslayer Great Sword
+  slot: 2H
+  level: 25
+- name: Seething Necklace
+  slot: Necklace
+  level: 25
+- name: Partially Digested Necklace
+  slot: Necklace
+  level: 10
+- name: Sapping Belt
+  slot: Waist
+  level: 25
+- name: Poppy Pummeler
+  slot: 1H
+  level: 10
+- name: Greenscale Boots
+  slot: Feet
+  level: 30
+- name: Lookout's Faulds
+  slot: Faulds
+  level: 25
+- name: Kerrigan's Pauldron
+  slot: Pauldron
+  level: 20
+- name: Desert Shell Earring
+  slot: Earring
+  level: 33
+- name: Salt Cured Leather Bracer
+  slot: Vambrace
+  level: 30
+- name: Golden Raven Earring
+  slot: Earring
+  level: 25
+- name: Ambling Bark
+  slot: Shield
+  level: 30
+- name: Salt Cured Leather Faulds
+  slot: Faulds
+  level: 30
+- name: Chopper
+  slot: 2H
+  level: 25
+- name: Scoundrel Gloves
+  slot: Hands
+  level: 25
+- name: Cliffwalkers Full Iron Helm
+  slot: Head
+  level: 30
+- name: Glowing Orange Stud Earring
+  slot: Earring
+  level: 10
+- name: Hoggit's Greaves
+  slot: Greaves
+  level: 10
+- name: Yosef's Mask
+  slot: Head
+  level: 1
+- name: Hoggit's Bracer
+  slot: Vambrace
+  level: 10
+- name: Silk Lined Chitin Faulds
+  slot: Faulds
+  level: 10
+- name: Dark Wolf Vambrace
+  slot: Vambrace
+  level: 10
+- name: Stolen Emerald Necklace
+  slot: Necklace
+  level: 30
+- name: Wild Wolf Greaves
+  slot: Greaves
+  level: 40
+- name: Wild Wolf Cuirass
+  slot: Cuirass
+  level: 40
+- name: Wild Wolf Leather Bracer
+  slot: Vambrace
+  level: 40
+- name: Wild Wolf Leather Helm
+  slot: Head
+  level: 40
+- name: Fanatic's Banner
+  slot: Offhand
+  level: 36
+- name: Dry Wolfskin Tunic
+  slot: Chest
+  level: 20
+- name: Wolfsbane Greaves
+  slot: Greaves
+  level: 10
+- name: Hoggit's Helm
+  slot: Head
+  level: 10
+- name: Polished Scale Cuirass
+  slot: Cuirass
+  level: 10
+- name: Shining Machete
+  slot: 1H
+  level: 25

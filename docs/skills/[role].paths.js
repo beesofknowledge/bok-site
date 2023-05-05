@@ -4,7 +4,7 @@ import slugify from 'slugify'
 
 export default {
   paths() {
-    const file = 'docs/.vitepress/data/skills.yaml'
+    const file = 'docs/.vitepress/data/skills.yml'
     const roles = parse(fs.readFileSync(file, 'utf-8'))
 
     return roles.map((role) => {

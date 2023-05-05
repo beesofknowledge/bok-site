@@ -1,0 +1,15 @@
+{
+    "vscode-yaml-sort.customSortKeywords_1": [
+        "name",
+        "slot",
+        "level",
+        "starting zone",
+        "quest npc",
+        "reward level",
+        "rewards",
+        "notes",
+        "skills"
+    ],
+    "vscode-yaml-sort.sortArrays": true,
+    "vscode-yaml-sort.useCustomSortRecursively": true
+}

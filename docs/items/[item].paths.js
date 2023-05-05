@@ -2,7 +2,7 @@ import fs from 'node:fs'
 import { parse } from 'yaml'
 import slugify from 'slugify'
 
-const file = 'docs/.vitepress/data/items.yaml'
+const file = 'docs/.vitepress/data/items.yml'
 
 export default {
   paths() {

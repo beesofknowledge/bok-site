@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import { parse } from 'yaml'
 
-const file = 'docs/.vitepress/data/items.yaml'
+const file = 'docs/.vitepress/data/items.yml'
 
 export default {
   watch: [file],
