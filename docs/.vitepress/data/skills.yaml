@@ -1,121 +1,130 @@
 ---
-  - name: Berserker
+-
+    name: Berserker
     skills:
-      Assault: 6
-      Arc: 8
-      Fury: 10
-      Intimidate: 12
-      Follow Through: 14
-      Pummel: 18
-      Guts: 22
-      Windup: 26
-      Wild Strikes: 30
-      Chaotic Strikes: 34
-      Eye of the Storm: 38
-      Second Wind: 42
-  - name: Brigand
+        Assault: 6
+        Arc: 8
+        Fury: 10
+        Intimidate: 12
+        'Follow Through': 14
+        Pummel: 18
+        Guts: 22
+        Windup: 26
+        'Wild Strikes': 30
+        'Chaotic Strikes': 34
+        'Eye of the Storm': 38
+        'Second Wind': 42
+-
+    name: Brigand
     skills:
-      Stun: 6
-      Hidden Strike: 8
-      Overpower: 10
-      Abet: 14
-      Daze: 18
-      Flash Powder: 22
-      Execute: 26
-      From the Shadows: 30
-      Ruse: 34
-      Mark: 38
-      Stagger: 42
-  - name: Duelist
+        Stun: 6
+        'Hidden Strike': 8
+        Overpower: 10
+        Abet: 14
+        Daze: 18
+        'Flash Powder': 22
+        Execute: 26
+        'From the Shadows': 30
+        Ruse: 34
+        Mark: 38
+        Stagger: 42
+-
+    name: Duelist
     skills:
-      Patch: 6
-      Combined Strike: 8
-      Disengage: 10
-      Weak Point: 14
-      Serration: 18
-      Triage: 22
-      Flourish: 34
-      Hemorrhaging Strike: 26
-      Stim: 30
-      Upper Hand: 38
-      Amputate: 42
-  - name: Juggernaut
+        Patch: 6
+        'Combined Strike': 8
+        Disengage: 10
+        'Weak Point': 14
+        Serration: 18
+        Triage: 22
+        Flourish: 34
+        'Hemorrhaging Strike': 26
+        Stim: 30
+        'Upper Hand': 38
+        Amputate: 42
+-
+    name: Juggernaut
     skills:
-      Breach: 6
-      Roar: 8
-      No Time To Die: 10
-      Collateral Damage: 14
-      Unstoppable: 18
-      Perforate: 22
-      Brace: 26
-      Rip: 30
-      Smash: 34
-      Stomp: 38
-      Revenge: 42
-  - name: Knight
+        Breach: 6
+        Roar: 8
+        'No Time To Die': 10
+        'Collateral Damage': 14
+        Unstoppable: 18
+        Perforate: 22
+        Brace: 26
+        Rip: 30
+        Smash: 34
+        Stomp: 38
+        Revenge: 42
+-
+    name: Knight
     skills:
-      Enraging Strike: 6
-      Protect: 8
-      Counter: 10
-      Bash: 14
-      Inspire: 18
-      Crushing Blow: 22
-      Bulwark: 26
-      Inner Fire: 30
-      Precision Strike: 34
-      Duel: 38
-      Balanced Strike: 42
-  - name: Marshal
+        'Enraging Strike': 6
+        Protect: 8
+        Counter: 10
+        Bash: 14
+        Inspire: 18
+        'Crushing Blow': 22
+        Bulwark: 26
+        'Inner Fire': 30
+        'Precision Strike': 34
+        Duel: 38
+        'Balanced Strike': 42
+-
+    name: Marshal
     skills:
-      Halt: 6
-      Pressure: 8
-      Pursuit: 10
-      Sweep: 14
-      Parry: 18
-      Quick Strike: 22
-      Ready: 26
-      Draw Fire: 30
-      End Around: 34
-      First Strike: 42
-  - name: Sentinel
+        Halt: 6
+        Pressure: 8
+        Pursuit: 10
+        Sweep: 14
+        Parry: 18
+        'Quick Strike': 22
+        Ready: 26
+        'Draw Fire': 30
+        'End Around': 34
+        'First Strike': 42
+-
+    name: Sentinel
     skills:
-      Replenish: 6
-      Distracting Strike: 8
-      Bolster Armor: 10
-      Weaken: 14
-      Fortifying Aura: 18
-      Salvo: 22
-      Diversion: 26
-      Treatment: 30
-      Prepare: 34
-      Resuscitate: 38
-      Counter Offensive: 42
-  - name: Warden
+        Replenish: 6
+        'Distracting Strike': 8
+        'Bolster Armor': 10
+        Weaken: 14
+        'Fortifying Aura': 18
+        Salvo: 22
+        Diversion: 26
+        Treatment: 30
+        Prepare: 34
+        Resuscitate: 38
+        'Counter Offensive': 42
+-
+    name: Warden
     skills:
-      Venom Strike: 6
-      Assist: 8
-      Aid: 10
-      Sedation Dart: 12
-      Lay of the Land: 14
-      Acid Strike: 18
-      Eagle Eye: 22
-      Viperid Toxins: 26
-      Quillback Spines: 30
-      Rockhide: 34
-      Lingering Strikes: 38
-      Venom Shock: 42
-  - name: Warlord
+        'Venom Strike': 6
+        Assist: 8
+        Aid: 10
+        'Sedation Dart': 12
+        'Lay of the Land': 14
+        'Acid Strike': 18
+        'Eagle Eye': 22
+        'Viperid Toxins': 26
+        'Quillback Spines': 30
+        Rockhide: 34
+        'Lingering Strikes': 38
+        'Venom Shock': 42
+-
+    name: Warlord
     skills:
-      Open Wound: 6
-      Rejuvenating Hymn: 6
-      Energizing Battle Chant: 8
-      Terrors of War: 10
-      Stifle: 14
-      Dread Bellow: 16
-      Focusing Battle Chant: 18
-      Flinching Strike: 22
-      Rallying Call: 26
-      Frightful Visage: 30
-      Death's Door: 34
-      Despair: 38
-      Renewing Resonance: 42
+        'Open Wound': 6
+        'Rejuvenating Hymn': 6
+        'Energizing Battle Chant': 8
+        'Terrors of War': 10
+        Stifle: 14
+        'Dread Bellow': 16
+        'Focusing Battle Chant': 18
+        'Flinching Strike': 22
+        'Rallying Call': 26
+        'Frightful Visage': 30
+        'Death''s Door': 34
+        Despair: 38
+        'Renewing Resonance': 42

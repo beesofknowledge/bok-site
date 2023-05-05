@@ -1,75 +1,73 @@
 ---
-  - name: Eye in the Sky
-    starting zone: Northreach
-    quest npc: Ulric
-    reward level: 20
+-
+    name: 'Eye in the Sky'
+    'starting zone': Northreach
+    'quest npc': Ulric
+    'reward level': 20
     rewards:
-      - Earring of Ello
-      - Necklace of Adr
-      - Ring of Morro
-    notes: |
-      This quest starts with Ulric in Ravenrock and then continues in Dryfoot and Dryfoot Stronghold.
-  - name: The Circle Expedition
-    starting zone: Dryfoot
-    quest npc: Tabetha
-    reward level: 20
+        - 'Earring of Ello'
+        - 'Necklace of Adr'
+        - 'Ring of Morro'
+    notes: "This quest starts with Ulric in Ravenrock and then continues in Dryfoot and Dryfoot Stronghold.\n"
+-
+    name: 'The Circle Expedition'
+    'starting zone': Dryfoot
+    'quest npc': Tabetha
+    'reward level': 20
     rewards:
-      - Breastplate of the Circle
-      - Plate Faulds of the Circle
-      - Plate Greaves of the Circle
-      - Plate Bracers of the Circle
-      - Circle's Fine Leather Cuirass
-      - Leather Circle's Faulds
-      - Leather Greaves of the Circle
-      - Leather Vambrace of the Circle
-      - Battle Banner of the Circle
-      - Buckler of the Circle
-      - Knuckles of the Circle
-      - Spear of the Circle
-      - Quarterstaff of the Circle
-      - Long Sword of the Circle
-    notes: |
-      This quest starts with Tabetha in Sheercrook near the monolith in Dryfoot.
-  - name: The Hunt
-    starting zone: Northreach
-    quest npc: Anders
-    reward level: 20
+        - 'Breastplate of the Circle'
+        - 'Plate Faulds of the Circle'
+        - 'Plate Greaves of the Circle'
+        - 'Plate Bracers of the Circle'
+        - 'Circle''s Fine Leather Cuirass'
+        - 'Leather Circle''s Faulds'
+        - 'Leather Greaves of the Circle'
+        - 'Leather Vambrace of the Circle'
+        - 'Battle Banner of the Circle'
+        - 'Buckler of the Circle'
+        - 'Knuckles of the Circle'
+        - 'Spear of the Circle'
+        - 'Quarterstaff of the Circle'
+        - 'Long Sword of the Circle'
+    notes: "This quest starts with Tabetha in Sheercrook near the monolith in Dryfoot.\n"
+-
+    name: 'The Hunt'
+    'starting zone': Northreach
+    'quest npc': Anders
+    'reward level': 20
     rewards:
-      - Expert Hunter's Gloves
-      - Game Seeker's Leggings
-      - Ranger's Tracking Boots
-    notes: |
-      This quest starts with ranger Anders on the hill in Northreach.
-  - name: Runty's Revenge
-    starting zone: Dryfoot
-    quest npc: Runty
-    reward level: 20
+        - 'Expert Hunter''s Gloves'
+        - 'Game Seeker''s Leggings'
+        - 'Ranger''s Tracking Boots'
+    notes: "This quest starts with ranger Anders on the hill in Northreach.\n"
+-
+    name: 'Runty''s Revenge'
+    'starting zone': Dryfoot
+    'quest npc': Runty
+    'reward level': 20
     rewards:
-      - Traitor's Boots
-      - Traitor's Tunic
-    notes: |
-      Runty is on the south edge of Dryfoot between the eastern entrance to Dryfoot Stronghold and a Marauder camp.
-      The quest also increases your Ember Stone capacity by 50.
-  - name: Shoring Up Redshore
-    starting zone: Redshore
-    quest npc:
-    reward level: 30
+        - 'Traitor''s Boots'
+        - 'Traitor''s Tunic'
+    notes: "Runty is on the south edge of Dryfoot between the eastern entrance to Dryfoot Stronghold and a Marauder camp.\nThe quest also increases your Ember Stone capacity by 50.\n"
+-
+    name: 'Shoring Up Redshore'
+    'starting zone': Redshore
+    'quest npc': null
+    'reward level': 30
     rewards:
-      - Twill's Lost Standard
-      - Petrified Bone Gauntlets
-      - Redshore Reaver
-      - Redshore Stag Helm
-      - Petrified Bark Shield
-    notes: |
-      This quest starts at the camp in Redshore next to the Dryfoot zone.
-  - name: Under the Branches of History
-    starting zone: Redshore
-    quest npc:
-    reward level: 25
+        - 'Twill''s Lost Standard'
+        - 'Petrified Bone Gauntlets'
+        - 'Redshore Reaver'
+        - 'Redshore Stag Helm'
+        - 'Petrified Bark Shield'
+    notes: "This quest starts at the camp in Redshore next to the Dryfoot zone.\n"
+-
+    name: 'Under the Branches of History'
+    'starting zone': Redshore
+    'quest npc': null
+    'reward level': 25
     rewards:
-      - Relic Hunter's Chitin Faulds
-      - Relic Hunter's Leather Leggings
-      - Relic Hunter's Scale Faulds
-    notes: |
-      This quest starts with a tablet dropped by exiles in Redshore.
-  
+        - 'Relic Hunter''s Chitin Faulds'
+        - 'Relic Hunter''s Leather Leggings'
+        - 'Relic Hunter''s Scale Faulds'
+    notes: 'This quest starts with a tablet dropped by exiles in Redshore.'
