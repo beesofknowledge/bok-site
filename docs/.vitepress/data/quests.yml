@@ -133,3 +133,10 @@
     - Glinting Ring Necklace
   notes: |
     The quest starts with the Grimstone Renegage not far from the Grimstone monolith.
+- name: The Fight for the Freehold
+  zone: Redshore
+  npc: Mallic Twill
+  level: 38?
+  rewards:
+    -
+  notes: You must first complete Shoring up Redshore to be offered this quest.

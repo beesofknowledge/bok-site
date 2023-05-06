@@ -3,5 +3,7 @@ title: Add Content
 ---
 # {{ $frontmatter.title }}
 
-If you wish to contribute an unlisted item or quest or faq, or if you would like to write a guide, please send the picture or text to beesofknowledge@gmail.com.
+There is a discord at [Bees of Knowledge Discord](https://discord.gg/a3csQYuTeC) where you can upload screenshots and submit new items, quests or faqs.
+
+You can submit a text file with a guide to the discord or send by email to beesofknowledge@gmail.com.
 

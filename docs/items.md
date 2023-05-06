@@ -26,7 +26,7 @@ title: Items
 <hr />
 
 <dataset v-slot="{ ds }" :ds-data="slugged">
-  <div class="search-controls" :data-page-count="ds.dsPagecount">
+  <div class="searchControls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
       <dataset-search ds-search-placeholder="Search..." />
     </div>
@@ -42,8 +42,8 @@ title: Items
 
   <dataset-item>
     <template v-slot="{ row, rowIndex }">
-      <div class="item-rows">
-        <div class="item-row vp-code-group">
+      <div class="itemRows">
+        <div class="itemRow vp-code-group">
           <div>
             <a :href="'/items/' + row.slug" >{{ row.name }}</a>
           </div>
@@ -63,12 +63,12 @@ title: Items
 
 <style>
 
-  .item-rows {
+  .itemRows {
     display: inline-grid;
     grid-auto-flow: column;
   }
 
-  .item-row {
+  .itemRow {
     background-color: var(--vp-c-bg-soft);
     padding: 16px;
     margin: 16px 16px 0 0;
@@ -76,7 +76,7 @@ title: Items
     width: 18rem;
   }
 
-  .search-controls {
+  .searchControls {
     display: flex;
     flex-wrap: wrap;
   }
@@ -91,7 +91,7 @@ title: Items
     margin: 0 25px 16px 0;
   }
 
-  .search-controls .pagination {
+  .searchControls .pagination {
     display: flex;
     list-style: none;
     border-radius: .25rem;
@@ -143,7 +143,7 @@ title: Items
     border-left-color: transparent;
 }
 
-  .search-controls .form-control {
+  .searchControls .form-control {
     font-size: 16px;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
@@ -156,7 +156,7 @@ title: Items
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
   
-  .search-controls ::placeholder {
+  .searchControls ::placeholder {
     color: var(--vp-c-text-2);
     opacity: 1;
     font-family: var(--vp-font-family-base);
