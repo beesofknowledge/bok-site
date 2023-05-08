@@ -32,3 +32,14 @@ The rings used in this chart are made with level 30 Solid Flux, level 30 gold an
 | casserite/copper |5|2|1|3|2||3|4|1
 | casserite/zink |2|2|1|3||2|5|5|1
 | casserite/iron
+
+<style>
+  table {
+    position: relative;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+  }
+</style>
