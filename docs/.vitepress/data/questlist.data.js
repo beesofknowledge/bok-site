@@ -9,8 +9,8 @@ export default {
     const data = parse(fs.readFileSync(file, 'utf-8'))
 
     data.sort(function(a, b) {
-      const nameA = a.name.toUpperCase()
-      const nameB = b.name.toUpperCase()
+      const nameA = a.level
+      const nameB = b.level
       if (nameA > nameB) {
         return 1
       }

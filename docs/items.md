@@ -25,7 +25,7 @@ title: Items
 <h1>{{ $frontmatter.title }}</h1>
 
 <dataset v-slot="{ ds }" :ds-data="slugged">
-  <div class="searchControls" :data-page-count="ds.dsPagecount">
+  <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
       <dataset-search ds-search-placeholder="Search..." />
     </div>
@@ -41,8 +41,8 @@ title: Items
 
   <dataset-item>
     <template v-slot="{ row, rowIndex }">
-      <div class="itemRows">
-        <div class="itemRow vp-code-group">
+      <div class="card-container">
+        <div class="card vp-code-group">
           <div>
             <a :href="'/items/' + row.slug" >{{ row.name }}</a>
           </div>
@@ -59,111 +59,5 @@ title: Items
   </dataset-item>
 
 </dataset>
-
-<style>
-
-  .itemRows {
-    display: inline-grid;
-    grid-auto-flow: column;
-  }
-
-  .itemRow {
-    background-color: var(--vp-c-bg-soft);
-    padding: 16px;
-    margin: 16px 16px 0 0;
-    border-radius: 8px;
-    width: 18rem;
-  }
-
-  .searchControls {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .dataset-info {
-    margin-bottom: 32px;  
-  }
-
-  .dataset-show,
-  .dataset-search,
-  .dataset-pager{
-    margin: 0 25px 16px 0;
-  }
-
-  .searchControls .pagination {
-    display: flex;
-    list-style: none;
-    border-radius: .25rem;
-    padding-left: 0;
-    margin: 0;
-  }
-  
-  .pagination li + li {
-    margin: 0;
-  }
-  
-  .page-item.disabled .page-link {
-    color: gray;
-    pointer-events: none;
-    cursor: auto;
-    background-color: var(--vp-c-bg-alt);
-    border-color: transparent;
-  }
-  .page-item:first-child .page-link {
-    margin-left: 0;
-    border-top-left-radius: .25rem;
-    border-bottom-left-radius: .25rem;
-    border-right: 0;
-  }
-  .page-item:last-child .page-link {
-    margin-left: 0;
-    border-top-right-radius: .25rem;
-    border-bottom-right-radius: .25rem;
-    border-left: 0;
-  }
-  .page-item.active .page-link {
-  z-index: 3;
-  color: var(--vp-c-text-1);
-  background-color: var(--vp-c-brand);
-  border-color: transparent;
-  }
-  .page-link {
-    position: relative;
-    display: block;
-    padding: .5rem .75rem;
-    margin-left: -1px;
-    line-height: 1.25;
-    color: #3eaf7c;
-    background-color: var(--vp-c-bg-alt);
-    border: 1px solid transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
-}
-
-  .searchControls .form-control {
-    font-size: 16px;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    color: var(--vp-c-text-2);
-    background-color: var(--vp-c-bg-alt);
-    background-clip: padding-box;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    padding: 0 10px 0 12px;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
-  }
-  
-  .searchControls ::placeholder {
-    color: var(--vp-c-text-2);
-    opacity: 1;
-    font-family: var(--vp-font-family-base);
-  }
-  
-  .dataset-show .form-control {
-    margin: 0 6px 0 6px;
-  }
- 
-</style>
+<!-- <pre>{{ data }}</pre> -->
 
