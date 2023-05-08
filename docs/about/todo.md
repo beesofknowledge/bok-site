@@ -26,6 +26,6 @@ title: Todo
 - [ ] clean up bootstrap pagination css
 - [ ] add slug in data.js files?
 - [ ] add slot and level filters to items page and sort by
-- [ ] sort items in data.js and remove the quotes
-- [ ] find duplicate items
-- [ ] css line under h1 and max width
+- [x] sort items in data.js and remove the quotes
+- [x] find duplicate items
+- [x] css line under h1 and max width
