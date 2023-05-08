@@ -23,7 +23,6 @@ title: Items
 </script>
 
 <h1>{{ $frontmatter.title }}</h1>
-<hr />
 
 <dataset v-slot="{ ds }" :ds-data="slugged">
   <div class="searchControls" :data-page-count="ds.dsPagecount">

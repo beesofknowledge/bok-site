@@ -23,10 +23,21 @@ html.dark .bok-text-2 {
   color: var(--vp-c-text-dark-2);
 }
 
-.search-text {
-  letter-spacing: 0;
-}
+/* .search-text { */
+/*   letter-spacing: 0; */
+/* } */
 
 .content-container {
   margin: 0 !important;
+}
+
+p {
+  max-width: 685px;
+}
+
+h1 + p,
+h1 + div {
+  margin: 48px 0 16px !important;
+  border-top: 1px solid var(--vp-c-divider);
+  padding-top: 24px;
 }

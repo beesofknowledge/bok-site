@@ -8,7 +8,6 @@ title: Quests
 </script>
 
 <h1>{{ $frontmatter.title }}</h1>
-<hr />
 
 <div v-for="(item) in data" >
   <QuestListCard :quest="item" />
