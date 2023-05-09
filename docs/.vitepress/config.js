@@ -27,8 +27,12 @@ export default {
   vite: {
     ssr: {
       // Add npm packages containing invalid code here
-      noExternal: ['vue-dataset']
-    }
+      noExternal: ['vue-dataset'],
+ //     format: ['esm']
+    },
+ //   build: {
+ //     target: ['es2020']
+ //   },
   },
   themeConfig: {
     aside: false,
