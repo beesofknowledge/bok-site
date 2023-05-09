@@ -104,7 +104,7 @@
     This starts with a dropped item from exiles in Dryfoot Stronghold or Dryfoot.
 - name: The Pie Rat
   zone: Newhaven Valley
-  npc: [In Newhaven City]
+  npc: In Newhaven City
   level: 1
   rewards:
     - Chewed Oven Mitts
@@ -115,7 +115,7 @@
     The quest starts with an item dropped by The Pie Rat in Newhaven Valley.
 - name: Threat of Grimstone
   zone: Dryfoot
-  npc: [fire near GC]
+  npc: fire near GC
   level: 33
   rewards:
     - Cliffwalker's Long Bow
