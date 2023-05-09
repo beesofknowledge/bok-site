@@ -2,9 +2,6 @@
 ---
 <script setup>
   import ImageLink from '../.vitepress/components/ImageLink.vue'
-//import { useData } from 'vitepress'
-
-//const { page } = useData()
 </script>
 
 <h1>{{ $params.name }}</h1>
@@ -26,7 +23,4 @@
     </template>
 
 <!-- <pre>{{ $params }}</pre> -->
-<!-- <pre>{{ page }}</pre> -->
 
-<style>
-</style>
