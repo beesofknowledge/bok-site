@@ -3,7 +3,6 @@ title: Quests
 ---
 
 <script setup>
-  import slugify from 'slugify'
   import { 
     Dataset,
     DatasetItem,
@@ -14,19 +13,11 @@ title: Quests
   } from 'vue-dataset'
 
   import { data } from '.vitepress/data/questlist.data.js'
-
-  const slugged = data.map(item => ({
-    ...item,
-    slug: slugify(item.name, {
-        lower: true,
-        remove: /[*+~.()'"!:@]/g
-    })
-  }))
 </script>
 
 <h1>{{ $frontmatter.title }}</h1>
 
-<dataset v-slot="{ ds }" :ds-data="slugged">
+<dataset v-slot="{ ds }" :ds-data="data">
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
       <dataset-search ds-search-placeholder="Search..." />
@@ -60,5 +51,6 @@ title: Quests
   </dataset-item>
 
 </dataset>
+
 <!-- <pre>{{ data }}</pre> -->
 

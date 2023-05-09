@@ -1,12 +1,13 @@
 import fs from 'node:fs'
 import { parse } from 'yaml'
+import slugify from 'slugify'
 
 const file = 'docs/.vitepress/data/quests.yml'
 
 export default {
   watch: [file],
   load(watchedFiles) {
-    const data = parse(fs.readFileSync(file, 'utf-8'))
+    let data = parse(fs.readFileSync(file, 'utf-8'))
 
     data.sort(function(a, b) {
       const nameA = a.level
@@ -19,6 +20,14 @@ export default {
       }
       return 0
     });
+
+    data = data.map(item => ({
+      ...item,
+      slug: slugify(item.name, {
+          lower: true,
+          remove: /[*+~.()'"!:@]/g
+      })
+    }))
 
     return data
   }
