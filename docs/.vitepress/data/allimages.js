@@ -1,5 +1,7 @@
-
-const imageFiles = import.meta.glob('../../img/**/*.png', { as: 'url', eager: true })
+const imageFiles = import.meta.glob("../../img/**/*.png", {
+  as: "url",
+  eager: true
+})
 
 export default imageFiles
 
