@@ -27,12 +27,17 @@ export default {
   vite: {
     ssr: {
       noExternal: ['vue-dataset'],
- //      format: 'esm',
- //      target: 'webworker'
+//      format: 'esm',
+//      target: 'node'
     },
- //   build: {
- //     target: ['es2020']
- //   },
+//    build: {
+//      target: ['es2020'],
+//      rollupOptions: {
+//      output: {
+//          format: 'es'
+//        }
+//      }
+//    },
   },
   themeConfig: {
     aside: false,

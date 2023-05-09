@@ -1,8 +1,6 @@
 <script setup>
   import slugify from 'slugify'
-  import allImages from '../data/allimages.js'
-
-  // console.log(allImages)
+  import data from '../data/allimages.js'
 
   const props = defineProps({
     path: String,
@@ -17,7 +15,7 @@
 
   const image = '../../img/' + props.path + slug + '.png'
 
-  const imageUrl = allImages[image]
+  const imageUrl = data[image]
 </script>
 
 <template>
