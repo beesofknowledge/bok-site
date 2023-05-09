@@ -905,4 +905,129 @@
 - name: Ambling Mitts
   slot: Hands
   level: 30
-  
+- name: Zirconium Defender
+  slot: Shield
+  level: 36
+- name: Keg Tapping Mallet
+  slot: 1H
+  level: 15
+- name: Decorated Pauldron
+  slot: Pauldron
+  level: 36
+- name: Belt of the Cabal
+  slot: Waist
+  level: 30
+- name: Heirloom Iron Faulds
+  slot: Faulds
+  level: 30
+- name: Vibrant Redshore Banner
+  slot: Offhand
+  level: 25
+- name: Rock Crusher
+  slot: 2H
+  level: 20
+- name: Gatorskin Buckler
+  slot: Shield
+  level: 10
+- name: Ratstaff
+  slot: 2H
+  level: 15
+- name: Barebow
+  slot: Ranged
+  level: 25
+- name: Sauce Stained Shirt
+  slot: Chest
+  level: 36
+- name: Thick Beast Bracer
+  slot: Vambrace
+  level: 20
+- name: Massive Bear Bone Mace
+  slot: 1H
+  level: 30
+- name: Strider's Helm
+  slot: Head
+  level: 10
+- name: Brookhollow Knuckles
+  slot: 1H
+  level: 20
+- name: Shin Bane
+  slot: Greaves
+  level: 25
+- name: Darkwater Scale Faulds
+  slot: Faulds
+  level: 25
+- name: Quillspear Repeater
+  slot: Ranged
+  level: 10
+- name: Piercing Quills
+  slot: Ammo
+  level: 5
+- name: Twill's Spare Boots
+  slot: Feet
+  level: 38
+- name: Rain Stick
+  slot: 2H
+  level: 20
+- name: Thicket Necklace
+  slot: Necklace
+  level: 25
+- name: Bootlegger's Leggings
+  slot: Legs
+  level: 1
+- name: Cuirass of Gawain
+  slot: Cuirass
+  level: 1
+- name: Still Chitin Mask
+  slot: Head
+  level: 25
+- name: Yosef's Hatchet
+  slot: 1H
+  level: 5
+- name: Courier's Rapier
+  slot: 2H
+  level: 15
+- name: Flattened Metal Kite Shield
+  slot: Shield
+  level: 36
+- name: Archer's Gloves
+  slot: Hands
+  level: 5
+- name: Turnip Head
+  slot: Head
+  level: 1
+- name: Boots of the Awakened
+  slot: Feet
+  level: 25
+- name: Fine Freehold Patrol Torch
+  slot: Light
+  level: 40
+- name: Thread Bare Gloves
+  slot: Hands
+  level: 15
+- name: Fiery Chitin Boots
+  slot: Feet
+  level: 10
+- name: Darkwater Scale Greaves
+  slot: Greaves
+  level: 25
+- name: Signet Ring
+  slot: Ring
+  level: 25
+- name: Scout's Leather Helm
+  slot: Head
+  level: 25
+- name: Smith's Gilded Hammer
+  slot: 1H
+  level: 25
+- name: Dark Wolf Cuirass
+  slot: Cuirass
+  level: 10
+- name: King's Protector
+  slot: Shield
+  level: 25
+- name: Queen's Mallet
+  slot: 2H
+  level: 10
+- name: Thumper Ring
+  slot: Ring
+  level: 36
