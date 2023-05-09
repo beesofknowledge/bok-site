@@ -26,9 +26,9 @@ export default {
   ],
   vite: {
     ssr: {
-      // Add npm packages containing invalid code here
       noExternal: ['vue-dataset'],
- //     format: ['esm']
+ //      format: 'esm',
+ //      target: 'webworker'
     },
  //   build: {
  //     target: ['es2020']
