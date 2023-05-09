@@ -3,5 +3,7 @@ const imageFiles = import.meta.glob("../../img/**/*.png", {
   eager: true
 })
 
+// console.log(imageFiles)
+
 export default imageFiles
 

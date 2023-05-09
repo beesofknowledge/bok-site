@@ -2,6 +2,8 @@
   import slugify from 'slugify'
   import allImages from '../data/allimages.js'
 
+  // console.log(allImages)
+
   const props = defineProps({
     path: String,
     name: String,
