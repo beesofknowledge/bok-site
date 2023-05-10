@@ -20,6 +20,6 @@
 
 <template>
   <p>
-    <img :src="`${imageUrl}`" :alt="props.alt" >
+    <img :src="imageUrl" :alt="props.alt" >
   </p>
 </template>
