@@ -1,6 +1,5 @@
 <script setup>
   import slugify from 'slugify'
-  import data from '../data/allimages.js'
 
   const props = defineProps({
     path: String,
@@ -13,13 +12,12 @@
     remove: /[*+~.()'"!:@]/g
   })
 
-  const image = '../../img/' + props.path + slug + '.png'
-
-  const imageUrl = data[image]
+  const { default: img } = await import(`../../img/${props.path}/${slug}.png`)
 </script>
 
 <template>
   <p>
-    <img :src="imageUrl" :alt="props.alt" >
+    <img :src="img" :alt="props.alt" >
   </p>
 </template>
+

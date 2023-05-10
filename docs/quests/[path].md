@@ -18,9 +18,9 @@
   <h4>Rewards</h4>
     <template v-for="(value) in $params.rewards">
       <div v-if="value">
-        <ImageLink path="items/" :name="value" :alt="$params.Name" />
+        <suspense>
+          <ImageLink path="items" :name="value" :alt="$params.Name" />
+        </suspense>
       </div>
     </template>
-
-<!-- <pre>{{ $params }}</pre> -->
 

@@ -14,8 +14,9 @@
     Required Level: {{ item.level }}
   </p>
 
-  <ImageLink path="items/" :name="item.name" :alt="item.name" />
+  <suspense>
+    <ImageLink path="items" :name="item.name" :alt="item.name" />
+  </suspense>
 
-  <!-- <pre>{{ item }}</pre> -->
 </template>
 

@@ -6,6 +6,3 @@
 
 <ItemCard :item="$params.data" />
 
-<!-- <pre>{{ $params.item }}</pre> -->
-<!-- <pre>{{ $params.data }}</pre> -->
-
