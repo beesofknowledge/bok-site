@@ -29,3 +29,5 @@ title: Todo
 - [x] sort items in data.js and remove the quotes
 - [x] find duplicate items
 - [x] css line under h1 and max width
+- [ ] move itemcard and questcard right into the dynamic pages
+- [ ] 
