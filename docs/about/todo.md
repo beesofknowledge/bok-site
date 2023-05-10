@@ -30,4 +30,4 @@ title: Todo
 - [x] find duplicate items
 - [x] css line under h1 and max width
 - [ ] move itemcard and questcard right into the dynamic pages
-- [ ] 
+- [ ] fix all the img expires to unlimited now that all have hashed names
