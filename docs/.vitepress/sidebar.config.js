@@ -48,6 +48,7 @@ const sidebar = [
             { text: 'Meadowlands EV Spiders', link: '/maps/meadowlands-ev-spiders' },
             { text: 'Dryfoot EV Ants', link: '/maps/dryfoot-ev-ants' },
             { text: 'Dryfoot EV Basilisks', link: '/maps/dryfoot-ev-basilisks' },
+            { text: 'Forgotten Depths', link: '/maps/forgotten-depths' },
           ],
       },
       {
