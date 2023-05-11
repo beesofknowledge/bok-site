@@ -31,3 +31,4 @@ title: Todo
 - [x] css line under h1 and max width
 - [ ] move itemcard and questcard right into the dynamic pages
 - [x] fix all the img expires to unlimited now that all have hashed names
+- [ ] hide notes and reward on quest page if there are none
