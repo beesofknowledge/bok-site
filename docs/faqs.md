@@ -78,10 +78,6 @@ You can mouse over the abbreviations to see what they are.
 - AOT - applied over time
 - PRES - partially resisted
 
-## How long are daytime and nightime?
-
-Roughly an hour each.
-
 ## What are augments?
 
 Augments are crafted consumables that add a temporary stat bonus. They are applied to your equipment. Be aware that using an augment on an item binds the item to your character and you will not be able to transfer that piece of equipment in the future.

@@ -1070,3 +1070,309 @@
 - name: Thief's Blade
   slot: 1H
   level: 1
+- name: Ancient Battle Banner
+  slot: Offhand
+  level: '5'
+- name: Ancient Bear Belt
+  slot: Waist
+  level: '5'
+- name: Ancient Bear Bone Crossbow
+  slot: Ranged
+  level: '5'
+- name: Ancient Bear Bone Mace
+  slot: 1H
+  level: '5'
+- name: Ancient Bear Bone Short Bow
+  slot: Ranged
+  level: '5'
+- name: Ancient Bear Fur Helm
+  slot: Head
+  level: '5'
+- name: Ancient Bear Fur Leggings
+  slot: Faulds
+  level: '5'
+- name: Ancient Bear Fur Vambrace
+  slot: Vambrace
+  level: '5'
+- name: Ancient Bear Ribcage
+  slot: Shield
+  level: '5'
+- name: Azure Chitin Necklace
+  slot: Necklace
+  level: '15'
+- name: Balto's Bronze Barbuta
+  slot: Head
+  level: '15'
+- name: Belt of the Dissenter
+  slot: Waist
+  level: '36'
+- name: Black Chitin Belt
+  slot: Waist
+  level: '10'
+- name: Black Chitin Earring
+  slot: Earring
+  level: '10'
+- name: Blackened Trousers
+  slot: Legs
+  level: '15'
+- name: Breezy Belt
+  slot: Waist
+  level: '25'
+- name: Brutish Beads
+  slot: Necklace
+  level: '1'
+- name: Cabal Prophet Sword
+  slot: 1H
+  level: '30'
+- name: Canyoneer's Boots
+  slot: Feet
+  level: '30'
+- name: Carrion Gloves
+  slot: Hands
+  level: '30'
+- name: Cartographer's Boots
+  slot: Feet
+  level: '5'
+- name: Chitin Shell Armor
+  slot: Cuirass
+  level: '1'
+- name: Clay Crusted Clogs
+  slot: Feet
+  level: '25'
+- name: Dark Leather Belt
+  slot: Waist
+  level: '10'
+- name: Darkstone Dagger
+  slot: 1H
+  level: '36'
+- name: Darkwater Ring
+  slot: Ring
+  level: '25'
+- name: Darkwater Spear
+  slot: 2H
+  level: '25'
+- name: Drywood Branch
+  slot: 2H
+  level: '30'
+- name: Elder Marauder Hood
+  slot: Head
+  level: '20'
+- name: Extinguished Torch
+  slot: 1H
+  level: '10'
+- name: Fallen Hero Necklace
+  slot: Necklace
+  level: '10'
+- name: Flex
+  slot: None
+  level: '1'
+- name: Frenzied Leggings
+  slot: Legs
+  level: '1'
+- name: Golden Chitinshell Shield
+  slot: Shield
+  level: '10'
+- name: Greaves of Gore
+  slot: Greaves
+  level: '38'
+- name: Greenscale Vambrace
+  slot: Vambrace
+  level: '30'
+- name: Grimstone Belt
+  slot: Waist
+  level: '30'
+- name: Guardian Spear
+  slot: 2H
+  level: '25'
+- name: Helm of Bors
+  slot: Head
+  level: '1'
+- name: Helm of the Bloodletter
+  slot: Head
+  level: '38'
+- name: Holland Crossbow
+  slot: Ranged
+  level: '20'
+- name: Insulated Trousers
+  slot: Legs
+  level: '25'
+- name: Knave's Belt
+  slot: Waist
+  level: '5'
+- name: Lover's Locket
+  slot: Necklace
+  level: '36'
+- name: Lucky Band
+  slot: Ring
+  level: '15'
+- name: Mafly Chitin Vambraces
+  slot: Vambrace
+  level: '10'
+- name: Master Hunter's Long Bow
+  slot: Ranged
+  level: '40'
+- name: Mudflinger Shield
+  slot: Shield
+  level: '25'
+- name: Neophyte Blade
+  slot: 2H
+  level: '36'
+- name: Newhaven Helm
+  slot: Head
+  level: '1'
+- name: Newhaven Hood
+  slot: Head
+  level: '1'
+- name: Newhaven Skullcap
+  slot: Head
+  level: '1'
+- name: Wrapped Nocturne Blade
+  slot: 1H
+  level: '30'
+- name: Nomad Long Bow
+  slot: Ranged
+  level: '20'
+- name: Precious Pond Pants
+  slot: Legs
+  level: '25'
+- name: Prospector's Pickaxe
+  slot: Tool
+  level: '15'
+- name: Purple Lotus Earring
+  slot: Earring
+  level: '15'
+- name: Raider's Dire Battlestaff
+  slot: 2H
+  level: '20'
+- name: Ranger's Belt
+  slot: Waist
+  level: '1'
+- name: Redshore Champion Gauntlets
+  slot: Hands
+  level: '38'
+- name: Redshore Hero's Blade
+  slot: 1H
+  level: '38'
+- name: Redshore's Revenge
+  slot: 1H
+  level: '38'
+- name: Redshore Steel Kite Shield
+  slot: Shield
+  level: '10'
+- name: Redwood Arrow
+  slot: Ammo
+  level: '25'
+- name: Renegade's Mask
+  slot: Head
+  level: '30'
+- name: Revanant's Reaver
+  slot: 2H
+  level: '38'
+- name: Rockhide Bracer
+  slot: Vambrace
+  level: '10'
+- name: Rockhide Helm
+  slot: Head
+  level: '10'
+- name: Rod of Revenge
+  slot: Offhand
+  level: '38'
+- name: Salt Cured Leather Greaves
+  slot: Greaves
+  level: '30'
+- name: Salt Cured Leather Helm
+  slot: Head
+  level: '30'
+- name: Scavanger Hatchet
+  slot: 1H
+  level: '10'
+- name: Scurry Boots
+  slot: Feet
+  level: '36'
+- name: Second Lieutenant's Hauberk
+  slot: Chest
+  level: '10'
+- name: Shadowspring Short Bow
+  slot: Ranged
+  level: '25'
+- name: Shield of the Slayer
+  slot: Shield
+  level: '38'
+- name: Shredded Leather Belt
+  slot: Waist
+  level: '35'
+- name: Silk Hood
+  slot: Head
+  level: '1'
+- name: Silkweave Hatchet
+  slot: 1H
+  level: '15'
+- name: Silver Pryknife
+  slot: 1H
+  level: '25'
+- name: Slick Warden's Tunic
+  slot: Cuirass
+  level: '10'
+- name: Slinger Gloves
+  slot: Hands
+  level: '10'
+- name: Smith's Tunic
+  slot: Chest
+  level: '10'
+- name: Smugglecraft Battle Banner
+  slot: Offhand
+  level: '5'
+- name: Smugglecraft Buckler
+  slot: Shield
+  level: '5'
+- name: Smugglecraft Great Axe
+  slot: 2H
+  level: '5'
+- name: Smuggler's Boots
+  slot: Feet
+  level: '1'
+- name: Snatchscale Hunting Stick
+  slot: 2H
+  level: '25'
+- name: Spring Redwood Short Bow
+  slot: Ranged
+  level: '25'
+- name: Steady Ring
+  slot: Ring
+  level: '25'
+- name: Still Chitin Faulds
+  slot: Faulds
+  level: '25'
+- name: Tabard of the Ranger's Guild
+  slot: Chest
+  level: '40'
+- name: Tattered Elder Shirt
+  slot: Chest
+  level: '20'
+- name: Toad Battle Mask
+  slot: Head
+  level: '10'
+- name: Traitor's Blade
+  slot: 1H
+  level: '30'
+- name: Trophy Hunter's Leggings
+  slot: Legs
+  level: '40'
+- name: Turret
+  slot: Ranged
+  level: '25'
+- name: Vambraces of Vengeance
+  slot: Vambrace
+  level: '38'
+- name: Walker Staff
+  slot: 2H
+  level: '10'
+- name: Warrior Chief Bearskin Faulds
+  slot: Faulds
+  level: '20'
+- name: Warrior Chief Bearskin Greaves
+  slot: Greaves
+  level: '20'
+- name: Zofly Short Bow
+  slot: Ranged
+  level: '10'

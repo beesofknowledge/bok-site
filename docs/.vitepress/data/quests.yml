@@ -47,6 +47,7 @@
   rewards:
     - Traitor's Boots
     - Traitor's Tunic
+    - Traitor's Mask
   notes: |
     Runty is on a hill, behind a tree, on the wall of Dryfoot between the western entrance to Dryfoot Stronghold and a Marauder camp.
     The quest also increases your Ember Stone capacity by 50.
@@ -131,6 +132,10 @@
   rewards:
     - Glinting Ring
     - Glinting Ring Necklace
+    - Renegade's Mask
+    - Traitor's Blade
+    - Grimstone Belt
+    - Canyoneer's Boots
   notes: |
     The quest starts with the Grimstone Renegade not far from the Grimstone monolith.
 - name: The Fight for the Freehold
@@ -138,5 +143,154 @@
   npc: Mallic Twill
   level: 38?
   rewards:
+    - Redshore Champion Gauntlets
+    - Rod of Revenge
+    - Vambraces of Vengeance
+    - Greaves of Gore
+    - Redshore's Revenge
+    - Revanant's Reaver
+    - Shield of the Slayer
+    - Redshore Hero's Blade
+    - Helm of the Bloodletter
+  notes: |
+    You must first complete Shoring up Redshore to be offered this quest.
+- name: A Veteran's Guidance
+  zone: Newhaven Valley
+  npc: Johan Gustav
+  level: 1
+  rewards:
+    - Drifter's Golden Band
+  notes: |
+    also Drifter's Silver Earring and Drifter's Leather Gloves
+- name: The Great Hunt
+  zone: Northreach
+  npc: Ranger Alnee
+  level: 40
+  rewards:
+    - Master Hunter's Long Bow
+    - Tabard of the Rangers Guild
+    - Trophy Hunter's Leggings
+  notes:
+- name: In the Forest of Madness
+  zone: Redshore
+  npc: Stranger
+  level: 25
+  rewards:
+    - Gloves of Mania
+    - Gloves of Delirium
+    - Gloves of Lunacy
+    - Gloves of Madness
+  notes: |
+    The Stranger only appears at night.
+- name: The Missing Apprentice
+  zone: Newhaven Valley
+  npc: Balgar Galenestor
+  level: 1
+  rewards:
+    - Newhaven Helm
+    - Newhaven Skullcap
+    - Newhaven Hood
+  notes: |
+    Balgar is at the second fire in Newhaven Valley
+- name: Patrolling Northreach
+  zone: Northreach
+  npc: Kander Sackmoore
+  level: 12
+  rewards:
     -
-  notes: You must first complete Shoring up Redshore to be offered this quest.
+  notes: |
+    Sergeant Kandar is at Ravenrock.
+- name: Missing Arms Race
+  zone: Newhaven Valley
+  npc: Voyce Kemb
+  level: 1
+  rewards:
+    - Smugglecraft Great Axe
+    - Smugglecraft Buckler
+    - Smugglecraft Battle Banner
+  notes: |
+- name: Freeing the Meadowlands
+  zone: Meadowlands
+  npc: Helmar Brackford
+  level: 20
+  rewards:
+    -
+  notes: |
+- name: Scavenging Supplies
+  zone: Meadowlands
+  npc: Dain Lavendersky
+  level: 20
+  rewards:
+    -
+  notes: |
+- name: To Make a Map
+  zone: Newhaven Valley
+  npc: Gilden "Farstrider" Talbern
+  level: 1
+  rewards:
+    - Cartographer's Boots
+  notes: |
+- name: Hallick's Tower
+  zone: Newhaven Valley
+  npc: Hallick Gurey
+  level: 5
+  rewards:
+    - Ancient Bear Bone Mace
+    - Ancient Bear Bone Short Bow
+    - Ancient Bear Bone Crossbow
+    - Ancient Battle Banner
+    - Ancient Bear Ribcage
+    - Ancient Bear Belt
+    - Ancient Bear Fur Leggings
+    - Ancient Bear Fur Vambrace
+    - Ancient Bear Fur Helm
+  notes: |
+- name: Beardin in the Woods
+  zone: Newhaven Valley
+  npc: Beardin Torgendale
+  level: 5
+  rewards:
+    - Ranger's Belt
+  notes: |
+- name: Turning Over a New Leaf... or Stone...or Pelt
+  zone: Newhaven Valley
+  npc: Darrimar
+  level: 1
+  rewards:
+    -
+  notes: |
+    The quest rewards some crafting materials.
+- name: Rhonda Knows Best
+  zone: Newhaven Valley
+  npc: Rhonda
+  level: 1
+  rewards:
+    -
+  notes: |
+    The quest rewards some healing potions.
+- name: Acolyte's Ambition
+  zone: Newhaven City
+  npc: Bella
+  level: 10
+  rewards:
+    -
+  notes: |
+- name: Raw Potential
+  zone: Meadowlands
+  npc: Archie Swish
+  level: 10
+  rewards:
+    -
+  notes: |
+    Archie requires 5 silver to give the quest. The reward is an Ember Stone.
+- name: In the Forest of Madness
+  zone: Redshore
+  npc: Stranger
+  level: 25
+  rewards:
+    - Gloves of Mania
+    - Gloves of Delirium
+    - Gloves of Lunacy
+    - Gloves of Madness
+  notes: |
+    The Stranger only appears at night.
