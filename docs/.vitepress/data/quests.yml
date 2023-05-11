@@ -283,17 +283,6 @@
     -
   notes: |
     Archie requires 5 silver to give the quest. The reward is an Ember Stone.
-- name: In the Forest of Madness
-  zone: Redshore
-  npc: Stranger
-  level: 25
-  rewards:
-    - Gloves of Mania
-    - Gloves of Delirium
-    - Gloves of Lunacy
-    - Gloves of Madness
-  notes: |
-    The Stranger only appears at night.
 - name: A Threat to the Meadowlands
   zone: Meadowlands
   npc: Gerrin
