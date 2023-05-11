@@ -7,7 +7,7 @@ export default {
   title: 'Bees of Knowledge',
   titleTemplate: false,
   cleanUrls: true,
-  description: 'An information side for Embers Adrift',
+  description: 'An information site for Embers Adrift',
   head: [],
   markdown: {
     anchor:{}
