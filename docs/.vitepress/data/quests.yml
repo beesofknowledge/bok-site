@@ -200,10 +200,10 @@
     -
   notes: |
     Sergeant Kandar is at Ravenrock.
-- name: Missing Arms Race
+- name: The Missing Arms Race
   zone: Newhaven Valley
   npc: Voyce Kemb
-  level: 1
+  level: 5
   rewards:
     - Smugglecraft Great Axe
     - Smugglecraft Buckler
@@ -226,7 +226,7 @@
 - name: To Make a Map
   zone: Newhaven Valley
   npc: Gilden "Farstrider" Talbern
-  level: 1
+  level: 5
   rewards:
     - Cartographer's Boots
   notes: |
@@ -248,7 +248,7 @@
 - name: Beardin in the Woods
   zone: Newhaven Valley
   npc: Beardin Torgendale
-  level: 5
+  level: 1
   rewards:
     - Ranger's Belt
   notes: |
@@ -294,3 +294,47 @@
     - Gloves of Madness
   notes: |
     The Stranger only appears at night.
+- name: A Threat to the Meadowlands
+  zone: Meadowlands
+  npc: Gerrin
+  level: 20
+  rewards:
+    -
+  notes: |
+    Gerrin spawns randomly with other exile raiders.
+- name: Essential Studies
+  zone: Newhaven City
+  npc: Khym Faedinvol
+  level: 15
+  rewards:
+    -
+  notes: |
+- name: Getting Your Feet Wet in Dryfoot
+  zone: Dryfoot
+  npc:
+  level: 20
+  rewards:
+    -
+  notes: |
+- name: Now to Put Them Together
+  zone: Newhaven Valley
+  npc: M
+  level: 5
+  rewards:
+    -
+  notes: |
+    Introduction to crafting.
+- name: The Hunters of Northreach
+  zone: Northreach
+  npc: Ranger Alnee
+  level: 12
+  rewards:
+    -
+  notes: |
+- name: The Tradeswoman's Lament
+  zone: Newhaven City
+  npc: Magda
+  level: 15
+  rewards:
+    -
+  notes: |
