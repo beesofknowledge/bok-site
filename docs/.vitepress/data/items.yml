@@ -1031,3 +1031,42 @@
 - name: Thumper Ring
   slot: Ring
   level: 36
+- name: Stone Banded Belt
+  slot: Waist
+  level: 36
+- name: Flour Dusted Pants
+  slot: Legs
+  level: 36
+- name: Larac's Runed Band
+  slot: Ring
+  level: 25
+- name: Warrior Chief Bearskin Headdress
+  slot: Head
+  level: 20
+- name: Warrior Chief Bearskin Bracer
+  slot: Vambrace
+  level: 20
+- name: Whitehead Leather Faulds
+  slot: Faulds
+  level: 10
+- name: Champion's Pauldron
+  slot: Pauldron
+  level: 20
+- name: Slick Warden's Boots
+  slot: Feet
+  level: 10
+- name: Glen's Fine Bronze Buckler
+  slot: Shield
+  level: 10
+- name: Smuggler's Strap
+  slot: Waist
+  level: 1
+- name: Balanced Scale Cuirass
+  slot: Cuirass
+  level: 20
+- name: Balanced Bronze Kite Shield
+  slot: Shield
+  level: 20
+- name: Thief's Blade
+  slot: 1H
+  level: 1
