@@ -1,7 +1,7 @@
 import fs from 'node:fs'
 import { parse } from 'csv-parse/sync'
 
-const file = 'docs/.vitepress/data/rings.csv'
+const file = 'docs/.vitepress/data/augments.csv'
 
 export default {
   watch: [file],

@@ -1,0 +1,95 @@
+Craft,Item,Slot,Material 1,Material 2,Level,Stats
+Armorsmith,Crude Lean Armor Padding,Head and Chest,Coarse Lean Leather,Thread,1,+3 Physical Debuff Resists
+Armorsmith,Rough Light Armor Padding,Head and Chest,Rough Light Leather,Thread,10,"+3 Stun Resists
++3 Daze Resists"
+Armorsmith,Lean Armor Padding,Head and Chest,Fair Lean Leather,Thread,20,+6 Physical Debuff Resists
+Armorsmith,Dense Armor Padding,Head and Chest,Fair Dense Leather,Thread,20,+2 Resilience
+Armorsmith,Fair Light Armor Padding,Head and Chest,Fine Light Leather,Thread,30,"+5 Stun Resists
++5 Daze Resists"
+Armorsmith,Fair Robust Armor Padding,Head and Chest,Fine Robust Leather,Thread,30,"+5 Ember Debuff Resists
++5 Ember Dmg Resists"
+Armorsmith,Crude Armor Strap,Greaves,Coarse Lean Leather,Metal,1,+3 Movement Debuff Resists
+Armorsmith,Rough Light Armor Strap,Greaves,Rough Light Leather,Metal,10,"+2 Combat Mov.
++1 Avoid"
+Armorsmith,Lean Armor Strap,Greaves,Fair Lean Leather,Metal,20,+5 Movement Debuff Resists
+Armorsmith,Dense Armor Strap,Greaves,Fair Dense Leather,Metal,20,+3 Physical Debuff Resists
+Armorsmith,Fair Light Armor Strap,Greaves,Fine Light Leather,Metal,30,"+4 Combat Mov.
++2 Avoid"
+Armorsmith,Fair Robust Armor Strap,Greaves,Fine Robust Leather,Metal,30,+4 Chemical Debuff Resists
+Armorsmith,Crude Copper Armor Flap,Faulds,Newhaven Copper,Leather or Cloth,1,+1 Combat Mov.
+Armorsmith,Rough Tin Armor Flap,Faulds,Flatlands Tin,Leather or Cloth,10,+6 Chemical Debuff Resists
+Armorsmith,Copper Armor Flap,Faulds,Highlands Zink,Leather or Cloth,20,+9 Mental Debuff Resists
+Armorsmith,Armor Flap,Faulds,Highlands Copper,Leather or Cloth,20,+3 Combat Mov.
+Armorsmith,Gold Armor Flap,Faulds,Outlands Gold,Leather or Cloth,30,"+3 Physical Debuff Resists
++3 Ember Debuff Resists
++3 Movement Debuff Resists"
+Armorsmith,Tin Armor Flap,Faulds,Outlands Tin,Leather or Cloth,30,+11 Chemical Debuff Resists
+Armorsmith,Crude Copper Armor Bracing,Vambraces and Pauldrons,Newhaven Copper,Leather or Cloth,1,+1 Combat Mov.
+Armorsmith,Rough Tin Armor Bracing,Vambraces and Pauldrons,Flatlands Tin,Leather or Cloth,10,+2 Chemical Debuff Resists
+Armorsmith,Copper Armor Bracing,Vambraces and Pauldrons,Highlands Zink,Leather or Cloth,20,+3 Mental Debuff Resists
+Armorsmith,Zink Armor Bracing,Vambraces and Pauldrons,Highlands Copper,Leather or Cloth,20,+3 Combat Mov.
+Armorsmith,Fair Gold Armor Bracing,Vambraces and Pauldrons,Outlands Gold,Leather or Cloth,30,"+1 Physical Debuff Resists
++2 Ember Debuff Resists
++2 Movement Debuff Resists"
+Armorsmith,Fair Tin Armor Bracing,Vambraces and Pauldrons,Outlands Tin,Leather or Cloth,30,+4 Chemical Debuff Resists
+Tailor,Crude Lean Bootstraps,Boots,Coarse Lean Leather,Metal,1,+1 Combat Mov.
+Tailor,Rough Light Bootstraps,Boots,Rough Light Leather,Metal,10,"+1 Avoid
++2 Chemical Dmg Resists"
+Tailor,Lean Bootstraps,Boots,Fair Lean Leather,Metal,20,+3 Combat Mov.
+Tailor,Dense Bootstraps,Boots,Fair Dense Leather,Metal,20,"+4 Movement Debuff Resists
++3 Ember Debuff Resists"
+Tailor,Fair Light Bootstraps,Boots,Fine Light Leather,Metal,30,"+2 Avoid
++4 Chemical Dmg Resists"
+Tailor,Fair Robust Bootstraps,Boots,Fine Robust Leather,Metal,30,"+6 Movement Debuff Resists
++4 Combat Mov."
+Tailor,Crude Linen Patch,Shirt and Pants,Timberland Linen Cloth,Thread,1,+5 Health Regen
+Tailor,Rough Cotton Patch,Shirt and Pants,Prairie Cotton Cloth,Thread,10,+2 Chemical Dmg Resists
+Tailor,Linen Patch,Shirt and Pants,Highlands Linen Cloth,Thread,20,+11 Health Regen
+Tailor,Ramie Patch,Shirt and Pants,Highlands Ramie Cloth,Thread,20,"+4 Healing
++1 Stamina Regen"
+Tailor,Fair Cotton Patch,Shirt and Pants,Frontier Cotton Cloth,Thread,30,+4 Chemical Dmg Resists
+Tailor,Fair Jute Patch,Shirt and Pants,Frontier Jute Cloth,Thread,30,"+2 Ember Dmg Resists
++2 Physical Dmg Resists"
+Tinker,Crude Malachite Buckle,Belts,Cut Flecked Malachite Gem,Metal,1,+2 Chemical Debuff Resists
+Tinker,Rough Turquoise Buckle,Belts,Cut Shiny Turquoise Gem,Metal,10,"+1 Physical Dmg Resists
++2 Physical Debuff Resists"
+Tinker,Malachite Buckle,Belts,Cut Sparkling Malachite Gem,Metal,20,+6 Chemical Debuff Resists
+Tinker,Topaz Buckle,Belts,Cut Sparkling Topaz Gem,Metal,20,"+3 Haste
++3 Ember Debuff Resists"
+Tinker,Fair Turquoise Buckle,Belts,Cut Brilliant Turquoise Gem,Metal,30,"+3 Physical Dmg Resists
++4 Physical Debuff Resists"
+Tinker,Fair Casserite Buckle,Belts,Cut Brilliant Casserite Gem,Metal,30,"+4 Ember Dmg Resists
++3 Ember Debuff Resists"
+Tinker,Crude Copper Sight Pin,Ranged Weapons,Newhaven Copper,Glue,1,+5 Hit
+Tinker,Rough Tin Sight Pin,Ranged Weapons,Flatlands Tin,Glue,10,+6 Penetration
+Tinker,Zink Sight Pin,Ranged Weapons,Highlands Zink,Glue,20,"+4 Hit\n
++3 Penetration"
+Tinker,Copper Sight Pin,Ranged Weapons,Highlands Copper,Glue,20,+7 Hit
+Tinker,Fair Gold Sight Pin,Ranged Weapons,Outlands Gold,Glue,30,+5 DamagePercent
+Tinker,Fair Tin Sight Pin,Ranged Weapons,Outlands Tin,Glue,30,+10 Penetration
+Weaponsmith,Crude Lean Grip Wrap,1H Weapons,Coarse Lean Leather,Glue,1,+5 Penetration
+Weaponsmith,Rough Light Grip Wrap,1H Weapons,Rough Light Leather,Glue,10,+4 Flanking
+Weaponsmith,Lean Grip Wrap,1H Weapons,Fair Lean Leather,Glue,20,+7 Hit
+Weaponsmith,Dense Grip Wrap,1H Weapons,Fair Dense Leather,Glue,20,+7 Penetration
+Weaponsmith,Fair Light Grip Wrap,1H Weapons,Fine Light Leather,Glue,30,+8 Flanking
+Weaponsmith,Fair Robust Grip Wrap,1H Weapons,Fine Robust Leather,Glue,30,"+5 Hit
++5 Penetration"
+Weaponsmith,Crude Lean Grips,Gloves,Coarse Lean Leather,Glue,1,+1 Hit
+Weaponsmith,Rough Light Grips,Gloves,Rough Light Leather,Glue,10,"+2 Hit
++1 1H Weapon Damage
++1 Ranged Damage"
+Weaponsmith,Lean Grips,Gloves,Fair Lean Leather,Glue,20,"+1 Penetration
++3 Hit"
+Weaponsmith,Dense Grips,Gloves,Fair Dense Leather,Glue,20,"+3 1H Weapon Damage
++3 2H Weapon Damage"
+Weaponsmith,Fair Light Grips,Gloves,Fine Light Leather,Glue,30,"+4 Hit
++3 1H Weapon Damage
++3 Ranged Damage"
+Weaponsmith,Fair Robust Grips,Gloves,Fine Robust Leather,Glue,30,+8 Healing
+Woodworker,Crude Pine Counterweight,2H Weapons,Timberland Pine Wood,Leather or Cloth,1,+1 Dice Mod
+Woodworker,Rough Cedar Counterweight,2H Weapons,Praire Cedar Wood,Leather or Cloth,10,+3 Flanking
+Woodworker,Pine Counterweight,2H Weapons,Highlands Maple Wood,Leather or Cloth,20,+8 Hit
+Woodworker,Maple Counterweight,2H Weapons,Highlands Pine Wood,Leather or Cloth,20,+3 Dice Mod
+Woodworker,Fair Cedar Counterweight,2H Weapons,Outlands Cedar Wood,Leather or Cloth,30,+8 Flanking
+Woodworker,Fair Teak Counterweight,2H Weapons,Outlands Teak Wood,Leather or Cloth,30,+5 DamagePercent
+,,,,,,

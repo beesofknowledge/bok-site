@@ -1,5 +1,5 @@
 ---
-title: Crafted Rings
+title: Rings
 ---
 <script setup>
   import { data as rings } from '../.vitepress/data/rings.data.js'
