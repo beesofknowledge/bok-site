@@ -1,6 +1,9 @@
 lockfileVersion: '6.0'
 
 devDependencies:
+  csv-parse:
+    specifier: ^5.3.10
+    version: 5.3.10
   pnpm:
     specifier: ^8.5.0
     version: 8.5.0
@@ -572,6 +575,10 @@ packages:
 
   /csstype@2.6.21:
     resolution: {integrity: sha512-Z1PhmomIfypOpoMjRQB70jfvy/wxT50qW08YXO5lMIJkrdq4yOTR+AW7FqutScmB9NkLwxo+jU+kZLbofZZq/w==}
+    dev: true
+
+  /csv-parse@5.3.10:
+    resolution: {integrity: sha512-cTXY6iy0gN5Ha/cGILeDgQE+nKiKDU2m0DjSRdJhr86BN3cM7oefBsTk2aH0LQeaYtL7Z7HvW+jYoadmdhzeDA==}
     dev: true
 
   /esbuild@0.17.18:
