@@ -52,11 +52,11 @@ const sidebar = [
           ],
       },
       {
-        text: 'Guides',
+        text: 'Crafting',
         collapsed: true,
           items: [
-          { text: 'Crafted Rings', link: 'guides/crafted-rings' },
-          { text: 'Crafted Augments', link: 'guides/augments' },
+          { text: 'Rings', link: 'crafting/rings' },
+          { text: 'Augments', link: 'crafting/augments' },
           ],
       },
     ],

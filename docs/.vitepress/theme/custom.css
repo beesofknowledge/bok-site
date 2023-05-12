@@ -36,7 +36,8 @@ p {
 }
 
 h1 + p,
-h1 + div {
+h1 + div,
+h1 + table {
   margin: 48px 0 16px !important;
   border-top: 1px solid var(--vp-c-divider);
   padding-top: 24px;
