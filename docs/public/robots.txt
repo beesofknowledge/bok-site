@@ -1,3 +1,6 @@
+sitemap: https://beesofknowledge.com/sitemap.xml
+
 user-agent: *
 allow: /
+
 disallow: /cdn-cgi/
