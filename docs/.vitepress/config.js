@@ -1,5 +1,12 @@
 import sidebarConfig from './sidebar.config.js'
 
+// for sitemap
+import { createWriteStream } from 'node:fs'
+import { resolve } from 'node:path'
+import { SitemapStream } from 'sitemap'
+import { defineConfig } from 'vitepress'
+const links = []
+
 export default {
   appearance: 'dark',
   base: '/',
@@ -27,17 +34,24 @@ export default {
   vite: {
     ssr: {
       noExternal: ['vue-dataset'],
-//      format: 'esm',
-//      target: 'node'
     },
-//    build: {
-//      target: ['es2020'],
-//      rollupOptions: {
-//      output: {
-//          format: 'es'
-//        }
-//      }
-//    },
+    plugins: [
+    ],
+  },
+  //for sitemap
+  transformHtml: (_, id, { pageData }) => {
+    if (!/[\\/]404\.html$/.test(id))
+      links.push({
+        url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
+        lastmod: pageData.lastUpdated
+    })
+  },
+  buildEnd: ({ outDir }) => {
+    const sitemap = new SitemapStream({ hostname: 'https://beesofknowledge.com/' })
+    const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
+    sitemap.pipe(writeStream)
+    links.forEach((link) => sitemap.write(link))
+    sitemap.end()
   },
   themeConfig: {
     aside: false,
