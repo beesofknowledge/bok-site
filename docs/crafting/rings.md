@@ -8,5 +8,5 @@ title: Rings
 
 # {{ $frontmatter.title }}
 
-<DataTable :data="rings" />
+  <DataTable :data="rings" />
 
