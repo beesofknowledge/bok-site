@@ -7,6 +7,8 @@ import { SitemapStream } from 'sitemap'
 import { defineConfig } from 'vitepress'
 const links = []
 
+const domain = 'beesofknowledge.com'
+
 export default {
   appearance: 'dark',
   base: '/',
@@ -26,11 +28,18 @@ export default {
     pageData.frontmatter.prev = false
     pageData.frontmatter.next = false
   },
-  srcExclude: [
-    '**/professions',
-    '**/classes',
-    '**/drafts',
-  ],
+  async transformHead( { page } ) {
+    const headElements = [
+      [
+        'link', {
+          rel: 'canonical',
+          href: "https://" + domain + "/" + page.replace(/((^|\/)index)?\.md$/, '$2'),
+        }
+      ]
+    ]
+    return headElements
+  },
+  srcExclude: [],
   vite: {
     ssr: {
       noExternal: ['vue-dataset'],
@@ -38,7 +47,7 @@ export default {
     plugins: [
     ],
   },
-  //for sitemap
+  // sitemap
   transformHtml: (_, id, { pageData }) => {
     if (!/[\\/]404\.html$/.test(id))
       links.push({
@@ -46,6 +55,7 @@ export default {
         lastmod: pageData.lastUpdated
     })
   },
+  // sitemap
   buildEnd: ({ outDir }) => {
     const sitemap = new SitemapStream({ hostname: 'https://beesofknowledge.com/' })
     const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
