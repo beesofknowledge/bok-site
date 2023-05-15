@@ -19,7 +19,8 @@ export default {
           zone: datum.zone,
           npc: datum.npc,
           level: datum.level,
-          rewards: datum.rewards,
+          rewards: (datum.rewards[0] === null ? null : datum.rewards),
+          content: (datum.notes === '' ? 0 : 1),
         },
         content: datum.notes
       }

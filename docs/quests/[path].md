@@ -10,12 +10,13 @@
     Quest NPC: {{ $params.npc }}<br />
     Reward Level: {{ $params.level }}<br />
   </p>
-    
-  <h4>Notes</h4>
-  
-  <!-- @content -->
 
-  <h4>Rewards</h4>
+  <div v-if="$params.content">
+    <h4>Notes</h4>
+    <p><!-- @content --></p>
+  </div>
+
+  <h4 v-if="$params.rewards">Rewards</h4>
     <template v-for="(value) in $params.rewards">
       <div v-if="value">
         <suspense>
