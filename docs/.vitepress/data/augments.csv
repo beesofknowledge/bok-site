@@ -1,4 +1,4 @@
-Craft,Item,Slot,Material 1,Material 2,Level,Stats
+craft,item,slot,primary,secondary,level,stats
 Armorsmith,Crude Lean Armor Padding,Head and Chest,Coarse Lean Leather,Thread,1,+3 Physical Debuff Resists
 Armorsmith,Rough Light Armor Padding,Head and Chest,Rough Light Leather,Thread,10,"+3 Stun Resists
 +3 Daze Resists"
@@ -88,7 +88,7 @@ Weaponsmith,Fair Light Grips,Gloves,Fine Light Leather,Glue,30,"+4 Hit
 Weaponsmith,Fair Robust Grips,Gloves,Fine Robust Leather,Glue,30,+8 Healing
 Woodworker,Crude Pine Counterweight,2H Weapons,Timberland Pine Wood,Leather or Cloth,1,+1 Dice Mod
 Woodworker,Rough Cedar Counterweight,2H Weapons,Praire Cedar Wood,Leather or Cloth,10,+3 Flanking
-Woodworker,Pine Counterweight,2H Weapons,Highlands Maple Wood,Leather or Cloth,20,+3 Dice Mod
-Woodworker,Maple Counterweight,2H Weapons,Highlands Pine Wood,Leather or Cloth,20,+8 Hit
+Woodworker,Pine Counterweight,2H Weapons,Highlands Maple Wood,Leather or Cloth,20,+8 Hit
+Woodworker,Maple Counterweight,2H Weapons,Highlands Pine Wood,Leather or Cloth,20,+3 Dice Mod
 Woodworker,Fair Cedar Counterweight,2H Weapons,Outlands Cedar Wood,Leather or Cloth,30,+8 Flanking
 Woodworker,Fair Teak Counterweight,2H Weapons,Outlands Teak Wood,Leather or Cloth,30,+5 DamagePercent
