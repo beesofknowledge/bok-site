@@ -114,9 +114,9 @@
     - Rat Tail Ring
   notes: |
     The quest starts with an item dropped by The Pie Rat in Newhaven Valley.
-- name: Threat of Grimstone
+- name: The Threat of Grimstone
   zone: Dryfoot
-  npc: fire near GC
+  npc: Victor
   level: 33
   rewards:
     - Cliffwalker's Long Bow
