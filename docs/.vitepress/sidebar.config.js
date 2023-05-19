@@ -43,6 +43,7 @@ const sidebar = [
             { text: 'Meadowlands EV Frogs', link: '/maps/meadowlands-ev-frogs' },
             { text: 'Meadowlands EV Spiders', link: '/maps/meadowlands-ev-spiders' },
             { text: 'Acquifer Karst', link: '/maps/acquifer-karst' },
+            { text: 'Acquifer Undercroft', link: '/maps/acquifer-undercroft' },
             { text: 'Dryfoot', link: '/maps/dryfoot' },
             { text: 'Dryfoot EV Ants', link: '/maps/dryfoot-ev-ants' },
             { text: 'Dryfoot EV Basilisks', link: '/maps/dryfoot-ev-basilisks' },
