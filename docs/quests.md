@@ -23,7 +23,7 @@ title: Quests
       <dataset-search ds-search-placeholder="Search..." />
     </div>
     <div class="dataset-show">
-      <dataset-show :ds-show-entries=12 :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]" />
+      <dataset-show :ds-show-entries=48 :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]" />
     </div>
     <div class="dataset-pager">
       <dataset-pager />
