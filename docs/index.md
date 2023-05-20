@@ -2,7 +2,7 @@
 title: Bees of Knowledge
 ---
 
-# Welcome to the Bees of Knowledge!
+# Bees of Knowledge!
 
 This site has useful information to help you play the game [Embers Adrift](./about/embers-adrift).
 
