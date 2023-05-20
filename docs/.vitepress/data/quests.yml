@@ -117,7 +117,7 @@
 - name: The Threat of Grimstone
   zone: Dryfoot
   npc: Victor
-  level: 33
+  level: 30
   rewards:
     - Cliffwalker's Full Iron Helm
     - Cliffwalker's Full Iron Faulds
@@ -144,7 +144,7 @@
 - name: The Fight for the Freehold
   zone: Redshore
   npc: Mallic Twill
-  level: 38?
+  level: 38
   rewards:
     - Redshore Champion Gauntlets
     - Rod of Revenge
