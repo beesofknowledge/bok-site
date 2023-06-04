@@ -12,14 +12,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "csv-parse": "^5.3.10",
-    "pnpm": "^8.5.1",
+    "csv-parse": "^5.4.0",
+    "pnpm": "^8.6.0",
     "postcss-nesting": "^11.2.2",
     "sitemap": "^7.1.1",
     "slugify": "^1.6.6",
-    "vitepress": "1.0.0-alpha.76",
-    "vue-dataset": "^3.5.3",
-    "yaml": "^2.2.2"
+    "vitepress": "1.0.0-beta.1",
+    "vue-dataset": "^3.5.4",
+    "yaml": "^2.3.1"
   },
   "pnpm": {
     "peerDependencyRules": {
