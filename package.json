@@ -17,7 +17,7 @@
     "postcss-nesting": "^11.2.2",
     "sitemap": "^7.1.1",
     "slugify": "^1.6.6",
-    "vitepress": "1.0.0-alpha.75",
+    "vitepress": "1.0.0-alpha.76",
     "vue-dataset": "^3.5.3",
     "yaml": "^2.2.2"
   },
