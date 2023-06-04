@@ -163,8 +163,9 @@
   level: 1
   rewards:
     - Drifter's Golden Band
+    - Drifter's Silver Earring
+    - Drifter's Leather Gloves
   notes: |
-    also Drifter's Silver Earring and Drifter's Leather Gloves
 - name: The Great Hunt
   zone: Northreach
   npc: Ranger Alnee
@@ -193,6 +194,8 @@
     - Newhaven Helm
     - Newhaven Skullcap
     - Newhaven Hood
+    - Brazen Band
+    - Brazen Bracer
   notes: |
     Balgar is at the second fire in Newhaven Valley
 - name: Patrolling Northreach
@@ -276,7 +279,7 @@
   npc: Bella
   level: 10
   rewards:
-    -
+    - Field Research Tunic
   notes: |
 - name: Raw Potential
   zone: Meadowlands
@@ -354,3 +357,28 @@
     - Amos's Shaped Longbow
   notes: |
     The quest rewards an item and also a recipe to make a slightly worse version of the item.
+- name: The Blade Remade
+  zone: New Haven
+  npc: Xanton
+  level: 20
+  rewards:
+    - Xanton's Remade Blade
+  notes: |
+    The quest rewards an item and also a recipe to make a slightly worse version of the item.
+- name: Tinker's Tailor-Made Supplies
+  zone: New Haven
+  npc: Theodoric
+  level: 20
+  rewards:
+    - Multicolor Dream Belt
+  notes: |
+    The quest rewards an item and also a recipe to make a slightly worse version of the item.
+- name: Restoring a Legacy
+  zone: New Haven
+  npc: Danika
+  level: 20
+  rewards:
+    -
+  notes: |
+    The quest rewards an item and also a recipe to make a slightly worse version of the item.
+     
