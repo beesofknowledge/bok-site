@@ -330,3 +330,36 @@
   rewards:
     -
   notes: |
+- name: Fit For An Outfitter
+  zone: Newhaven City
+  npc: Christov
+  level: 20
+  rewards:
+    - Diligent Chain Hauberk
+  notes: |
+    The quest rewards an item and also a recipe to make a slightly worse version of the item.
+- name: Brewing Up History
+  zone: New Haven
+  npc: Bartolo
+  level: 20
+  rewards:
+    - Firewater
+  notes: |
+- name: The Woodshaper's Request
+  zone: New Haven
+  npc: Amos
+  level: 20
+  rewards:
+    - Amos's Shaped Longbow
+  notes: |
+- name:
+  zone: New Haven
+  npc:
+  level: 20
+  rewards:
+    -
+  notes: |
+
+
+
+

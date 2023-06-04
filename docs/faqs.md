@@ -109,3 +109,9 @@ In tabletop dice games, advantage means that you roll two dice and take the high
 ## Does this game have raids?
 
 No. There is only six person group content, and it will probably stay that way.
+
+## What are those colored bugs on the ground running around?
+
+If you step on them they give you one of several buffs for 30 minutes.
+
+
