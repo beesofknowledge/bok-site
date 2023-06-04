@@ -345,6 +345,7 @@
   rewards:
     - Firewater
   notes: |
+    The quest rewards an item and also a recipe to make a slightly worse version of the item.
 - name: The Woodshaper's Request
   zone: New Haven
   npc: Amos
@@ -352,14 +353,4 @@
   rewards:
     - Amos's Shaped Longbow
   notes: |
-- name:
-  zone: New Haven
-  npc:
-  level: 20
-  rewards:
-    -
-  notes: |
-
-
-
-
+    The quest rewards an item and also a recipe to make a slightly worse version of the item.

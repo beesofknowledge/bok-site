@@ -2,6 +2,7 @@ name,slot,level
 """Fishing"" Pole",2H,25
 Ambling Bark,Shield,30
 Ambling Mitts,Hands,30
+Amos's Shaped Longbow,Bow,20
 Ancient Battle Banner,Offhand,5
 Ancient Bear Belt,Waist,5
 Ancient Bear Bone Crossbow,Ranged,5
@@ -14,8 +15,10 @@ Ancient Bear Ribcage,Shield,5
 Angelica Battle Banner,Offhand,10
 Animal Training Gloves,Hands,20
 Antique Tin Cuirass,Cuirass,10
+Arch-Queen Choker,Necklace,15
 Archer's Gloves,Hands,5
 Arid Bone Necklace,Necklace,33
+Arweld Cuirass,Cuirass,20
 Assassins Spaulder,Pauldron,20
 Azure Chitin Necklace,Necklace,15
 Balanced Bronze Kite Shield,Shield,20
@@ -43,6 +46,7 @@ Blackhead Dagger,1H,10
 Blackstone Necklace,Necklace,20
 Blade of the Slicer,1H,40
 Bloodstained Boots,Feet,20
+Bloodstained Gloves,Hands,20
 Bloodstained Mantle,Pauldron,20
 Bloodstained Tunic,Chest,20
 Bootlegger's Leggings,Legs,1
@@ -90,6 +94,8 @@ Cliffwalker's Mace,1H,33
 Courier's Rapier,2H,15
 Crag Kite Shield,Shield,46
 Crimson Crook,2H,15
+Crocbone Earring,Earring,25
+Crocodile Tooth Necklace,Necklace,10
 Cuirass of Gawain,Cuirass,1
 Dagger of the Stabber,1H,40
 Dark Leather Belt,Waist,10
@@ -98,6 +104,7 @@ Dark Wolf Vambrace,Vambrace,10
 Darkforged Great Axe,2H,30
 Darkstone Dagger,1H,36
 Darkwater Crossbow,Ranged,25
+Darkwater Knuckles,1H Fist,25
 Darkwater Necklace,Necklace,25
 Darkwater Ring,Ring,25
 Darkwater Scale Faulds,Faulds,25
@@ -105,8 +112,11 @@ Darkwater Scale Greaves,Greaves,25
 Darkwater Spear,2H,25
 Decayed Banner,Offhand,20
 Decorated Pauldron,Pauldron,36
+Deep Ring,Ring,25
 Desert Clutches,Hands,15
 Desert Shell Earring,Earring,33
+Diligent Chain Hauberk,Chest,20
+Diseased Bat Boots,Feet,5
 Drifter's Golden Band,Ring,1
 Dripping Spiderfang Necklace,Necklace,15
 Drudge Chain,Necklace,30
@@ -141,6 +151,8 @@ Fervent Bloodrite Maul,2H,40
 Fiery Chitin Boots,Feet,10
 Fiery Chitin Ring,Ring,20
 Fine Freehold Patrol Torch,Light,40
+Firewater,Alcohol,10
+Fishing Guild's Banner,Offhand,25
 Flattened Metal Kite Shield,Shield,36
 Flex,None,1
 Flexible Warm Gloves,Hands,40
@@ -159,6 +171,7 @@ Glen's Fine Bronze Buckler,Shield,10
 Glen's Fine Cuirass,Cuirass,10
 Glinting Ring,Ring,32
 Glinting Ring Necklace,Necklace,32
+Glistening Earring,Earring,20
 Gloves of Delirium,Hands,25
 Gloves of Lunacy,Hands,25
 Gloves of Madness,Hands,25
@@ -229,6 +242,8 @@ Mantor Hatchet,1H,30
 Mantor's Reach,2H,33
 Mask of the Awakened,Head,25
 Massive Bear Bone Mace,1H,30
+Massive Scale Heater,Shield,20
+Massive Scale Paudron,Pauldron,20
 Master Hunter's Long Bow,Ranged,40
 Misha's Belt,Waist,1
 Misha's Warmth,Cuirass,1
@@ -237,6 +252,7 @@ Mole Bear Cuirass,Cuirass,25
 Mole Bear Greaves,Greaves,25
 Mole Bear Helm,Head,25
 Mole Bear Spaulder,Pauldron,25
+Moss-covered Heater Shield,Shield,25
 Mother Bear Claws,1H,5
 Motivator,2H,20
 Muckripper Pearl Earrings,Earring,36
@@ -251,6 +267,8 @@ Newhaven Skullcap,Head,1
 Nighthunter Mask,Head,10
 Nomad Boots,Feet,20
 Nomad Long Bow,Ranged,20
+Oiled Tin Quarter-plate Greaves,Greaves,25
+Oiled Tin Quarter-plate Vambrace,Vambrace,25
 Ooze Covered Gloves,Hands,25
 Ornate Smith's Hauberk,Chest,25
 Pachy Hide Kite Shield,Shield,20
@@ -276,6 +294,7 @@ Precious Pond Pants,Legs,25
 Prized Helm,Head,25
 Prospector's Pickaxe,Tool,15
 Proud Stag's Leggings,Legs,1
+Prowler Hood,Head,30
 Purple Lotus Earring,Earring,15
 Quarterstaff of the Circle,2H,20
 Quarterstaff of the Occult Leader,2H,30
@@ -374,6 +393,7 @@ Shredded Trousers,Legs,35
 Shredder Mask,Head,15
 Shrunken Skull Earring,Earring,20
 Signet Ring,Ring,25
+Silk Cap,Head,1
 Silk Hood,Head,1
 Silk Lined Chitin Faulds,Faulds,10
 Silkweave Hatchet,1H,15
@@ -381,9 +401,11 @@ Silkweave Necklace,Necklace,15
 Silkweave Shirt,Chest,15
 Silver Pryknife,1H,25
 Skullata Shield,Shield,25
+Slick Slacks,Legs,25
 Slick Warden's Boots,Feet,10
 Slick Warden's Tunic,Cuirass,10
 Slime Encrusted Ring,Ring,25
+Slime Slinger,Ranged,25
 Slinger Gloves,Hands,10
 Smith's Gilded Hammer,1H,25
 Smith's Tunic,Chest,10
@@ -397,7 +419,9 @@ Smuggler's Boots,Feet,1
 Smuggler's Strap,Waist,1
 Snatchscale Hunting Stick,2H,25
 Soaked Wood Shield,Shield,15
+Soft Chitin Shirt,Chest,20
 Soft Chitin Trousers,Legs,20
+Softshell Tunic,Chest,25
 Soren's Faulds,Faulds,1
 Sovereign's Decree,Ring,40
 Spear of the Circle,2H,20
@@ -410,6 +434,7 @@ Stalkers Chain Belt,Waist,10
 Stark Greatsword,2H,25
 Steady Buckler,Shield,36
 Steady Ring,Ring,25
+Still Chitin Cuirass,Cuirass,25
 Still Chitin Faulds,Faulds,25
 Still Chitin Mask,Head,25
 Sting,Ranged,10
@@ -417,6 +442,7 @@ Stolen Emerald Necklace,Necklace,30
 Stolen Necklace,Necklace,10
 Stolen Onyx Ring,Ring,30
 Stone Banded Belt,Waist,36
+Stonegrip Crossbow,Crossbow,33
 Stonegrip Great Sword,2H,30
 Stonegrip Hammer,1H,30
 Stonegrip Maul,2H,30
@@ -445,6 +471,7 @@ Traitor's Blade,1H,30
 Traitor's Boots,Feet,20
 Traitor's Mask,Head,20
 Traitor's Tunic,Chest,20
+Tribal Drybone Mask,Head,30
 Trophy Hunter's Leggings,Legs,40
 Turnip Head,Head,1
 Turret,Ranged,25
@@ -456,6 +483,7 @@ Vibrant Wooden Crook,2H,15
 Vivid Battle Banner,Offhand,20
 Walker Staff,2H,10
 Warm Gloves,Hands,36
+Warm Ring,Ring,25
 Warrior Chief Bearskin Bracer,Vambrace,20
 Warrior Chief Bearskin Faulds,Faulds,20
 Warrior Chief Bearskin Greaves,Greaves,20
@@ -482,31 +510,3 @@ Yosef's Mask,Head,1
 Zirconium Defender,Shield,36
 Zofly Chitin Cuirass,Cuirass,10
 Zofly Short Bow,Ranged,10
-Soft Chitin Shirt,Chest,20
-Fishing Guild's Banner,Offhand,25
-Slime Slinger,Ranged,25
-Arch-Queen Choker,Necklace,15
-Bloodstained Gloves,Hands,20
-Moss-covered Heater Shield,Shield,25
-Still Chitin Cuirass,Cuirass,25
-Softshell Tunic,Chest,25
-Slick Slacks,Legs,25
-Darkwater Knuckles,1H Fist,25
-Oiled Tin Quarter-plate Vambrace,Vambrace,25
-Deep Ring,Ring,25
-Warm Ring,Ring,25
-Oiled Tin Quarter-plate Greaves,Greaves,25
-Amos's Shaped Longbow,Bow,20
-Firewater,Alcohol,10
-Diseased Bat Boots,Feet,5
-Arweld Cuirass,Cuirass,20
-Diligent Chain Hauberk,Chest,20
-Glistening Earring,Earring,20
-Silk Cap,Head,1
-Crocbone Earring,Earring,25
-Crocodile Tooth Necklace,Necklace,10
-Prowler Hood,Head,30
-Massive Scale Heater,Shield,20
-Massive Scale Paudron,Pauldron,20
-Tribal Drybone Mask,Head,30
-Stonegrip Crossbow,Crossbow,33
