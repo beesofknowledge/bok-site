@@ -16,57 +16,70 @@ Completing each quest rewards a soulbound item to the crafter and recipes to mak
 ## Provisioner
 [Brewing Up History](/quests/brewing-up-history)
 
-![Firewater](../img/items/firewater.png)
+Requires:
 
 - 5x Recently Eaten Grains
 - 3x Gelatinous Mire Goo
 - 1x Barrel of Pure Spring Water
 - 1x Fiery Ant Nectar
 
+![Firewater](../img/items/firewater.png)
+
 ## Outfitting
 [Fit For An Outfitter](/quests/fit-for-an-outfitter)
 
-<!-- ![Rosefield Chain Hauberk](../img/items/rosefield-chain-hauberk.png) -->
+Requires:
 
 - 2x Supple Spider Silk
 - 4x Wolf Fur
 - 6x Inert Slagrock
 - 3x Dense Ember Flux
 
+<!-- ![Rosefield Chain Hauberk](../img/items/rosefield-chain-hauberk.png) -->
+
 ## Woodworker
 [The Woodshaper's Request](/quests/the-woodshapers-request)
 
-<!-- ![Woodshaper's Longbow](../img/items/woodshapers-longbow.png) -->
+Requires:
 
 - 4x Seasoned Wood
 - 1x Supple Spider Silk
 - 2x Sticky Frog Tongue
 - 3x Dense Ember Flux
 
+<!-- ![Woodshaper's Longbow](../img/items/woodshapers-longbow.png) -->
+
 ## Tinker
 [Tinker's Tailor-Made Supplies](/quests/tinkers-tailor-made-supplies)
 
-![Glittering Basilisk Scale Belt](../img/items/glittering-basilisk-scale-belt.png)
+Requires:
 
 - 1x Basilisk Scales
 - 1x Intact Ant Carapace
 - 2x Rockscale Hide
 - 3x Dense Ember Flux
 
+![Glittering Basilisk Scale Belt](../img/items/glittering-basilisk-scale-belt.png)
+
 ## Weaponsmith
 [The Blade Remade](/quests/the-blade-remade)
 
-<!-- ![Xanton's Signature Sword](../img/items/xantons-signature-sword.png) -->
+Requires:
 
 - 2x Calcified Spider Fangs
 - 2x Intact Fire Ant Carapace
 - 2x Soft Wolf Fur
 - 3x Dense Ember Flux
 
+<!-- ![Xanton's Signature Sword](../img/items/xantons-signature-sword.png) -->
+
 ## Armorsmith
 [Restoring a Legacy](/quests/restoring-a-legacy)
 
-![Arweld Cuirass](../img/items/arweld-cuirass.png)
+Requires:
 
 - 4x Grub Bat Hide
 - 6x Rockscale Hide
+
+![Arweld Cuirass](../img/items/arweld-cuirass.png)
+
