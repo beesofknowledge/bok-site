@@ -1,5 +1,6 @@
 ---
 title: Crafting Quests
+aside: true
 ---
 <script setup>
   import ImageLink from '../.vitepress/components/ImageLink.vue'
