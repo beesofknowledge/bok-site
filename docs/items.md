@@ -15,7 +15,7 @@ title: Items
 
   const vFocusThis = {
     mounted: (el) => {
-      el.focus()
+//      el.focus()
     }
   }
 </script>

@@ -16,7 +16,7 @@ title: Quests
 
   const vFocusThis = {
     mounted: (el) => {
-      el.focus()
+//      el.focus()
     }
   }
 </script>
