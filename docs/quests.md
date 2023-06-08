@@ -20,7 +20,7 @@ title: Quests
 <dataset v-slot="{ ds }" :ds-data="data">
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
-      <dataset-search ds-search-placeholder="Search..." />
+      <dataset-search ds-search-placeholder="Search..." autofocus />
     </div>
     <div class="dataset-show">
       <dataset-show :ds-show-entries=48 :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]" />
