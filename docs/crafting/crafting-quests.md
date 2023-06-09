@@ -47,7 +47,7 @@ Requires:
 - 2x Sticky Frog Tongue
 - 3x Dense Ember Flux
 
-<!-- ![Woodshaper's Longbow](../img/items/woodshapers-longbow.png) -->
+![Woodshaper's Long bow](../img/items/woodshapers-long-bow.png)
 
 ## Tinker
 [Tinker's Tailor-Made Supplies](/quests/tinkers-tailor-made-supplies)
@@ -71,7 +71,7 @@ Requires:
 - 2x Soft Wolf Fur
 - 3x Dense Ember Flux
 
-<!-- ![Xanton's Signature Sword](../img/items/xantons-signature-sword.png) -->
+![Xanton's Signature Sword](../img/items/xantons-signature-sword.png)
 
 ## Armorsmith
 [Restoring a Legacy](/quests/restoring-a-legacy)
