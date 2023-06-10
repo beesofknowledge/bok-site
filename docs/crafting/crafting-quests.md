@@ -2,9 +2,6 @@
 title: Crafting Quests
 aside: true
 ---
-<script setup>
-  import ImageLink from '../.vitepress/components/ImageLink.vue'
-</script>
 
 # {{ $frontmatter.title }}
 
@@ -35,7 +32,7 @@ Requires:
 - 6x Inert Slagrock
 - 3x Dense Ember Flux
 
-<!-- ![Rosefield Chain Hauberk](../img/items/rosefield-chain-hauberk.png) -->
+![Rosefield Chain Hauberk](../img/items/rosefield-chain-hauberk.png)
 
 ## Woodworker
 [The Woodshaper's Request](/quests/the-woodshapers-request)
