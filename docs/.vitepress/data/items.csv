@@ -1,5 +1,6 @@
 name,slot,level
 """Fishing"" Pole",2H,25
+Ambling Arm,Polearm,30
 Ambling Bark,Shield,30
 Ambling Mitts,Hands,30
 Amos's Shaped Longbow,Bow,20
@@ -15,10 +16,13 @@ Ancient Bear Ribcage,Shield,5
 Angelica Battle Banner,Offhand,10
 Animal Training Gloves,Hands,20
 Antique Tin Cuirass,Cuirass,10
+Antique Tin Vambrace,Vambrace,10
 Arch-Queen Choker,Necklace,15
 Archer's Gloves,Hands,5
 Arid Bone Necklace,Necklace,33
+Arkhos Heater,Shield,50
 Arweld Cuirass,Cuirass,20
+Assassin's Blade,1H Sword,20
 Assassins Spaulder,Pauldron,20
 Azure Chitin Necklace,Necklace,15
 Balanced Bronze Kite Shield,Shield,20
@@ -39,6 +43,7 @@ Belt of the Dissenter,Waist,36
 Belt of the Wailer,Waist,30
 Black Chitin Belt,Waist,10
 Black Chitin Earring,Earring,10
+Black Chitin Ring,Ring,20
 Blackened Iron Faulds,Faulds,15
 Blackened Necklace,Necklace,25
 Blackened Trousers,Legs,15
@@ -50,6 +55,7 @@ Bloodstained Gloves,Hands,20
 Bloodstained Mantle,Pauldron,20
 Bloodstained Tunic,Chest,20
 Bootlegger's Leggings,Legs,1
+Boots of Betrayal,Feet,36
 Boots of the Awakened,Feet,25
 Breastplate of the Circle,Cuirass,20
 Breezy Belt,Waist,25
@@ -72,11 +78,13 @@ Carrion Gloves,Hands,30
 Cartographer's Boots,Feet,5
 Cat's Grace,Waist,36
 Champion's Pauldron,Pauldron,20
+Champion's Sword,1H Sword,20
 Chaos Hatchet,1H,25
 Chewed Oven Mitts,Hands,1
 Chief Thumper's Necklace,Necklace,36
 Chithorn's Pauldron,Pauldron,20
 Chitin Shell Armor,Cuirass,1
+Chitin Shell Shield,Shield,1
 Chopper,2H,25
 Circle's Fine Leather Cuirass,Cuirass,20
 Clay Crusted Clogs,Feet,25
@@ -100,6 +108,7 @@ Crocodile Tooth Necklace,Necklace,10
 Crystalized Flame Scepter,Offhand,25
 Cuirass of Gawain,Cuirass,1
 Dagger of the Stabber,1H,40
+Danika's Legacy,Cuirass,20
 Dark Leather Belt,Waist,10
 Dark Wolf Cuirass,Cuirass,10
 Dark Wolf Vambrace,Vambrace,10
@@ -111,6 +120,7 @@ Darkwater Necklace,Necklace,25
 Darkwater Ring,Ring,25
 Darkwater Scale Faulds,Faulds,25
 Darkwater Scale Greaves,Greaves,25
+Darkwater Scale Helm,Head,25
 Darkwater Spear,2H,25
 Decayed Banner,Offhand,20
 Decorated Pauldron,Pauldron,36
@@ -119,12 +129,14 @@ Desert Clutches,Hands,15
 Desert Shell Earring,Earring,33
 Diligent Chain Hauberk,Chest,20
 Diseased Bat Boots,Feet,5
+Dissolved Tin Faulds,Faulds,10
 Drifter's Golden Band,Ring,1
 Dripping Spiderfang Necklace,Necklace,15
 Drudge Chain,Necklace,30
 Drudge Shackle,Vambrace,30
 Dry Wolfskin Tunic,Chest,20
 Drybone Shackle,Vambrace,20
+Dryfoot Dustkickers,Feet,20
 Dryfoot Sandals,Feet,20
 Drywood Branch,2H,30
 Drywood Buckler,Shield,30
@@ -155,6 +167,7 @@ Fiery Chitin Ring,Ring,20
 Fine Freehold Patrol Torch,Light,40
 Firewater,Alcohol,10
 Fishing Guild's Banner,Offhand,25
+Fishtooth Earring,Earring,25
 Flattened Metal Kite Shield,Shield,36
 Flex,None,1
 Flexible Warm Gloves,Hands,40
@@ -166,14 +179,17 @@ Freehold Steel Hauberk,Chest,36
 Frenzied Band,Ring,1
 Frenzied Leggings,Legs,1
 Game Seeker's Leggings,Legs,20
+Gatorscale Cuirass,Cuirass,15
 Gatorscale Faulds,Faulds,15
 Gatorscale Greaves,Greaves,15
+Gatorscale Vambrace,Vambrace,15
 Gatorskin Buckler,Shield,10
 Glen's Fine Bronze Buckler,Shield,10
 Glen's Fine Cuirass,Cuirass,10
 Glinting Ring,Ring,32
 Glinting Ring Necklace,Necklace,32
 Glistening Earring,Earring,20
+Glittering Basilisk-Scale Belt,Waist,20
 Gloves of Delirium,Hands,25
 Gloves of Lunacy,Hands,25
 Gloves of Madness,Hands,25
@@ -242,6 +258,7 @@ Mafly Chitin Vambraces,Vambrace,10
 Manslayer Great Sword,2H,25
 Mantor Hatchet,1H,30
 Mantor's Reach,2H,33
+Marred Engraved Ring,Ring,10
 Mask of the Awakened,Head,25
 Massive Bear Bone Mace,1H,30
 Massive Scale Heater,Shield,20
@@ -260,6 +277,7 @@ Motivator,2H,20
 Muckripper Pearl Earrings,Earring,36
 Muddy Shirt,Chest,25
 Mudflinger Shield,Shield,25
+Multicolor Dream Belt,Waist,20
 Necklace of Adr,Necklace,20
 Necklace of the Watery Deep,Necklace,25
 Neophyte Blade,2H,36
@@ -269,7 +287,9 @@ Newhaven Skullcap,Head,1
 Nighthunter Mask,Head,10
 Nomad Boots,Feet,20
 Nomad Long Bow,Ranged,20
+Oiled Tin Quarter-plate Cuirass,Cuirass,25
 Oiled Tin Quarter-plate Greaves,Greaves,25
+Oiled Tin Quarter-plate Pauldron,Pauldron,25
 Oiled Tin Quarter-plate Vambrace,Vambrace,25
 Ooze Covered Gloves,Hands,25
 Ornate Smith's Hauberk,Chest,25
@@ -348,14 +368,17 @@ Renegade's Mask,Head,30
 Revanant's Reaver,2H,38
 Rigid Leggings,Legs,20
 Ring of Morro,Ring,20
+Ring of the Crusher,Ring,40
 Ring of the Overseer,Ring,20
 Ring of Tumbling,Ring,1
+Rivenese Dagger,Dagger,15
 Rock Crusher,2H,20
 Rockhide Bracer,Vambrace,10
 Rockhide Helm,Head,10
 Rockmender Hammer,1H,36
 Rod of Revenge,Offhand,38
 Rolling Pin,1H,36
+Rosefield Chain Hauberk,Chest,20
 Rotter Blade,1H,36
 Ruffian Knife,1H,20
 Runner's Cuff,Vambrace,1
@@ -469,6 +492,7 @@ Thief's Blade,1H,1
 Thief's Gloves,Hands,1
 Thread Bare Gloves,Hands,15
 Thumper Ring,Ring,36
+Timeworn Bronze Faulds,Faulds,20
 Toad Battle Mask,Head,10
 Torched Hood,Head,10
 Tracker Hide Belt,Waist,10
@@ -495,6 +519,7 @@ Warrior Chief Bearskin Bracer,Vambrace,20
 Warrior Chief Bearskin Faulds,Faulds,20
 Warrior Chief Bearskin Greaves,Greaves,20
 Warrior Chief Bearskin Headdress,Head,20
+Warrior Chief Bearskin Spaulder,Pauldron,20
 Warrior Necklace,Necklace,33
 Wayward Belt,Waist,15
 Whiskered Tunic,Chest,36
@@ -506,39 +531,18 @@ Wild Wolf Greaves,Greaves,40
 Wild Wolf Leather Bracer,Vambrace,40
 Wild Wolf Leather Helm,Head,40
 Wingblade,1H,10
+Wisgold's Edge,1H Sword,15
 Witch's Amulet,Necklace,1
 Wolf Fang Earring,Earring,10
 Wolfsbane Greaves,Greaves,10
 Wolfskin Treads,Feet,40
+Woodshaper's Long Bow,Bow,20
 Woven Grass Crown,Head,33
 Wrapped Nocturne Blade,1H,30
+Xanton's Remade Blade,1H Sword,20
+Xanton's Signature Sword,1H Sword,20
 Yosef's Hatchet,1H,5
 Yosef's Mask,Head,1
 Zirconium Defender,Shield,36
 Zofly Chitin Cuirass,Cuirass,10
 Zofly Short Bow,Ranged,10
-Dryfoot Dustkickers,Feet,20
-Danika's Legacy,Cuirass,20
-Woodshaper's Long Bow,Bow,20
-Rivenese Dagger,Dagger,15
-Boots of Betrayal,Feet,36
-Antique Tin Vambrace,Vambrace,10
-Gatorscale Vambrace,Vambrace,15
-Xanton's Remade Blade,1H Sword,20
-Glittering Basilisk-Scale Belt,Waist,20
-Multicolor Dream Belt,Waist,20
-Ring of the Crusher,Ring,40
-Assassin's Blade,1H Sword,20
-Wisgold's Edge,1H Sword,15
-Oiled Tin Quarter-plate Pauldron,Pauldron,25
-Darkwater Scale Helm,Head,25
-Marred Engraved Ring,Ring,10
-Oiled Tin Quarter-plate Cuirass,Cuirass,25
-Fishtooth Earring,Earring,25
-Dissolved Tin Faulds,Faulds,10
-Champion's Sword,1H Sword,20
-Warrior Chief Bearskin Spaulder,Pauldron,20
-Black Chitin Ring,Ring,20
-Ambling Arm,Polearm,30
-Chitin Shell Shield,Shield,1
-Xanton's Signature Sword,1H Sword,20
