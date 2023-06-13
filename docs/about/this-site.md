@@ -1,7 +1,7 @@
 ---
 title: This Site
 ---
-# {{ $frontmatter.title }}
+# This Site
 
 BeesofKnowledge.com is built using [Vitepress](https://vitepress.vuejs.org/) software and is hosted on the [Cloudflare](https://www.cloudflare.com/) infrastructure using [Cloudflare Pages](https://pages.cloudflare.com/).
 

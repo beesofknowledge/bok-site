@@ -1,7 +1,7 @@
 ---
 title: Add Content
 ---
-# {{ $frontmatter.title }}
+# Add Content
 
 There is a discord at [Bees of Knowledge Discord](https://discord.gg/a3csQYuTeC) where you can upload screenshots and submit new items, quests or faqs.
 

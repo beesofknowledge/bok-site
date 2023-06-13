@@ -3,7 +3,7 @@ title: Crafting Quests
 aside: true
 ---
 
-# {{ $frontmatter.title }}
+# Crafting Quests
 
 There are six crafting quests, one for each of the crafting professions. You must be level 20 in a crafting profession to get the quest. All of the quests start with an NPC in New Haven City.
 
