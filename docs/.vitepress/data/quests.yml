@@ -309,7 +309,9 @@
   npc:
   level: 20
   rewards:
-    -
+    - Dryfoot Sandals
+    - Dryfoot Stompers
+    - Dryfoot Dustkickers
   notes: |
 - name: Now to Put Them Together
   zone: Newhaven Valley
