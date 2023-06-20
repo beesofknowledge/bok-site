@@ -65,17 +65,20 @@ h1 + table {
     flex-wrap: wrap;
   }
 
-  .dataset-info {
-    margin-bottom: 32px;
-  }
-
   .dataset-show,
   .dataset-search,
-  .dataset-pager{
+  .dataset-pager,
+  .dataset-items,
+  .dataset-info {
     margin: 0 25px 16px 0;
   }
 
-  .search-controls .pagination {
+  .dataset-search input {
+    max-width: 400px;
+    min-width: 270px;
+  }
+
+  div .pagination {
     display: flex;
     list-style: none;
     border-radius: .25rem;
@@ -83,7 +86,7 @@ h1 + table {
     margin: 0;
   }
 
-  .pagination li + li {
+  div .pagination li + li {
     margin: 0;
   }
 

@@ -39,14 +39,15 @@ title: Items
     <div class="dataset-show">
       <dataset-show :ds-show-entries=24 :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]" />
     </div>
-    <div class="dataset-pager">
-      <dataset-pager />
-    </div>
   </div>
   
   <dataset-info class="dataset-info" />
 
-  <dataset-item>
+  <div class="dataset-pager">
+    <dataset-pager />
+  </div>
+
+  <dataset-item class="dataset-items" >
     <template v-slot="{ row, rowIndex }">
       <div class="card-container">
         <div class="card vp-code-group">
@@ -65,6 +66,9 @@ title: Items
     </template>
   </dataset-item>
 
+  <div class="dataset-pager">
+    <dataset-pager />
+  </div>
+
 </dataset>
-<!-- <pre>{{ data }}</pre> -->
 
