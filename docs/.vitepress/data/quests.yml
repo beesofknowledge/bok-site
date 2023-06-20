@@ -196,6 +196,7 @@
     - Newhaven Hood
     - Brazen Band
     - Brazen Bracer
+    - Pendant of the Academy
   notes: |
     Balgar is at the second fire in Newhaven Valley
 - name: Patrolling Northreach
@@ -203,7 +204,25 @@
   npc: Kander Sackmoore
   level: 12
   rewards:
-    -
+    - Ravenrock Buckler
+    - Ravenrock Heater
+    - Ravenrock Spear
+    - Ravenrock Crossbow
+    - Ravenrock Heavy Crossbow
+    - Ravenrock Quarterstaff
+    - Ravenrock Curved Sword
+    - Ravenrock Battle Banner
+    - Ravenrock Hatchet
+    - Ravenrock Maul
+    - Ravenrock Short Bow
+    - Ravenrock Dagger
+    - Ravenrock Long Bow
+    - Ravenrock Sword
+    - Ravenrock Great Axe
+    - Ravenrock Long Sword
+    - Ravenrock Great Sword
+    - Ravenrock Mace
+    - Ravenrock Kite Shield
   notes: |
     Sergeant Kandar is at Ravenrock.
 - name: The Missing Arms Race
