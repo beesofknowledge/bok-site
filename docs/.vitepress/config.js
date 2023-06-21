@@ -28,17 +28,17 @@ export default {
     pageData.frontmatter.prev = false
     pageData.frontmatter.next = false
   },
-  async transformHead( { page } ) {
-    const headElements = [
-      [
-        'link', {
-          rel: 'canonical',
-          href: "https://" + domain + "/" + page.replace(/((^|\/)index)?\.md$/, '$2'),
-        }
-      ]
-    ]
-    return headElements
-  },
+  // async transformHead( { page } ) {
+  //   const headElements = [
+  //     [
+  //       'link', {
+  //         rel: 'canonical',
+  //         href: "https://" + domain + "/" + page.replace(/((^|\/)index)?\.md$/, '$2'),
+  //       }
+  //     ]
+  //   ]
+  //   return headElements
+  // },
   srcExclude: [],
   vite: {
     ssr: {
