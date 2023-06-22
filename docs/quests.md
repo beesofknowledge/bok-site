@@ -12,7 +12,9 @@ title: Quests
     DatasetShow
   } from 'vue-dataset'
 
-  import { data } from '.vitepress/data/questlist.data.js'
+  import { data as quests } from '.vitepress/data/questlist.data.js'
+
+  const showEntries = 48
 </script>
 
 <script>
@@ -33,22 +35,24 @@ title: Quests
 
 <h1>{{ $frontmatter.title }}</h1>
 
-<dataset v-slot="{ ds }" :ds-data="data">
+<dataset v-slot="{ ds }" :ds-data="quests">
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
       <dataset-search ds-search-placeholder="Search..." ref="input"/>
     </div>
     <div class="dataset-show">
-      <dataset-show :ds-show-entries=48 :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]" />
+      <dataset-show :ds-show-entries="showEntries" :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]" />
     </div>
-    <div class="dataset-pager">
-      <dataset-pager />
-    </div>
+
   </div>
-  
+
   <dataset-info class="dataset-info" />
 
-  <dataset-item>
+  <div class="dataset-pager" >
+    <dataset-pager />
+  </div>
+  
+  <dataset-item class="dataset-items">
     <template v-slot="{ row, rowIndex }">
       <div class="card-container">
         <div class="card vp-code-group">
@@ -65,6 +69,10 @@ title: Quests
       <p>No results found</p>
     </template>
   </dataset-item>
+
+  <div class="dataset-pager">
+    <dataset-pager />
+  </div>
 
 </dataset>
 

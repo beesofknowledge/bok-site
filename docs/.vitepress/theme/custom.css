@@ -23,10 +23,6 @@ html.dark .bok-text-2 {
   color: var(--vp-c-text-dark-2);
 }
 
-/* .search-text { */
-/*   letter-spacing: 0; */
-/* } */
-
 .content-container {
   margin: 0 !important;
 }
@@ -69,8 +65,9 @@ h1 + table {
   .dataset-search,
   .dataset-pager,
   .dataset-items,
-  .dataset-info {
-    margin: 0 25px 16px 0;
+  .dataset-info,
+  .dataset-slots {
+    margin: 16px 25px 16px 0;
   }
 
   .dataset-search input {

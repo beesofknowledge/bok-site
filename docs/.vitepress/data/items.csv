@@ -1,19 +1,19 @@
 name,slot,level
-"""Fishing"" Pole",2H,25
+"""Fishing"" Pole",2H Staff,25
 Ambling Arm,Polearm,30
 Ambling Bark,Shield,30
 Ambling Mitts,Hands,30
 Amos's Shaped Longbow,Bow,20
-Ancient Battle Banner,Offhand,5
+Ancient Battle Banner,Accessory,5
 Ancient Bear Belt,Waist,5
-Ancient Bear Bone Crossbow,Ranged,5
-Ancient Bear Bone Mace,1H,5
-Ancient Bear Bone Short Bow,Ranged,5
+Ancient Bear Bone Crossbow,Crossbow,5
+Ancient Bear Bone Mace,1H Mace,5
+Ancient Bear Bone Short Bow,Bow,5
 Ancient Bear Fur Helm,Head,5
 Ancient Bear Fur Leggings,Faulds,5
 Ancient Bear Fur Vambrace,Vambrace,5
 Ancient Bear Ribcage,Shield,5
-Angelica Battle Banner,Offhand,10
+Angelica Battle Banner,Accessory,10
 Animal Training Gloves,Hands,20
 Antique Tin Cuirass,Cuirass,10
 Antique Tin Vambrace,Vambrace,10
@@ -29,9 +29,9 @@ Balanced Bronze Kite Shield,Shield,20
 Balanced Scale Cuirass,Cuirass,20
 Balto's Bronze Barbuta,Head,15
 Barbed Earring,Earring,20
-Barebow,Ranged,25
+Barebow,Bow,25
 Bareskin Tunic,Chest,25
-Battle Banner of the Circle,Offhand,20
+Battle Banner of the Circle,Accessory,20
 Bear Claw Earring,Earring,5
 Bear Claw Necklace,Necklace,5
 Bear Fur Faulds,Faulds,25
@@ -47,9 +47,9 @@ Black Chitin Ring,Ring,20
 Blackened Iron Faulds,Faulds,15
 Blackened Necklace,Necklace,25
 Blackened Trousers,Legs,15
-Blackhead Dagger,1H,10
+Blackhead Dagger,Dagger,10
 Blackstone Necklace,Necklace,20
-Blade of the Slicer,1H,40
+Blade of the Slicer,1H Sword,40
 Bloodstained Boots,Feet,20
 Bloodstained Gloves,Hands,20
 Bloodstained Mantle,Pauldron,20
@@ -62,67 +62,67 @@ Breezy Belt,Waist,25
 Bristled Leggings,Legs,10
 Brookhollow Belt,Waist,20
 Brookhollow Heater,Shield,20
-Brookhollow Knuckles,1H,20
-Brookhollow Maul,2H,20
+Brookhollow Knuckles,1H Fist,20
+Brookhollow Maul,2H Hammer,20
 Brookhollow Necklace,Necklace,20
 Brookhollow Ring,Ring,20
 Brookhollow Scale Cuirass,Cuirass,20
-Brookhollow Short Sword,1H,20
+Brookhollow Short Sword,1H Sword,20
 Brutish Beads,Necklace,1
 Buckler of the Circle,Shield,20
-Cabal Guardian Sword,1H,30
-Cabal Manslayer Sword,1H,30
-Cabal Prophet Sword,1H,30
+Cabal Guardian Sword,1H Sword,30
+Cabal Manslayer Sword,1H Sword,30
+Cabal Prophet Sword,1H Sword,30
 Canyoneer's Boots,Feet,30
 Carrion Gloves,Hands,30
 Cartographer's Boots,Feet,5
 Cat's Grace,Waist,36
 Champion's Pauldron,Pauldron,20
 Champion's Sword,1H Sword,20
-Chaos Hatchet,1H,25
+Chaos Hatchet,1H Axe,25
 Chewed Oven Mitts,Hands,1
 Chief Thumper's Necklace,Necklace,36
 Chithorn's Pauldron,Pauldron,20
 Chitin Shell Armor,Cuirass,1
 Chitin Shell Shield,Shield,1
-Chopper,2H,25
+Chopper,2H Axe,25
 Circle's Fine Leather Cuirass,Cuirass,20
 Clay Crusted Clogs,Feet,25
 Clay Mask,Head,25
 Cliffwalker's Full Iron Faulds,Faulds,30
 Cliffwalker's Full Iron Helm,Head,30
-Cliffwalker's Heavy Crossbow,Ranged,33
+Cliffwalker's Heavy Crossbow,Crossbow,33
 Cliffwalker's Iron Faulds,Faulds,30
 Cliffwalker's Iron Helm,Head,30
 Cliffwalker's Kite Shield,Shield,33
 Cliffwalker's Leather Faulds,Faulds,30
 Cliffwalker's Leather Helm,Head,30
-Cliffwalker's Long Bow,Ranged,33
-Cliffwalker's Mace,1H,33
+Cliffwalker's Long Bow,Bow,33
+Cliffwalker's Mace,1H Mace,33
 Copperhead Boots,Feet,36
-Courier's Rapier,2H,15
+Courier's Rapier,2H Sword,15
 Crag Kite Shield,Shield,46
-Crimson Crook,2H,15
+Crimson Crook,2H Staff,15
 Crocbone Earring,Earring,25
 Crocodile Tooth Necklace,Necklace,10
-Crystalized Flame Scepter,Offhand,25
+Crystalized Flame Scepter,Accessory,25
 Cuirass of Gawain,Cuirass,1
-Dagger of the Stabber,1H,40
+Dagger of the Stabber,Dagger,40
 Danika's Legacy,Cuirass,20
 Dark Leather Belt,Waist,10
 Dark Wolf Cuirass,Cuirass,10
 Dark Wolf Vambrace,Vambrace,10
-Darkforged Great Axe,2H,30
-Darkstone Dagger,1H,36
-Darkwater Crossbow,Ranged,25
+Darkforged Great Axe,2H Axe,30
+Darkstone Dagger,Dagger,36
+Darkwater Crossbow,Crossbow,25
 Darkwater Knuckles,1H Fist,25
 Darkwater Necklace,Necklace,25
 Darkwater Ring,Ring,25
 Darkwater Scale Faulds,Faulds,25
 Darkwater Scale Greaves,Greaves,25
 Darkwater Scale Helm,Head,25
-Darkwater Spear,2H,25
-Decayed Banner,Offhand,20
+Darkwater Spear,Polearm,25
+Decayed Banner,Accessory,20
 Decorated Pauldron,Pauldron,36
 Deep Ring,Ring,25
 Desert Clutches,Hands,15
@@ -139,41 +139,41 @@ Drybone Shackle,Vambrace,20
 Dryfoot Dustkickers,Feet,20
 Dryfoot Sandals,Feet,20
 Dryfoot Stompers,Feet,20
-Drywood Branch,2H,30
+Drywood Branch,2H Staff,30
 Drywood Buckler,Shield,30
 Dubious Potion,Consumable,25
 Earring of Ello,Earring,20
 Edge Forged Earring,Earring,15
 Elder Marauder Hood,Head,20
 Emerald Scale Belt,Waist,33
-Eradicator,2H,15
+Eradicator,2H Axe,15
 Executioner's Hood,Head,40
 Exile Patrol Torch,Light,25
 Exile Skinning Knife,Tool,25
 Expert Hunter's Gloves,Hands,20
-Extinguished Torch,1H,10
+Extinguished Torch,1H Mace,10
 Faedra's Silk Gloves,Hands,10
 Faintly Glowing Pouch,Quest,1
 Fallen Hero Necklace,Necklace,10
-Fanatic's Banner,Offhand,36
+Fanatic's Banner,Accessory,36
 Fancy Stolen Earring,Earring,20
 Fancy Stolen Ring,Ring,20
-Fang,2H,15
+Fang,2H Sword,15
 Fern Laced Trousers,Legs,33
-Fervent Bloodrite Great Axe,2H,40
-Fervent Bloodrite Great Sword,2H,40
-Fervent Bloodrite Maul,2H,40
+Fervent Bloodrite Great Axe,2H Axe,40
+Fervent Bloodrite Great Sword,2H Sword,40
+Fervent Bloodrite Maul,2H Hammer,40
 Fiery Chitin Boots,Feet,10
 Fiery Chitin Ring,Ring,20
 Fine Freehold Patrol Torch,Light,40
 Firewater,Alcohol,10
-Fishing Guild's Banner,Offhand,25
+Fishing Guild's Banner,Accessory,25
 Fishtooth Earring,Earring,25
 Flattened Metal Kite Shield,Shield,36
 Flex,None,1
 Flexible Warm Gloves,Hands,40
 Flour Dusted Pants,Legs,36
-Flowering Long Bow,Ranged,15
+Flowering Long Bow,Bow,15
 Fool's Feathered Hat,Head,28
 Freehold Patrol Torch,Light,36
 Freehold Steel Hauberk,Chest,36
@@ -199,8 +199,8 @@ Glowing Necklace,Necklace,25
 Glowing Orange Stud Earring,Earring,10
 Golden Chitinshell Shield,Shield,10
 Golden Raven Earring,Earring,25
-Grandmasters Fishing Pole,2H,25
-Greatsword of the Depths,2H,15
+Grandmasters Fishing Pole,2H Staff,25
+Greatsword of the Depths,2H Sword,15
 Greaves of Gore,Greaves,38
 Green Silk Gloves,Hands,1
 Greenscale Boots,Feet,30
@@ -209,12 +209,12 @@ Greenscale Sash,Waist,20
 Greenscale Vambrace,Vambrace,30
 Grimstone Belt,Waist,30
 Grimstone Pauldron,Pauldron,30
-Grizzly Hatchet,1H,10
-Guardian Spear,2H,25
+Grizzly Hatchet,1H Axe,10
+Guardian Spear,Polearm,25
 Guiding Light,Light,10
-Hatchet of the Carver,1H,40
+Hatchet of the Carver,1H Axe,40
 Hauberk of Dissent,Chest,36
-Heavy Crossbow of the Prophet,Ranged,25
+Heavy Crossbow of the Prophet,Crossbow,25
 Heirloom Iron Faulds,Faulds,30
 Helm of Bors,Head,1
 Helm of the Bloodletter,Head,38
@@ -224,51 +224,51 @@ Hofly Soft Chitin Mask,Head,10
 Hoggit's Bracer,Vambrace,10
 Hoggit's Greaves,Greaves,10
 Hoggit's Helm,Head,10
-Holland Crossbow,Ranged,20
-Honed Manslayer Great Sword,2H,30
-Honed Shadowspring Short Bow,Ranged,30
-Horned Gemstone Scepter,Offhand,20
+Holland Crossbow,Crossbow,20
+Honed Manslayer Great Sword,2H Sword,30
+Honed Shadowspring Short Bow,Bow,30
+Horned Gemstone Scepter,Accessory,20
 Insulated Trousers,Legs,25
 Jagged Tooth Earring,Earring,36
 Kaet's Bracer,Vambrace,1
-Kaet's Long Bow,Ranged,5
+Kaet's Long Bow,Bow,5
 Kane's Faulds,Faulds,10
-Keg Tapping Mallet,1H,15
+Keg Tapping Mallet,1H Mace,15
 Kerrigan's Pauldron,Pauldron,20
 King's Protector,Shield,25
 King's Vambrace,Vambrace,25
 Knave's Belt,Waist,5
-Knave's Blade,1H,5
+Knave's Blade,1H Sword,5
 Knave's Cuirass,Cuirass,5
 Knave's Faulds,Faulds,5
 Knave's Helm,Head,5
 Knave's Vambrace,Vambrace,5
-Knuckles of the Circle,1H,20
+Knuckles of the Circle,1H Fist,20
 Larac's Runed Band,Ring,25
 Leather Circle's Faulds,Faulds,20
 Leather Greaves of the Circle,Greaves,20
 Leather Vambrace of the Circle,Vambrace,20
-Long Sword of the Circle,2H,20
+Long Sword of the Circle,2H Sword,20
 Lookout Helm,Head,25
-Lookout Staff,2H,10
+Lookout Staff,2H Staff,10
 Lookout Visor,Head,25
 Lookout's Faulds,Faulds,25
 Lost Miner's Pick,Tool,25
-Love Letter,1H,15
+Love Letter,1H Sword,15
 Lover's Locket,Necklace,36
 Lucky Band,Ring,15
 Lunatic's Lid,Head,28
 Mad Cap,Head,28
 Mafly Chitin Vambraces,Vambrace,10
-Manslayer Great Sword,2H,25
-Mantor Hatchet,1H,30
-Mantor's Reach,2H,33
+Manslayer Great Sword,2H Sword,25
+Mantor Hatchet,1H Axe,30
+Mantor's Reach,Polearm,33
 Marred Engraved Ring,Ring,10
 Mask of the Awakened,Head,25
-Massive Bear Bone Mace,1H,30
+Massive Bear Bone Mace,1H Mace,30
 Massive Scale Heater,Shield,20
 Massive Scale Pauldron,Pauldron,20
-Master Hunter's Long Bow,Ranged,40
+Master Hunter's Long Bow,Bow,40
 Misha's Belt,Waist,1
 Misha's Warmth,Cuirass,1
 Mistcrawler's Leggings,Legs,10
@@ -277,21 +277,21 @@ Mole Bear Greaves,Greaves,25
 Mole Bear Helm,Head,25
 Mole Bear Spaulder,Pauldron,25
 Moss-covered Heater Shield,Shield,25
-Mother Bear Claws,1H,5
-Motivator,2H,20
+Mother Bear Claws,1H Fist,5
+Motivator,2H Sword,20
 Muckripper Pearl Earrings,Earring,36
 Muddy Shirt,Chest,25
 Mudflinger Shield,Shield,25
 Multicolor Dream Belt,Waist,20
 Necklace of Adr,Necklace,20
 Necklace of the Watery Deep,Necklace,25
-Neophyte Blade,2H,36
+Neophyte Blade,2H Sword,36
 Newhaven Helm,Head,1
 Newhaven Hood,Head,1
 Newhaven Skullcap,Head,1
 Nighthunter Mask,Head,10
 Nomad Boots,Feet,20
-Nomad Long Bow,Ranged,20
+Nomad Long Bow,Bow,20
 Oiled Tin Quarter-plate Cuirass,Cuirass,25
 Oiled Tin Quarter-plate Greaves,Greaves,25
 Oiled Tin Quarter-plate Pauldron,Pauldron,25
@@ -307,48 +307,48 @@ Patrolman's Gloves,Hands,25
 Peach Pie,Food,1
 Pendant of the Academy,Necklace,2
 Petrified Bark Shield,Shield,30
-Petrified Bone Gauntlets,1H,30
+Petrified Bone Gauntlets,1H Fist,30
 Pie Rat Eye Patch,Head,1
-Pie Rat Hook,1H,1
+Pie Rat Hook,1H Fist,1
 Piercing Quills,Ammo,5
 Plaguebringer's Helm,Head,20
 Plate Bracers of the Circle,Vambrace,20
 Plate Faulds of the Circle,Faulds,20
 Plate Greaves of the Circle,Greaves,20
 Polished Scale Cuirass,Cuirass,10
-Poppy Pummeler,1H,10
-Poppy Smasher,1H,20
+Poppy Pummeler,1H Mace,10
+Poppy Smasher,1H Mace,20
 Precious Pond Pants,Legs,25
 Prized Helm,Head,25
 Prospector's Pickaxe,Tool,15
 Proud Stag's Leggings,Legs,1
 Prowler Hood,Head,30
 Purple Lotus Earring,Earring,15
-Quarterstaff of the Circle,2H,20
-Quarterstaff of the Occult Leader,2H,30
-Queen's Mallet,2H,10
+Quarterstaff of the Circle,2H Staff,20
+Quarterstaff of the Occult Leader,2H Staff,30
+Queen's Mallet,2H Hammer,10
 Queen's Red Gloves,Hands,10
 Queen's White Gloves,Hands,10
 Quickdraw Belt,Waist,20
 Quickfingered Gloves,Hands,25
-Quillspear Repeater,Ranged,10
-Raider Hatchet,1H,20
+Quillspear Repeater,Crossbow,10
+Raider Hatchet,1H Axe,20
 Raider Tunic,Chest,20
-Raider's Dire Axe,2H,20
-Raider's Dire Battlestaff,2H,20
-Raider's Dire Claymore,2H,20
-Raider's Dire Polearm,2H,20
-Rain Stick,2H,20
+Raider's Dire Axe,2H Axe,20
+Raider's Dire Battlestaff,2H Staff,20
+Raider's Dire Claymore,2H Sword,20
+Raider's Dire Polearm,Polearm,20
+Rain Stick,2H Staff,20
 Ranger's Belt,Waist,1
 Ranger's Old Chain Shirt,Chest,10
 Ranger's Tracking Boots,Feet,20
-Rat Gut Short Bow,Ranged,5
-Rat Smasher,1H,5
+Rat Gut Short Bow,Bow,5
+Rat Smasher,1H Mace,5
 Rat Tail Ring,Ring,1
 Rat Wraps,Hands,15
 Rathide Bracer,Vambrace,20
-Ratstaff,2H,15
-Ravenrock Battle Banner,Offhand,12
+Ratstaff,2H Staff,15
+Ravenrock Battle Banner,Accessory,12
 Ravenrock Buckler,Shield,12
 Ravenrock Crossbow,Crossbow,12
 Ravenrock Curved Sword,1H Sword,12
@@ -369,15 +369,15 @@ Ravenrock Spear,Polearm,12
 Ravenrock Sword,1H Sword,12
 Reaver Ring,Ring,36
 Redshore Champion Gauntlets,Hands,38
-Redshore Hero's Blade,1H,38
-Redshore Reaver,1H,30
+Redshore Hero's Blade,1H Sword,38
+Redshore Reaver,1H Axe,30
 Redshore Stag Helm,Head,30
 Redshore Steel Kite Shield,Shield,10
-Redshore Steel Short Sword,1H,10
-Redshore Torn Battle Banner,Offhand,30
-Redshore's Revenge,1H,38
+Redshore Steel Short Sword,1H Sword,10
+Redshore Torn Battle Banner,Accessory,30
+Redshore's Revenge,1H Axe,38
 Redwood Arrow,Ammo,25
-Redwood Chopper,2H,25
+Redwood Chopper,2H Axe,25
 Redwood Greaves,Greaves,36
 Redwood Vambrace,Vambrace,36
 Relic Hunter's Chitin Cuirass,Cuirass,20
@@ -390,22 +390,22 @@ Relic Hunter's Padded Helm,Head,15
 Relic Hunter's Scale Cuirass,Cuirass,20
 Relic Hunter's Scale Faulds,Faulds,25
 Renegade's Mask,Head,30
-Revanant's Reaver,2H,38
+Revanant's Reaver,2H Sword,38
 Rigid Leggings,Legs,20
 Ring of Morro,Ring,20
 Ring of the Crusher,Ring,40
 Ring of the Overseer,Ring,20
 Ring of Tumbling,Ring,1
 Rivenese Dagger,Dagger,15
-Rock Crusher,2H,20
+Rock Crusher,2H Hammer,20
 Rockhide Bracer,Vambrace,10
 Rockhide Helm,Head,10
-Rockmender Hammer,1H,36
-Rod of Revenge,Offhand,38
-Rolling Pin,1H,36
+Rockmender Hammer,1H Mace,36
+Rod of Revenge,Accessory,38
+Rolling Pin,1H Mace,36
 Rosefield Chain Hauberk,Chest,20
-Rotter Blade,1H,36
-Ruffian Knife,1H,20
+Rotter Blade,1H Sword,36
+Ruffian Knife,1H Sword,20
 Runner's Cuff,Vambrace,1
 Salt Cured Leather Bracer,Vambrace,30
 Salt Cured Leather Cuirass,Cuirass,30
@@ -418,12 +418,12 @@ Sandstone Vambrace,Vambrace,20
 Sanity Hood,Head,28
 Sapping Belt,Waist,25
 Sauce Stained Shirt,Chest,36
-Sawtooth Dagger,1H,20
-Sawtooth Greatsword,2H,20
-Sawtooth Sword,1H,20
+Sawtooth Dagger,Dagger,20
+Sawtooth Greatsword,2H Sword,20
+Sawtooth Sword,1H Sword,20
 Scale Mesh Mask,Head,25
 Scale of the Mantor,Shield,33
-Scavanger Hatchet,1H,10
+Scavanger Hatchet,1H Axe,10
 Scorched Shirt,Chest,30
 Scoundrel Gloves,Hands,25
 Scout's Leather Helm,Head,25
@@ -431,13 +431,13 @@ Scruffy Leggings,Legs,1
 Scurry Boots,Feet,36
 Second Lieutenant's Hauberk,Chest,10
 Seething Necklace,Necklace,25
-Shaded Blade,1H,46
-Shadowspring Short Bow,Ranged,25
+Shaded Blade,1H Sword,46
+Shadowspring Short Bow,Bow,25
 Shale Gauntlets,Hands,20
 Shield of Ector,Shield,1
 Shield of the Slayer,Shield,38
 Shin Bane,Greaves,25
-Shining Machete,1H,25
+Shining Machete,1H Sword,25
 Shredded Leather Belt,Waist,35
 Shredded Leather Boots,Feet,35
 Shredded Shirt,Chest,35
@@ -448,59 +448,59 @@ Signet Ring,Ring,25
 Silk Cap,Head,1
 Silk Hood,Head,1
 Silk Lined Chitin Faulds,Faulds,10
-Silkweave Hatchet,1H,15
+Silkweave Hatchet,1H Axe,15
 Silkweave Necklace,Necklace,15
 Silkweave Shirt,Chest,15
-Silver Pryknife,1H,25
+Silver Pryknife,Dagger,25
 Skullata Shield,Shield,25
 Slick Slacks,Legs,25
 Slick Warden's Boots,Feet,10
 Slick Warden's Tunic,Cuirass,10
 Slime Encrusted Ring,Ring,25
-Slime Slinger,Ranged,25
+Slime Slinger,Crossbow,25
 Slinger Gloves,Hands,10
-Smith's Gilded Hammer,1H,25
+Smith's Gilded Hammer,1H Mace,25
 Smith's Tunic,Chest,10
 Smoldering Ring,Ring,30
 Smooth Silk Belt,Waist,33
-Smugglecraft Battle Banner,Offhand,5
+Smugglecraft Battle Banner,Accessory,5
 Smugglecraft Buckler,Shield,5
-Smugglecraft Great Axe,2H,5
+Smugglecraft Great Axe,2H Axe,5
 Smuggler Lookout Torch,Light,2
 Smuggler's Boots,Feet,1
 Smuggler's Strap,Waist,1
-Snatchscale Hunting Stick,2H,25
+Snatchscale Hunting Stick,2H Staff,25
 Soaked Wood Shield,Shield,15
 Soft Chitin Shirt,Chest,20
 Soft Chitin Trousers,Legs,20
 Softshell Tunic,Chest,25
 Soren's Faulds,Faulds,1
 Sovereign's Decree,Ring,40
-Spear of the Circle,2H,20
+Spear of the Circle,Polearm,20
 Spiderfang Necklace,Necklace,10
 Spiked Band,Ring,36
 Spikeshell Punch,Potion,25
-Spindled Banner,Offhand,36
+Spindled Banner,Accessory,36
 Spindled Shirt,Chest,36
-Spring Redwood Short Bow,Ranged,25
-Stabber,1H,20
+Spring Redwood Short Bow,Bow,25
+Stabber,Dagger,20
 Stalkers Chain Belt,Waist,10
-Stark Greatsword,2H,25
+Stark Greatsword,2H Sword,25
 Steady Buckler,Shield,36
 Steady Ring,Ring,25
 Still Chitin Cuirass,Cuirass,25
 Still Chitin Faulds,Faulds,25
 Still Chitin Mask,Head,25
-Sting,Ranged,10
+Sting,Bow,10
 Stolen Emerald Necklace,Necklace,30
 Stolen Necklace,Necklace,10
 Stolen Onyx Ring,Ring,30
 Stone Banded Belt,Waist,36
 Stonegrip Crossbow,Crossbow,33
-Stonegrip Great Sword,2H,30
-Stonegrip Hammer,1H,30
-Stonegrip Maul,2H,30
-Stonegrip Short Bow,Ranged,30
+Stonegrip Great Sword,2H Sword,30
+Stonegrip Hammer,1H Mace,30
+Stonegrip Maul,2H Hammer,30
+Stonegrip Short Bow,Bow,30
 Stoneguard Faulds,Faulds,36
 Stoneslayer Gloves,Hands,36
 Strider's Cuirass,Cuirass,10
@@ -512,8 +512,8 @@ Tattered Elder Shirt,Chest,20
 Teacher's Gloves,Hands,36
 Thick Beast Bracer,Vambrace,20
 Thicket Necklace,Necklace,25
-Thicket Needler,Ranged,25
-Thief's Blade,1H,1
+Thicket Needler,Bow,25
+Thief's Blade,1H Sword,1
 Thief's Gloves,Hands,1
 Thread Bare Gloves,Hands,15
 Thumper Ring,Ring,36
@@ -523,22 +523,22 @@ Toad Battle Mask,Head,10
 Torched Hood,Head,10
 Tracker Hide Belt,Waist,10
 Tracker Hide Helm,Head,10
-Tracker Short Bow,Ranged,15
-Traitor's Blade,1H,30
+Tracker Short Bow,Bow,15
+Traitor's Blade,1H Sword,30
 Traitor's Boots,Feet,20
 Traitor's Mask,Head,20
 Traitor's Tunic,Chest,20
 Tribal Drybone Mask,Head,30
 Trophy Hunter's Leggings,Legs,40
 Turnip Head,Head,1
-Turret,Ranged,25
-Twill's Lost Standard,Offhand,30
+Turret,Bow,25
+Twill's Lost Standard,Accessory,30
 Twill's Spare Boots,Feet,38
 Vambraces of Vengeance,Vambrace,38
-Vibrant Redshore Banner,Offhand,25
-Vibrant Wooden Crook,2H,15
-Vivid Battle Banner,Offhand,20
-Walker Staff,2H,10
+Vibrant Redshore Banner,Accessory,25
+Vibrant Wooden Crook,2H Staff,15
+Vivid Battle Banner,Accessory,20
+Walker Staff,2H Staff,10
 Warm Gloves,Hands,36
 Warm Ring,Ring,25
 Warrior Chief Bearskin Bracer,Vambrace,20
@@ -549,14 +549,14 @@ Warrior Chief Bearskin Spaulder,Pauldron,20
 Warrior Necklace,Necklace,33
 Wayward Belt,Waist,15
 Whiskered Tunic,Chest,36
-Whiskertooth Dagger,1H,36
+Whiskertooth Dagger,Dagger,36
 White Gloves of Preparation,Hands,36
 Whitehead Leather Faulds,Faulds,10
 Wild Wolf Cuirass,Cuirass,40
 Wild Wolf Greaves,Greaves,40
 Wild Wolf Leather Bracer,Vambrace,40
 Wild Wolf Leather Helm,Head,40
-Wingblade,1H,10
+Wingblade,1H Sword,10
 Wisgold's Edge,1H Sword,15
 Witch's Amulet,Necklace,1
 Wolf Fang Earring,Earring,10
@@ -564,11 +564,11 @@ Wolfsbane Greaves,Greaves,10
 Wolfskin Treads,Feet,40
 Woodshaper's Long Bow,Bow,20
 Woven Grass Crown,Head,33
-Wrapped Nocturne Blade,1H,30
+Wrapped Nocturne Blade,1H Sword,30
 Xanton's Remade Blade,1H Sword,20
 Xanton's Signature Sword,1H Sword,20
-Yosef's Hatchet,1H,5
+Yosef's Hatchet,1H Axe,5
 Yosef's Mask,Head,1
 Zirconium Defender,Shield,36
 Zofly Chitin Cuirass,Cuirass,10
-Zofly Short Bow,Ranged,10
+Zofly Short Bow,Bow,10

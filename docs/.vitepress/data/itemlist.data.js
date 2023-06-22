@@ -3,7 +3,6 @@ import slugify from 'slugify'
 //import { parse } from 'yaml'
 import { parse } from 'csv-parse/sync'
 
-//const file = 'docs/.vitepress/data/items.yml'
 const file = 'docs/.vitepress/data/items.csv'
 
 export default {
@@ -28,6 +27,7 @@ export default {
 
     data = data.map(item => ({
       ...item,
+      level: Number(item.level),
       slug: slugify(item.name, {
           lower: true,
           remove: /[*+~.()'"!:@]/g

@@ -23,6 +23,7 @@ export default {
 
     data = data.map(item => ({
       ...item,
+      level: Number(item.level),
       slug: slugify(item.name, {
           lower: true,
           remove: /[*+~.()'"!:@]/g
