@@ -2,7 +2,7 @@
 title: Items
 ---
 <script setup>
-  import { ref } from 'vue'
+  import { ref, onMounted } from 'vue'
   import { 
     Dataset,
     DatasetItem,
@@ -12,29 +12,15 @@ title: Items
     DatasetShow
   } from 'vue-dataset'
 
-  import { data as items} from '.vitepress/data/itemlist.data.js'
+  import { data as items } from '.vitepress/data/itemlist.data.js'
 
   const showEntries = 48
 
   const slotFilter = ref("")
   const levelFilter = ref("")
 
-  console.log(typeof items[0].level);
-  console.log(items);
-</script>
-
-<script>
-  import { ref } from 'vue'
-
-  export default {
-    mounted() {
-      this.focusInput();
-    },
-    methods: {
-      focusInput() {
-        this.$refs.input.$el.focus();
-      }
-    }
+  const vFocus = {
+    mounted: (el) => el.focus()
   }
 </script>
 
@@ -51,7 +37,7 @@ title: Items
 >
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
-      <dataset-search ds-search-placeholder="Search..." ref="input"/>
+      <dataset-search ds-search-placeholder="Search..." v-focus />
     </div>
      <div class="dataset-slots">
       Type: 
