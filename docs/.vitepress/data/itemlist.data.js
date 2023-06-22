@@ -14,8 +14,8 @@ export default {
     })
 
     data.sort(function(a, b) {
-      const nameA = a.name.toUpperCase()
-      const nameB = b.name.toUpperCase()
+      const nameA = a.name.toUpperCase().replace(/['"]+/g, '')
+      const nameB = b.name.toUpperCase().replace(/['"]+/g, '')
       if (nameA > nameB) {
         return 1
       }
