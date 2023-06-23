@@ -50,7 +50,7 @@ title: Items
      <div class="dataset-slots">
       Type: 
       <select v-model="slotFilter" class="form-control">
-        <option disabled value="">All</option>
+        <option selected value="">All</option>
         <option>1H Sword</option>
         <option>2H Sword</option>
         <option>1H Fist</option>
