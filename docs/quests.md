@@ -22,9 +22,20 @@ title: Quests
     { value: 48, text: 48 },
     { value: 96, text: 96 }
   ]
+</script>
 
-  const vFocus = {
-    mounted: (el) => el.focus()
+<script>
+  import { ref } from 'vue'
+
+  export default {
+    mounted() {
+      this.focusInput();
+    },
+    methods: {
+      focusInput() {
+        this.$refs.input.$el.focus();
+      }
+    }
   }
 </script>
 
@@ -33,7 +44,7 @@ title: Quests
 <dataset v-slot="{ ds }" :ds-data="quests">
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
-      <dataset-search ds-search-placeholder="Search..." v-focus />
+      <dataset-search ds-search-placeholder="Search..." ref="input" />
     </div>
     <div class="dataset-show">
       <dataset-show :ds-show-entries="showEntries" :ds-show-entries-lovs="entryValues" />

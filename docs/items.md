@@ -26,10 +26,23 @@ title: Items
   const slotFilter = ref("")
   const levelFilter = ref("")
 
-  const vFocus = {
-    mounted: (el) => el.focus()
+</script>
+
+<script>
+  import { ref } from 'vue'
+
+  export default {
+    mounted() {
+      this.focusInput();
+    },
+    methods: {
+      focusInput() {
+        this.$refs.input.$el.focus();
+      }
+    }
   }
 </script>
+
 
 <h1>{{ $frontmatter.title }}</h1>
 
@@ -44,7 +57,7 @@ title: Items
 >
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="dataset-search">
-      <dataset-search ds-search-placeholder="Search..." v-focus />
+      <dataset-search ds-search-placeholder="Search..." ref="input" />
     </div>
      <div class="dataset-slots">
       Type: 
