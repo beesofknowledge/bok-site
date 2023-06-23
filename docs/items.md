@@ -2,7 +2,7 @@
 title: Items
 ---
 <script setup>
-  import { ref } from 'vue'
+  import { ref, onMounted } from 'vue'
   import { 
     Dataset,
     DatasetItem,
@@ -25,22 +25,11 @@ title: Items
 
   const slotFilter = ref("")
   const levelFilter = ref("")
-</script>
 
-<script>
-  import { ref } from 'vue'
-
-  export default {
-    mounted() {
-      //console.log(this.$refs.input)
-      this.focusInput();
-    },
-    methods: {
-      focusInput() {
-        this.$refs.input.$el.focus();
-      }
-    }
-  }
+  const input = ref()
+  onMounted(() => {
+    input.value.$el.focus()
+  })
 </script>
 
 <h1>{{ $frontmatter.title }}</h1>

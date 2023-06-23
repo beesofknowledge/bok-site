@@ -3,7 +3,7 @@ title: Quests
 ---
 
 <script setup>
-  import { ref } from 'vue'
+  import { ref, onMounted } from 'vue'
   import { 
     Dataset,
     DatasetItem,
@@ -23,22 +23,11 @@ title: Quests
     { value: 48, text: 48 },
     { value: 96, text: 96 }
   ]
-</script>
 
-<script>
-  import { ref } from 'vue'
-
-  export default {
-    mounted() {
-      //console.log(this.$refs.input.$el)
-      this.focusInput();
-    },
-    methods: {
-      focusInput() {
-        this.$refs.input.$el.focus();
-      }
-    }
-  }
+  const input = ref()
+  onMounted(() => {
+    input.value.$el.focus()
+  })
 </script>
 
 <h1>{{ $frontmatter.title }}</h1>
@@ -51,7 +40,6 @@ title: Quests
     <div class="dataset-show">
       <dataset-show :ds-show-entries="showEntries" :ds-show-entries-lovs="entryValues" />
     </div>
-
   </div>
 
   <dataset-info class="dataset-info" />
