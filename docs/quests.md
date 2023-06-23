@@ -3,7 +3,7 @@ title: Quests
 ---
 
 <script setup>
-  import { ref, onMounted, nextTick} from 'vue'
+  import { ref } from 'vue'
   import { 
     Dataset,
     DatasetItem,
@@ -30,7 +30,7 @@ title: Quests
 
   export default {
     mounted() {
-      console.log(this.$refs.input)
+      //console.log(this.$refs.input.$el)
       this.focusInput();
     },
     methods: {
@@ -85,4 +85,5 @@ title: Quests
 </dataset>
 
 <!-- <pre>{{ data }}</pre> -->
+
 
