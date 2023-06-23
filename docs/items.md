@@ -25,7 +25,6 @@ title: Items
 
   const slotFilter = ref("")
   const levelFilter = ref("")
-
 </script>
 
 <script>
@@ -33,6 +32,7 @@ title: Items
 
   export default {
     mounted() {
+      //console.log(this.$refs.input)
       this.focusInput();
     },
     methods: {
@@ -42,7 +42,6 @@ title: Items
     }
   }
 </script>
-
 
 <h1>{{ $frontmatter.title }}</h1>
 

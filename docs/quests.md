@@ -3,6 +3,7 @@ title: Quests
 ---
 
 <script setup>
+  import { ref, onMounted, nextTick} from 'vue'
   import { 
     Dataset,
     DatasetItem,
@@ -29,6 +30,7 @@ title: Quests
 
   export default {
     mounted() {
+      console.log(this.$refs.input)
       this.focusInput();
     },
     methods: {
