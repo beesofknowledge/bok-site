@@ -2,7 +2,7 @@
 title: Items
 ---
 <script setup>
-  import { ref, onMounted } from 'vue'
+  import { ref } from 'vue'
   import { 
     Dataset,
     DatasetItem,
@@ -15,6 +15,13 @@ title: Items
   import { data as items } from '.vitepress/data/itemlist.data.js'
 
   const showEntries = 48
+  const entryValues = [
+    { value: 6, text: 6 },
+    { value: 12, text: 12 },
+    { value: 24, text: 24 },
+    { value: 48, text: 48 },
+    { value: 96, text: 96 }
+  ]
 
   const slotFilter = ref("")
   const levelFilter = ref("")
@@ -81,7 +88,7 @@ title: Items
     <div class="dataset-show">
       <dataset-show
         :ds-show-entries="showEntries"
-        :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]"
+        :ds-show-entries-lovs="entryValues"
       />
     </div>
   </div>

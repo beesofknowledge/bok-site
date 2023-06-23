@@ -15,6 +15,13 @@ title: Quests
   import { data as quests } from '.vitepress/data/questlist.data.js'
 
   const showEntries = 48
+  const entryValues = [
+    { value: 6, text: 6 },
+    { value: 12, text: 12 },
+    { value: 24, text: 24 },
+    { value: 48, text: 48 },
+    { value: 96, text: 96 }
+  ]
 
   const vFocus = {
     mounted: (el) => el.focus()
@@ -29,7 +36,7 @@ title: Quests
       <dataset-search ds-search-placeholder="Search..." v-focus />
     </div>
     <div class="dataset-show">
-      <dataset-show :ds-show-entries="showEntries" :ds-show-entries-lovs="[{ value: 6, text: 6 }, { value: 12, text: 12 }, { value: 24, text: 24 }, { value: 48, text: 48 }, { value: 96, text: 96 }]" />
+      <dataset-show :ds-show-entries="showEntries" :ds-show-entries-lovs="entryValues" />
     </div>
 
   </div>
