@@ -1,10 +1,6 @@
 ---
 title: Augments
 ---
-<script setup>
-  import { data as augments } from '../.vitepress/data/augments.data.js'
-  import DataTable from '../.vitepress/components/DataTable.vue'
-</script>
 
 # Augments
 
@@ -15,6 +11,11 @@ Be warned that use of an augment will bind an item to you and you will no longer
 Secondary materials are store bought in the case of glue and gathered in other cases. For each augment, the secondary material must match the level quality of the primary material, or stats will be reduced down to the level of the secondary material.
 
 <DataTable :data="augments" />
+
+<script setup>
+  import { data as augments } from '../.vitepress/data/augments.data.js'
+  import DataTable from '../.vitepress/components/DataTable.vue'
+</script>
 
 <style>
   td { white-space:pre-wrap }
