@@ -1,9 +1,9 @@
 mushroom,potion,stat,small,medium,large,rich
-Penny Bun,Health Potion,health,,,42-48,54-60
-Muddle,Physical Resist Potion,phys dmg resist,10,,14,
-Purple Shock,Damage Shield Potion,damage shield,,,6,8
-Cobalt Wax,Regen Potion,health regen / 3s,,,4,7
-Spike Cap,Potion of Focus,hit,,,20,30
-Purple Trite,Reflex Potion,avoid,,,,
-Royal Gully,King's Potion,"dmg, haste, hit, pen",,,4,
+Penny Bun,Health Potion,Health,,,42-48,54-60
+Muddle,Physical Resist Potion,Physical Dmg Resist,10,,14,
+Purple Shock,Damage Shield Potion,Damage Shield,,,6,8
+Cobalt Wax,Regen Potion,Health Regen / 3s,,,4,7
+Spike Cap,Potion of Focus,Hit,,,20,30
+Purple Trite,Reflex Potion,Avoid,,,3,
+Royal Gully,King's Potion,"Dmg, Haste, Hit, Pen",,,4,
 Snow Cap,,,,,,
