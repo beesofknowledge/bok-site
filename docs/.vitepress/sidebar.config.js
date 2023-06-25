@@ -59,6 +59,7 @@ const sidebar = [
           items: [
           { text: 'Rings', link: 'crafting/rings' },
           { text: 'Augments', link: 'crafting/augments' },
+          { text: 'Potions', link: 'crafting/potions' },
           { text: 'Crafting Quests', link: 'crafting/crafting-quests' },
           ],
       },
