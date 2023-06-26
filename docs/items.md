@@ -2,7 +2,7 @@
 title: Items
 ---
 <script setup>
-  import { ref, onMounted } from 'vue'
+  import { ref, onMounted, watch } from 'vue'
   import { 
     Dataset,
     DatasetItem,
@@ -26,23 +26,25 @@ title: Items
   const minLevel = ref(1)
   const maxLevel = ref(50)
 
-  function levelFilter(value) {
+  const levelFilter = (value) => {
     return ( value >= minLevel.value && value <= maxLevel.value )
   }
 
+  const updateData = () => {
+//    levelFilter()
+  }
+
+  //watch(minLevel, (newValue) => console.log(minLevel))
+
   const slotFilter = ref("")
 
-  const input = ref()
+  const searchInput = ref("")
   onMounted(() => {
-    input.value.$el.focus()
+    searchInput.value.$el.focus()
   })
 </script>
 
 <h1>{{ $frontmatter.title }}</h1>
-
-<!-- <button @click.prevent="slotFilter = '1H Sword'">1H Sword</button> -->
-<!-- <button @click="levelFilter = '20'">Level 20</button> -->
-<!-- current level: {{ levelFilter }} -->
 
 <dataset
   v-slot="{ ds }"
@@ -51,7 +53,7 @@ title: Items
 >
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="search-control">
-      <dataset-search ds-search-placeholder="Search..." ref="input" />
+      <dataset-search ds-search-placeholder="Search..." ref="searchInput" />
     </div>
     <div class="search-control">
       Type: 
@@ -89,21 +91,23 @@ title: Items
         <option>Consumable</option>
         <option>Light</option>
         <option>Quest</option>
-        <option>Alcoho</option>
+        <option>Alcohol</option>
         </select>
     </div>
     <div class="search-control search-input">
       Min:
       <input 
-        v-model="minLevel"
         class="form-control"
+        :value="minLevel"
+        @input="updateData"
       />
     </div>
     <div class="search-control search-input">
       Max:
       <input
-        v-model="maxLevel"
         class="form-control"
+        :value="maxLevel"
+        @input="updateData"
       />
     </div>
     <div class="dataset-show">
@@ -115,13 +119,13 @@ title: Items
   </div>
   
   <dataset-info class="dataset-info" />
+min level {{ minLevel }}
+
+max level {{ maxLevel }}
 
   <div class="dataset-pager" >
     <dataset-pager />
   </div>
-
-min level {{ minLevel }}
-max level {{ maxLevel }}
 
   <dataset-item class="dataset-items" >
     <template v-slot="{ row, rowIndex }">
