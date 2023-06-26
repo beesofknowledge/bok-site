@@ -2,7 +2,7 @@
 title: Items
 ---
 <script setup>
-  import { ref, onMounted, watch } from 'vue'
+  import { ref, onMounted, watch, onUpdated, onBeforeMount, reactive } from 'vue'
   import { 
     Dataset,
     DatasetItem,
@@ -12,29 +12,34 @@ title: Items
     DatasetShow
   } from 'vue-dataset'
 
-  import { data as items } from '.vitepress/data/itemlist.data.js'
+  import { data } from '.vitepress/data/itemlist.data.js'
+
+  const items = ref([])
+  items.value = data
 
   const showEntries = 48
   const entryValues = [
-    { value: 6, text: 6 },
-    { value: 12, text: 12 },
-    { value: 24, text: 24 },
-    { value: 48, text: 48 },
-    { value: 96, text: 96 }
+    { value: 6, text: "6" },
+    { value: 12, text: "12" },
+    { value: 24, text: "24" },
+    { value: 48, text: "48" },
+    { value: 96, text: "96" }
   ]
 
-  const minLevel = ref(1)
-  const maxLevel = ref(50)
+  const sortBy = ref(["name"])
+
+  const minMaxLevel = reactive({min:1, max:50})
+
+  watch(minMaxLevel, () => {
+    // my hack to get data to update
+    const oldSort = sortBy.value
+    sortBy.value = []
+    sortBy.value = oldSort
+  })
 
   const levelFilter = (value) => {
-    return ( value >= minLevel.value && value <= maxLevel.value )
+    return ( value >= minMaxLevel.min && value <= minMaxLevel.max )
   }
-
-  const updateData = () => {
-//    levelFilter()
-  }
-
-  //watch(minLevel, (newValue) => console.log(minLevel))
 
   const slotFilter = ref("")
 
@@ -50,6 +55,7 @@ title: Items
   v-slot="{ ds }"
   :ds-data="items"
   :ds-filter-fields="{ slot: slotFilter, level: levelFilter}"
+  :ds-sortby="sortBy"
 >
   <div class="search-controls" :data-page-count="ds.dsPagecount">
     <div class="search-control">
@@ -57,7 +63,10 @@ title: Items
     </div>
     <div class="search-control">
       Type: 
-      <select v-model="slotFilter" class="form-control">
+      <select
+        v-model="slotFilter"
+        class="form-control"
+      >
         <option selected value="">All</option>
         <option>1H Sword</option>
         <option>2H Sword</option>
@@ -92,22 +101,22 @@ title: Items
         <option>Light</option>
         <option>Quest</option>
         <option>Alcohol</option>
-        </select>
+      </select>
     </div>
     <div class="search-control search-input">
       Min:
-      <input 
+      <input
+        type="number"
         class="form-control"
-        :value="minLevel"
-        @input="updateData"
+        v-model="minMaxLevel.min"
       />
     </div>
     <div class="search-control search-input">
       Max:
       <input
+        type="number"
         class="form-control"
-        :value="maxLevel"
-        @input="updateData"
+        v-model="minMaxLevel.max"
       />
     </div>
     <div class="dataset-show">
@@ -119,9 +128,6 @@ title: Items
   </div>
   
   <dataset-info class="dataset-info" />
-min level {{ minLevel }}
-
-max level {{ maxLevel }}
 
   <div class="dataset-pager" >
     <dataset-pager />
