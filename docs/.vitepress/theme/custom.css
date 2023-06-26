@@ -66,8 +66,13 @@ h1 + table {
   .dataset-pager,
   .dataset-items,
   .dataset-info,
-  .dataset-slots {
+  .dataset-slots,
+  .search-control {
     margin: 16px 25px 16px 0;
+  }
+
+  .search-input input{
+    width: 3rem;
   }
 
   .dataset-search input {

@@ -23,8 +23,14 @@ title: Items
     { value: 96, text: 96 }
   ]
 
+  const minLevel = ref(1)
+  const maxLevel = ref(50)
+
+  function levelFilter(value) {
+    return ( value >= minLevel.value && value <= maxLevel.value )
+  }
+
   const slotFilter = ref("")
-  const levelFilter = ref("")
 
   const input = ref()
   onMounted(() => {
@@ -44,10 +50,10 @@ title: Items
   :ds-filter-fields="{ slot: slotFilter, level: levelFilter}"
 >
   <div class="search-controls" :data-page-count="ds.dsPagecount">
-    <div class="dataset-search">
+    <div class="search-control">
       <dataset-search ds-search-placeholder="Search..." ref="input" />
     </div>
-     <div class="dataset-slots">
+    <div class="search-control">
       Type: 
       <select v-model="slotFilter" class="form-control">
         <option selected value="">All</option>
@@ -84,7 +90,21 @@ title: Items
         <option>Light</option>
         <option>Quest</option>
         <option>Alcoho</option>
-      </select>
+        </select>
+    </div>
+    <div class="search-control search-input">
+      Min:
+      <input 
+        v-model="minLevel"
+        class="form-control"
+      />
+    </div>
+    <div class="search-control search-input">
+      Max:
+      <input
+        v-model="maxLevel"
+        class="form-control"
+      />
     </div>
     <div class="dataset-show">
       <dataset-show
@@ -99,6 +119,9 @@ title: Items
   <div class="dataset-pager" >
     <dataset-pager />
   </div>
+
+min level {{ minLevel }}
+max level {{ maxLevel }}
 
   <dataset-item class="dataset-items" >
     <template v-slot="{ row, rowIndex }">
