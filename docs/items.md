@@ -17,6 +17,8 @@ title: Items
   const items = ref([])
   items.value = data
 
+  const slotFilter = ref("")
+
   const showEntries = 48
   const entryValues = [
     { value: 6, text: "6" },
@@ -27,20 +29,15 @@ title: Items
   ]
 
   const sortBy = ref([])
-
   const minMaxLevel = reactive({min:1, max:50})
-
   watch(minMaxLevel, () => {
     // my hack to get data to update
     // at least til I put in sorting
     sortBy.value = []
   })
-
   const levelFilter = (value) => {
     return ( value >= minMaxLevel.min && value <= minMaxLevel.max )
   }
-
-  const slotFilter = ref("")
 
   const searchInput = ref("")
   onMounted(() => {
