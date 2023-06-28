@@ -26,15 +26,14 @@ title: Items
     { value: 96, text: "96" }
   ]
 
-  const sortBy = ref(["name"])
+  const sortBy = ref([])
 
   const minMaxLevel = reactive({min:1, max:50})
 
   watch(minMaxLevel, () => {
     // my hack to get data to update
-    const oldSort = sortBy.value
+    // at least til I put in sorting
     sortBy.value = []
-    sortBy.value = oldSort
   })
 
   const levelFilter = (value) => {
