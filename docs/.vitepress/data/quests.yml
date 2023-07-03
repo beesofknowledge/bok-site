@@ -239,13 +239,30 @@
   npc: Helmar Brackford
   level: 20
   rewards:
-    -
+    - Brookhollow Crossbow
+    - Brookhollow Curved Sword
+    - Brookhollow Dagger
+    - Brookhollow Great Axe
+    - Brookhollow Great Sword
+    - Brookhollow Hatchet
+    - Brookhollow Heavy Crossbow
+    - Brookhollow Knuckles
   notes: |
 - name: Scavenging Supplies
   zone: Meadowlands
   npc: Dain Lavendersky
   level: 20
   rewards:
+    - Brookhollow Battle Banner
+    - Brookhollow Buckler
+    - Brookhollow Heater
+    - Brookhollow Kite Shield
+    - Brookhollow Scale Cuirass
+    - Brookhollow Scale Faulds
+    - Brookhollow Scale Greaves
+    - Brookhollow Scale Helm
+    - Brookhollow Scale Pauldron
+    - Brookhollow Scale Vambrace
     -
   notes: |
 - name: To Make a Map
@@ -345,7 +362,9 @@
   npc: Ranger Alnee
   level: 12
   rewards:
-    -
+    - Ranger's Old Chain Shirt
+    - Hunter's Bracer
+    - Spider Fang Earring
   notes: |
 - name: The Tradeswoman's Lament
   zone: Newhaven City
