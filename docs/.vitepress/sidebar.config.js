@@ -47,6 +47,7 @@ const sidebar = [
             { text: 'Dryfoot', link: '/maps/dryfoot' },
             { text: 'Dryfoot EV Ants', link: '/maps/dryfoot-ev-ants' },
             { text: 'Dryfoot EV Basilisks', link: '/maps/dryfoot-ev-basilisks' },
+            { text: 'Highland Hills', link: '/maps/highland-hills' },
             { text: 'Redshore', link: '/maps/redshore' },
             { text: 'Redshore EV Flooded Ruins', link: '/maps/redshore-ev-flooded-ruins' },
             { text: 'Forgotten Depths', link: '/maps/forgotten-depths' },
