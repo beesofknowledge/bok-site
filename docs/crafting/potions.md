@@ -14,3 +14,4 @@ The following table assumes the matching tier of oil and bottle is used with a g
   import { data as potions } from '../.vitepress/data/potions.data.js'
   import DataTable from '../.vitepress/components/DataTable.vue'
 </script>
+

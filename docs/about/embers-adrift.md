@@ -10,3 +10,4 @@ The game has an active [Discord Server](https://discord.gg/eGwW55yVqV) (this lin
 The community manager has a [Twitch channel](https://www.twitch.tv/elloawendy) where she hosts community discussions and moderates developer talks.
 
 There is an unoffical community wiki at [Drifters Wiki](https://embers-adrift.wiki).
+

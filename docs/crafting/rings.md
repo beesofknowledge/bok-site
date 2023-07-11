@@ -12,3 +12,4 @@ This is a list of craftable rings from level 1 through 30. These stats assume th
   import { data as rings } from '../.vitepress/data/rings.data.js'
   import DataTable from '../.vitepress/components/DataTable.vue'
 </script>
+
