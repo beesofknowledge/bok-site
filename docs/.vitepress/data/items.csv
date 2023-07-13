@@ -25,6 +25,7 @@ Arkhos Heater,Shield,50
 Arkhos Long Bow,Bow,50
 Arweld Cuirass,Cuirass,20
 Ashbourne Leather Bracer,Vambrace,20
+Ashbourne Leather Faulds,Faulds,20
 Ashbourne Leather Greaves,Greaves,20
 Assassin's Blade,1H Sword,20
 Assassins Spaulder,Pauldron,20
@@ -62,6 +63,8 @@ Bloodstained Tunic,Chest,20
 Bootlegger's Leggings,Legs,1
 Boots of Betrayal,Feet,36
 Boots of the Awakened,Feet,25
+Boring Short Bow,Bow,20
+Branding Scepter,Accessory,20
 Breastplate of the Circle,Cuirass,20
 Breezy Belt,Waist,25
 Bristled Leggings,Legs,10
@@ -91,6 +94,7 @@ Brookhollow Scale Vambrace,Vambrace,20
 Brookhollow Short Sword,1H Sword,20
 Brutish Beads,Necklace,1
 Buckler of the Circle,Shield,20
+Budding Quarterstaff,2H Staff,20
 Cabal Guardian Sword,1H Sword,30
 Cabal Manslayer Sword,1H Sword,30
 Cabal Prophet Sword,1H Sword,30
@@ -104,6 +108,7 @@ Chaos Hatchet,1H Axe,25
 Chewed Oven Mitts,Hands,1
 Chief Thumper's Necklace,Necklace,36
 Chithorn's Pauldron,Pauldron,20
+Chitin Bark Knife,Dagger,25
 Chitin Shell Armor,Cuirass,1
 Chitin Shell Shield,Shield,1
 Chopper,2H Axe,25
@@ -120,6 +125,7 @@ Cliffwalker's Leather Faulds,Faulds,30
 Cliffwalker's Leather Helm,Head,30
 Cliffwalker's Long Bow,Bow,33
 Cliffwalker's Mace,1H Mace,33
+Comfy Pajamas,Legs,10
 Copperhead Boots,Feet,36
 Copperhead Spear,Polearm,36
 Courier's Rapier,2H Sword,15
@@ -130,6 +136,7 @@ Crocodile Tooth Necklace,Necklace,10
 Crystalized Flame Scepter,Accessory,25
 Cuirass of Gawain,Cuirass,1
 Dagger of the Stabber,Dagger,40
+Daisy Cutter,1H Sword,10
 Danika's Legacy,Cuirass,20
 Dark Leather Belt,Waist,10
 Dark Wolf Cuirass,Cuirass,10
@@ -206,6 +213,7 @@ Flour Dusted Pants,Legs,36
 Flowering Long Bow,Bow,15
 Fool's Feathered Hat,Head,28
 Freehold Patrol Torch,Light,36
+Freehold Skinning Knife,Tool,36
 Freehold Steel Hauberk,Chest,36
 Frenzied Band,Ring,1
 Frenzied Leggings,Legs,1
@@ -238,6 +246,7 @@ Greaves of Gore,Greaves,38
 Green Silk Gloves,Hands,1
 Greenscale Boots,Feet,30
 Greenscale Faulds,Faulds,33
+Greenscale Greaves,Greaves,20
 Greenscale Sash,Waist,20
 Greenscale Vambrace,Vambrace,30
 Grimstone Belt,Waist,30
@@ -245,6 +254,7 @@ Grimstone Pauldron,Pauldron,30
 Grizzly Hatchet,1H Axe,10
 Guardian Spear,Polearm,25
 Guiding Light,Light,10
+Hart Spider Venom,Reagent,1
 Hatchet of the Carver,1H Axe,40
 Hauberk of Dissent,Chest,36
 Heavy Crossbow of the Prophet,Crossbow,25
@@ -254,6 +264,7 @@ Helm of the Bloodletter,Head,38
 Helm of the Grove,Head,20
 Helm of the Huntress,Head,25
 Hemmed Trousers,Legs,15
+Hobfly Great Axe,2H Axe,20
 Hofly Soft Chitin Mask,Head,10
 Hoggit's Bracer,Vambrace,10
 Hoggit's Greaves,Greaves,10
@@ -283,6 +294,9 @@ Larac's Runed Band,Ring,25
 Leather Circle's Faulds,Faulds,20
 Leather Greaves of the Circle,Greaves,20
 Leather Vambrace of the Circle,Vambrace,20
+Light Brown Dyed Jack Trousers,Legs,25
+Lily's Boots,Feet,1
+Lily's Gloves,Hands,1
 Limber Wooden Maul,2H Hammer,20
 Long Sword of the Circle,2H Sword,20
 Lookout Helm,Head,25
@@ -304,6 +318,7 @@ Mantor's Reach,Polearm,33
 Marauder's Pauldron,Pauldron,20
 Marred Engraved Ring,Ring,10
 Mask of the Awakened,Head,25
+Mask of the Monarch,Head,30
 Massive Bear Bone Mace,1H Mace,30
 Massive Scale Heater,Shield,20
 Massive Scale Pauldron,Pauldron,20
@@ -326,6 +341,7 @@ Mudflinger Shield,Shield,25
 Multicolor Dream Belt,Waist,20
 Necklace of Adr,Necklace,20
 Necklace of the Watery Deep,Necklace,25
+Necklace of the Woods,Necklace,25
 Neophyte Blade,2H Sword,36
 Newhaven Helm,Head,1
 Newhaven Hood,Head,1
@@ -486,6 +502,7 @@ Shin Bane,Greaves,25
 Shining Machete,1H Sword,25
 Shredded Leather Belt,Waist,35
 Shredded Leather Boots,Feet,35
+Shredded Leather Gloves,Hands,35
 Shredded Shirt,Chest,35
 Shredded Trousers,Legs,35
 Shredder Mask,Head,15
@@ -520,6 +537,7 @@ Soaked Wood Shield,Shield,15
 Soft Chitin Shirt,Chest,20
 Soft Chitin Trousers,Legs,20
 Softshell Tunic,Chest,25
+Soggy Boots,Feet,20
 Solid Jelly Ring,Ring,14
 Soren's Faulds,Faulds,1
 Sovereign's Decree,Ring,40
@@ -593,6 +611,7 @@ Vibrant Redshore Banner,Accessory,25
 Vibrant Wooden Crook,2H Staff,15
 Vivid Battle Banner,Accessory,20
 Walker Staff,2H Staff,10
+Wanderer's Long Sword,2H Sword,20
 Warm Gloves,Hands,36
 Warm Ring,Ring,25
 Warrior Chief Bearskin Bracer,Vambrace,20
@@ -627,10 +646,3 @@ Yosef's Mask,Head,1
 Zirconium Defender,Shield,36
 Zofly Chitin Cuirass,Cuirass,10
 Zofly Short Bow,Bow,10
-Freehold Skinning Knife,Tool,36
-Greenscale Greaves,Greaves,20
-Light Brown Dyed Jack Trousers,Legs,25
-Mask of the Monarch,Head,30
-Shredded Leather Gloves,Hands,35
-Soggy Boots,Feet,20
-Chitin Bark Knife,Dagger,25
