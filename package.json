@@ -13,11 +13,11 @@
   "license": "ISC",
   "devDependencies": {
     "csv-parse": "^5.4.0",
-    "pnpm": "^8.6.7",
+    "pnpm": "^8.6.9",
     "postcss-nesting": "^12.0.0",
     "sitemap": "^7.1.1",
     "slugify": "^1.6.6",
-    "vitepress": "1.0.0-beta.5",
+    "vitepress": "1.0.0-beta.6",
     "vue-dataset": "^3.5.4",
     "yaml": "^2.3.1"
   },
