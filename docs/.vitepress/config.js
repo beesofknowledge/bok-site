@@ -1,11 +1,11 @@
 import sidebarConfig from './sidebar.config.js'
 
 // for sitemap
-import { createWriteStream } from 'node:fs'
-import { resolve } from 'node:path'
-import { SitemapStream } from 'sitemap'
-import { defineConfig } from 'vitepress'
-const links = []
+//import { createWriteStream } from 'node:fs'
+//import { resolve } from 'node:path'
+//import { SitemapStream } from 'sitemap'
+//import { defineConfig } from 'vitepress'
+//const links = []
 
 const domain = 'beesofknowledge.com'
 
