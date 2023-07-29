@@ -21,14 +21,20 @@ export default {
   markdown: {
     anchor:{}
   },
+  sitemap: {
+    hostname: 'https://beesofknowledge.com'
+  },
   async transformPageData(pageData, { siteConfig }) {
+    // add title to dynamic pages from params
     if (!pageData.title && pageData.params.title) {
       pageData.title = pageData.params.title
     }
+    // disble prev and next
     pageData.frontmatter.prev = false
     pageData.frontmatter.next = false
   },
   async transformHead( { page } ) {
+    // add canonical link
     const headElements = [
       [
         'link', {
@@ -47,22 +53,21 @@ export default {
     plugins: [
     ],
   },
-  // sitemap
-  transformHtml: (_, id, { pageData }) => {
-    if (!/[\\/]404\.html$/.test(id))
-      links.push({
-        url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
-        lastmod: pageData.lastUpdated
-    })
-  },
-  // sitemap
-  buildEnd: ({ outDir }) => {
-    const sitemap = new SitemapStream({ hostname: 'https://beesofknowledge.com/' })
-    const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
-    sitemap.pipe(writeStream)
-    links.forEach((link) => sitemap.write(link))
-    sitemap.end()
-  },
+  // sitemap - disabled since sitemap was added as a feature
+  // transformHtml: (_, id, { pageData }) => {
+    // if (!/[\\/]404\.html$/.test(id))
+    //   links.push({
+    //     url: pageData.relativePath.replace(/((^|\/)index)?\.md$/, '$2'),
+    //     lastmod: pageData.lastUpdated
+    // })
+  // },
+  // buildEnd: ({ outDir }) => {
+    // const sitemap = new SitemapStream({ hostname: 'https://beesofknowledge.com/' })
+    // const writeStream = createWriteStream(resolve(outDir, 'sitemap.xml'))
+    // sitemap.pipe(writeStream)
+    // links.forEach((link) => sitemap.write(link))
+    // sitemap.end()
+  // },
   themeConfig: {
     aside: false,
     outline: 'deep',
