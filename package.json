@@ -14,7 +14,6 @@
   "devDependencies": {
     "csv-parse": "^5.4.0",
     "pnpm": "^8.6.10",
-    "postcss-nesting": "^12.0.0",
     "sitemap": "^7.1.1",
     "slugify": "^1.6.6",
     "vitepress": "1.0.0-beta.7",
