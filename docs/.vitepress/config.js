@@ -80,7 +80,7 @@ export default {
     // },
     // editLink: {
     //   pattern: 'https://github.com/beesofknowledge/bok-site/tree/main/docs/:path',
-    //   text: 'Edit this page on GitHub',
+    //   text: 'View this page on GitHub',
     // },
   }
 }

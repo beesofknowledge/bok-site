@@ -7,3 +7,4 @@ BeesofKnowledge.com is built using [Vitepress](https://vitepress.vuejs.org/) sof
 
 The bee icon is from the [Twemoji](https://github.com/twitter/twemoji) set and is used under [license](https://creativecommons.org/licenses/by/4.0).
 
+All code and content is publicly available to view at https://github.com/beesofknowledge/bok-site.
