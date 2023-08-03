@@ -424,3 +424,6 @@
 - name: The Koldire Legacy
   zone: New Haven
   npc: Sneaky Zeeke
+  level: 25
+  rewards:
+    -
