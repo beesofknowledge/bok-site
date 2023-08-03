@@ -19,8 +19,8 @@ export default {
 
       return {
         params: {
+          path: slug,
           title: datum.name,
-          item: slug,
           data: datum
         }
       }
