@@ -1,5 +1,0 @@
----
-title: Juggernaut
----
-# {{ $frontmatter.title }}
-

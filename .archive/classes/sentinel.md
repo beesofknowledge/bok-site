@@ -1,5 +1,0 @@
----
-title: Sentinel
----
-# {{ $frontmatter.title }}
-

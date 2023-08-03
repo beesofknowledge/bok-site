@@ -1,5 +1,0 @@
----
-title: Berserker
----
-# {{ $frontmatter.title }}
-

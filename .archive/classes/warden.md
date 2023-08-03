@@ -1,5 +1,0 @@
----
-title: Warden
----
-# {{ $frontmatter.title }}
-

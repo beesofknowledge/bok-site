@@ -1,5 +1,0 @@
----
-title: Knight
----
-# {{ $frontmatter.title }}
-

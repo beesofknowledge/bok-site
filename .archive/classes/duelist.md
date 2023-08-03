@@ -1,5 +1,0 @@
----
-title: Duelist
----
-# {{ $frontmatter.title }}
-
