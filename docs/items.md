@@ -12,7 +12,7 @@ title: Items
     DatasetShow
   } from 'vue-dataset'
 
-  import { data } from '.vitepress/data/itemlist.data.js'
+  import { data } from '.vitepress/loaders/itemlist.data.js'
 
   const items = ref([])
   items.value = data

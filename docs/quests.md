@@ -13,7 +13,7 @@ title: Quests
     DatasetShow
   } from 'vue-dataset'
 
-  import { data as quests } from '.vitepress/data/questlist.data.js'
+  import { data as quests } from '.vitepress/loaders/questlist.data.js'
 
   const showEntries = 48
   const entryValues = [

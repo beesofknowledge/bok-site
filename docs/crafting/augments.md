@@ -13,7 +13,7 @@ Secondary materials are store bought in the case of glue and gathered in other c
 <DataTable :data="augments" />
 
 <script setup>
-  import { data as augments } from '../.vitepress/data/augments.data.js'
+  import { data as augments } from '../.vitepress/loaders/augments.data.js'
   import DataTable from '../.vitepress/components/DataTable.vue'
 </script>
 
