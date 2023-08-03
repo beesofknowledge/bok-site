@@ -13,8 +13,6 @@
     </div>
   </p>
 
-  <!-- <pre>{{ item }}</pre> -->
-
   <hr />
 </template>
 
