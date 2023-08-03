@@ -9,7 +9,7 @@
     "preview": "vitepress preview docs"
   },
   "keywords": [],
-  "author": "",
+  "author": "Bees of Knowledge <beesofknowledge@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "csv-parse": "^5.4.0",
