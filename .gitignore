@@ -1,8 +1,5 @@
 node_modules
-.temp
-.cache
+.archive
+todo.txt
 docs/.vitepress/dist
 docs/.vitepress/cache
-images
-temp
-.~*
