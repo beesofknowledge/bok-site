@@ -1,5 +1,5 @@
 node_modules
 .archive
-todo.txt
+todo.md
 docs/.vitepress/dist
 docs/.vitepress/cache
