@@ -1,6 +1,3 @@
 # Bees of Knowledge
 
-The beesofknowledge.com site is an informational site for the game Embers Adrift
-
-It uses vitepress.dev software.
-
+The [beesofknowledge.com](https://beesofknowledge.com/) is an informational site for the game Embers Adrift which uses [vitepress.dev](https://vitepress.dev/) software.
