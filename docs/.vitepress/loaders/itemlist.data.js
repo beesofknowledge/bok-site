@@ -1,6 +1,5 @@
 import fs from 'node:fs'
 import slugify from 'slugify'
-//import { parse } from 'yaml'
 import { parse } from 'csv-parse/sync'
 
 const file = 'docs/.vitepress/data/items.csv'

@@ -1,14 +1,11 @@
 import fs from 'node:fs'
-import { parse } from 'csv-parse/sync'
+import { parse } from 'yaml'
 import slugify from 'slugify'
 
 export default {
   paths() {
-    const file = './docs/.vitepress/data/items.csv'
-    const data = parse(fs.readFileSync(file, 'utf-8'), {
-      columns: true,
-      skip_empty_lines: true,
-    })
+    const file = './docs/.vitepress/data/skills.yml'
+    const data = parse(fs.readFileSync(file, 'utf-8'))
 
     return data.map((datum) => {
       return {
@@ -18,7 +15,8 @@ export default {
             remove: /[*+~.()'"!:@]/g
           }),
           title: datum.name,
-          data: datum
+          name: datum.name,
+          data: datum.skills
         }
       }
     })

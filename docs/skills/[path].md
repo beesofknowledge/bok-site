@@ -10,7 +10,7 @@
   <div v-for="(value, key) in $params.data">
     <p>Level {{ value }}</p>
     <suspense>
-      <ImageLink path="skills" :name="`${$params.role}-${key}`" :alt="$params.key" />
+      <ImageLink path="skills" :name="`${$params.path}-${key}`" :alt="$params.key" />
     </suspense>
   </div>
 </div>

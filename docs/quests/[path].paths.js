@@ -4,7 +4,7 @@ import slugify from 'slugify'
 
 export default {
   paths() {
-    const file = 'docs/.vitepress/data/quests.yml'
+    const file = './docs/.vitepress/data/quests.yml'
     const data = parse(fs.readFileSync(file, 'utf-8'))
 
     return data.map((datum) => {
