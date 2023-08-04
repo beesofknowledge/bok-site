@@ -8,6 +8,14 @@ export default {
     const data = parse(fs.readFileSync(file, 'utf-8'))
 
     return data.map((datum) => {
+
+      let questNotes = ''
+      if (datum.notes !== null) {
+        questNotes = datum.notes.replace(/\n/g, '</p><p>')
+      } else {
+        questNotes = ''
+      }
+
       return {
         params: {
           path: slugify(datum.name, {
@@ -22,7 +30,8 @@ export default {
           rewards: (datum.rewards[0] === null ? null : datum.rewards),
           content: (datum.notes === '' ? 0 : 1),
         },
-        content: datum.notes
+        // content: datum.notes
+        content: questNotes
       }
     })
   }
