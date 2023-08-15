@@ -1,5 +1,6 @@
 ---
 ---
+
 <script setup>
   import ImageLink from '../.vitepress/components/ImageLink.vue'
 </script>
