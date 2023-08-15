@@ -2,7 +2,7 @@
 title: Items
 ---
 <script setup>
-  import { ref, onMounted, watch, onUpdated, onBeforeMount, reactive } from 'vue'
+  import { ref, onMounted, watch, reactive } from 'vue'
   import { 
     Dataset,
     DatasetItem,
