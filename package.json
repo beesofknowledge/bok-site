@@ -9,13 +9,14 @@
     "preview": "vitepress preview docs"
   },
   "keywords": [],
+  "type": "module",
   "author": "Bees of Knowledge <beesofknowledge@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "csv-parse": "^5.4.0",
     "pnpm": "^8.6.12",
     "slugify": "^1.6.6",
-    "vitepress": "1.0.0-beta.7",
+    "vitepress": "1.0.0-rc.4",
     "vue-dataset": "^3.5.4",
     "yaml": "^2.3.1"
   },
