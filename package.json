@@ -13,10 +13,10 @@
   "author": "Bees of Knowledge <beesofknowledge@gmail.com>",
   "license": "ISC",
   "devDependencies": {
-    "csv-parse": "^5.5.2",
-    "pnpm": "^8.11.0",
+    "csv-parse": "^5.5.3",
+    "pnpm": "^8.12.1",
     "slugify": "^1.6.6",
-    "vitepress": "1.0.0-rc.31",
+    "vitepress": "1.0.0-rc.32",
     "vue-dataset": "^3.6.1",
     "yaml": "^2.3.4"
   },
