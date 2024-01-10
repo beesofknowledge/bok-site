@@ -14,9 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "csv-parse": "^5.5.3",
-    "pnpm": "^8.13.1",
+    "pnpm": "^8.14.1",
     "slugify": "^1.6.6",
-    "vitepress": "1.0.0-rc.32",
+    "vitepress": "1.0.0-rc.36",
     "vue-dataset": "^3.6.1",
     "yaml": "^2.3.4"
   },
